@@ -46,11 +46,11 @@ Main.SHOW_Loading = function(targetSelector) {
 $(document).ready(function() {
 
 
-// (function (targetSelector) {
-//     $(targetSelector).css({"width": Main.d_Width, "height": Main.d_Height});
+(function (targetSelector) {
+    $(targetSelector).css({"width": Main.d_Width, "height": Main.d_Height});
     
 
-// })("#MAIN_DIV");
+})("#MAIN_DIV");
 
 
 // $("#Differentiation").click( function () {
