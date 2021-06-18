@@ -1,0 +1,132 @@
+/****************** Desktop View **********************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+#MYDIV{
+  width: 300px;
+  height: fit-content;
+  background-color: gray;
+  display: all;
+}
+
+#MAIN_DIV {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: red;
+  display: all;
+}
+
+#myHeader {
+  width: 100%;
+  height: fit-content;
+  visible: all;
+}
+
+#myFooter {
+  width: 100%;
+  height: fit-content;
+  visible: all;
+}
+
+ .SiteHeader {
+  height: auto;
+  font-size: 20px;
+  }
+
+#SubContents {
+  display: all;
+}
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.Equations {
+  font-size: 16px;
+}
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 575.98px) and (max-width: 767.98px) { 
+
+.Equations {
+  font-size: 16px;
+}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .FontMEDIUM {
+      font-size: 20px;
+  }
+  .Equations {
+  font-size: 16px;
+}
+
+ .SiteHeader {
+  font-size: 22px;
+
+  }
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 991.98px) and (max-width: 1199.98px) { 
+  .SiteHeader {
+  font-size: 25px;
+
+  }
+
+  .FontLARG {
+      font-size: 25px;
+  }
+
+  #contentsDiff{
+    font-size: 25px;
+  }
+
+}
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  .SiteHeader {
+  font-size: 25px;
+
+  }
+  .FontLARG {
+      font-size: 25px;
+  }
+
+  #contentsDiff{
+    font-size: 25px;
+  }
+
+  .HIGHT_X {
+
+  }
+
+}
+
+
+
+/* XX-Large devices (large desktops, greater than 1400px)*/
+@media (min-width: 1399.98px) {
+  .SiteHeader {
+  font-size: 25px;
+
+  }
+
+  .FontLARG {
+      font-size: 25px;
+  }
+
+  #contentsDiff{
+    font-size: 25px;
+  }}
+
