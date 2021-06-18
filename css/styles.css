@@ -5,33 +5,134 @@
 
 body {
   font-size: 16px;
-}
-#MYDIV{
-  width: 300px;
-  height: fit-content;
-  background-color: gray;
-  display: all;
+  /*display: grid;
+  grid-template-rows: 1fr 3fr 1fr;*/
+
 }
 
-#MAIN_DIV {
-  width: 100%;
-  height: fit-content;
-  box-sizing: border-box;
-  background-color: red;
-  display: all;
+
+/****** HEADER ******/
+header {
+  min-height: 50px;
+  border-bottom: 5px solid #03033D; /*Dark blue*/;
 }
+
+/*NAVBAR TOGGLE BUTTON HOVER EFFECTS*/
+#navbarToggle {
+  
+  border-color: white; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+}  
+#navbarToggle:hover {
+  border-color: #03033D; /*Dark blue*/;
+ text-decoration: none;
+}
+
+
+/****** HEADER END ******/
+
+#LOADING{
+  min-height: 150px;
+  min-width: 150px;
+  color: #03033D; /*Dark blue*/;
+}
+
+.StartBTTN {
+  /*padding: 10px 100px 10px 100px;*/
+  width: 50%;
+}
+
+/*SIDE BAR (DISPLAYS ON MD AND ABOVE DEVICES ONLY)*/
+#sideBar {
+  border-right: 5px solid #03033D; /*Dark blue*/
+  hight: 100%;
+  width: 24%;
+  position: absolute;
+  font-size: 16px;
+  margin: 0;
+}
+
+/*AREA WHERE THE MAIN CONTENT APPEAR*/
+#mainContent {
+  
+  box-sizing: border-box;
+ /* background-color: red;*/
+  hight: 100%;
+  width: 76%;
+  margin: 0;
+  /*border: 2px solid #03033D; Dark blue*/
+}
+
+
+/*OFFCANVAS (DISPLAY ONLY FOR SM AND BELOW DEVICES)*/
+#offcanvasTop {
+  height: 100%;
+}
+
+/*OFFCANVAS BUTTON STYLES*/
+.contentsBTTNs {
+  color: #03033D; /*Dark blue*/
+  border-color: #03033D; /*Dark blue*/;
+  transition-duration: 0.4s;
+}
+.contentsBTTNs:hover {
+  color: white;
+  background-color: #03033D; /*Dark blue*/
+
+}
+
+
+/*SIDEBAR BUTTON STYLES*/
+.sidebarBTTN {
+  transition-duration: 0.4s;
+}
+.sidebarBTTN:hover {
+  color: white;
+  background-color: #03033D; /*Dark blue*/
+}
+
 
 #myHeader {
-  width: 100%;
-  height: fit-content;
-  visible: all;
+/*    background-color: #03033D; /*Dark blue*/*/
+    
+}
+
+
+
+/****** FOOTER ******/
+footer {
+  margin-top: 30px;
+  background-color: #03033D; /*Dark blue*/
+  border-top: 0;
+  opacity: 4;
+
 }
 
 #myFooter {
-  width: 100%;
-  height: fit-content;
-  visible: all;
+  color: white;
 }
+/****** FOOTER END ******/
+
+.hidden {
+  opacity: 0;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+
+
+#myHeaderNAV {
+
+}
+
+
 
  .SiteHeader {
   height: auto;
@@ -50,6 +151,21 @@ body {
 .Equations {
   font-size: 16px;
 }
+#myHeaderNAV {
+     min-height: 50px;
+}
+#mainContent {
+  
+ /* background-color: red;*/
+  hight: 100%;
+  width: 100%;
+  margin: 0;
+  /*border: 2px solid #03033D; Dark blue*/
+}
+#contentsDiff {
+  display: block;
+}
+
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -58,6 +174,18 @@ body {
 .Equations {
   font-size: 16px;
 }
+#myHeaderNAV {
+     min-height: 50px;
+}
+#mainContent {
+  
+ /* background-color: red;*/
+  hight: 100%;
+  width: 100%;
+  margin: 0;
+  /*border: 2px solid #03033D; Dark blue*/
+}
+
 }
 
 /*Medium devices (tablets, less than 992px)*/
@@ -69,8 +197,11 @@ body {
   font-size: 16px;
 }
 
+#myHeaderNAV {
+     min-height: 60px; 
+}
  .SiteHeader {
-  font-size: 22px;
+    font-size: 22px;
 
   }
 
@@ -79,10 +210,12 @@ body {
 /* Large devices (desktops, less than 1200px)*/
 @media (min-width: 991.98px) and (max-width: 1199.98px) { 
   .SiteHeader {
-  font-size: 25px;
-
+    font-size: 25px;
+  
   }
-
+#myHeaderNAV {
+     min-height: 65px;
+}
   .FontLARG {
       font-size: 25px;
   }
@@ -99,6 +232,11 @@ body {
   font-size: 25px;
 
   }
+
+#myHeaderNAV {
+     min-height: 70px;
+}
+
   .FontLARG {
       font-size: 25px;
   }
@@ -119,8 +257,11 @@ body {
 @media (min-width: 1399.98px) {
   .SiteHeader {
   font-size: 25px;
-
   }
+
+  #myHeaderNAV {
+     min-height: 70px;
+}
 
   .FontLARG {
       font-size: 25px;

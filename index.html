@@ -9,33 +9,230 @@
     <script id="MathJax-script" async
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
-
 	<title></title>
 </head>
 <body>
 
-  <header>
-    <div id="myHeader"></div>
-  </header>
+<!-- HEADER NAVIGATION BAR -->
+<header>
+  <div id="myHeader">
+    <nav id="myHeaderNAV" class="container navbar navbar-light
+       navbar-expand-lg SiteHeader">
+      <div class="container position-relative">
+        <div>
+          <a class="navbar-brand SiteHeader" href="#">Logo</a>
+        </div>
+        <button id="navbarToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto d-grid-sm text-center">
+          <li class="nav-item">
+            <a class="nav-link active bg-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>  
+  </div>
+</header>
+<!-- HEADER NAVIGATION BAR END -->
 
-  <div class="container-fluid row text-center position-relative p-0 m-0" 
-    id="MAIN_CONTENT">
-    <div class="col-12 p-0 m-0" id="MAIN_DIV">
-    </div>
-    <div id="MYDIV" class="position-absolute p-0 m-0">HEllo</div>
+
+  <div id="CONTENTS"></div>
+
+  <!-- MAIN BODY -->
+  <div class="m-0 p-0 container-fluid row clearfix d-block">
+    <!-- SIDEBAR -->
+    <div id="sideBar" class="container verticleLine text-start m-0 p-0 col 
+      d-none d-md-block float-start">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item text-center">
+          <h5>Differentiation \((dy/dx)\)
+          </h5>
+        </li>
+        <li class="c1 list-group-item sidebarBTTN">01. Introduction to Differentiation</li>
+        <li class="c2 list-group-item sidebarBTTN">02. Rules of Differentiation</li>
+        <li class="c3 list-group-item sidebarBTTN">03. Trigonometric Functions</li>
+        <li class="c4 list-group-item sidebarBTTN">04. Inverse Trigonometric Functions</li>
+        <li class="c5 list-group-item sidebarBTTN">05. Exponential Function</li>
+        <li class="c6 list-group-item sidebarBTTN">06. Logarithm Functions</li>
+        <li class="c7 list-group-item sidebarBTTN">07. Product Rule \((U.V)\)</li>
+        <li class="c8 list-group-item sidebarBTTN">08. Quotient Rule \((U/V)\)</li>
+        <li class="c9 list-group-item sidebarBTTN">09. Chain Rule</li>
+        <li class="c10 list-group-item sidebarBTTN">10. Nth Order Derivative </li>
+        <li class="c11 list-group-item sidebarBTTN">12. Implicit Differentiation</li>
+        <li class="c12 list-group-item sidebarBTTN">13. Parametric Differentiation</li>
+        <li class="c13 list-group-item sidebarBTTN">14. Application of Differentiation</li>
+        <li class="c14 list-group-item sidebarBTTN">15. Self-Study Exercises</li>
+        <li class="c15 list-group-item sidebarBTTN" style="opacity: 0;">Empty</li>
+        <li class="c16 list-group-item sidebarBTTN"></li>
+      </ul>
+    </div><!-- SIDEBAR END -->
+
+  <!-- OFFCANVAS -->
+  <div id="contentsDiff" class="d-grid p-2 d-md-none d-lg-none d-xl-none
+      d-xxl-none">  
+    <button  id="" class="contentsBTTNs btn btn-lg" type="button" 
+      data-bs-toggle="offcanvas" 
+      data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Contents
+    </button>
   </div>
 
-  <footer>
-    <div id="myFooter"></div>
-  </footer>
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" 
+    aria-labelledby="offcanvasTopLabel">
 
+    <div class="offcanvas-header row position-relative">
+      <h5 id="offcanvasTopLabel" class="col-12 text-center">
+        Differentiation \((dy/dx)\)</h5>
+      <div class="col-12">
+        <button id="offcanvasCLOSE" type="button" 
+          class="col-12 btn text-reset position-relative top-0 start-50 translate-middle-x" 
+          data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
+            fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+            <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="offcanvas-body pt-0">
+
+      <div class="d-grid gap-2 d-md-block fs-6 m-0 p-0">
+
+              <a class="c1 active btn btn-outline-success col-lg-4 col-md-6 p-2 float-start"
+                  type="button" aria-current="page" href="">
+                  01. Introduction to Differentiation
+              </a>
+
+              <a class="c2 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  02. Rules of Differentiation
+              </a>
+
+              <a class="c3 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  03. Trigonometric Functions
+              </a>
+
+              <a class="c4 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  04.Inverse Trigonometric Functions
+              </a>
+
+              <a class="c5 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  05.Exponential Function
+              </a>
+
+              <a class="c6 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  06. Logarithm Functions
+              </a>
+
+              <a class="c7 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  07. Product Rule \((U.V)\)
+              </a>
+
+              <a class="c8 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  08. Quotient Rule \((U/V)\)
+              </a>
+
+              <a class="c9 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  09. Chain Rule
+              </a>
+
+              <a class="c10 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  10. Nth Order Derivative 
+              </a>
+
+              <a class="c11 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  12. Implicit Differentiation
+              </a>
+
+              <a class="c12 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  13. Parametric Differentiation
+              </a>
+
+              <a class="c13 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  14. Application of Differentiation
+              </a>
+
+              <a class="c14 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="">
+                  15. Self-Study Exercises
+              </a>
+
+              <a class="c15 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  type="button" href="" tabindex="-1" aria-disabled="true">
+                  Disabled
+              </a>
+
+        </div>
+    </div>
+  </div>
+
+    <!-- OFFCANVAS END -->
+
+
+    <!-- MAIN CONTAINER -->
+    <div id="mainContent" class="container m-0 p-0 text-center position-relative
+      col float-end">
+
+      <div id="LOADING" class="position-relative">
+        <div class="position-absolute top-50 start-50 translate-middle">    
+          <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+    
+    </div><!-- MAIN CONTAINER END -->
+  </div><!-- MAIN BODY END-->
+</body>
+
+
+
+<!--   <div id="MAIN_DIV" class="container text-center">
+ 
+
+
+    
+  </div>
+ -->
+
+<!-- FOOTER BAR -->
+  <footer class="fixed-bottom">
+    <div id="myFooter" class="text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+  </footer>
+<!-- FOOTER BAR END -->
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <script src="js/jquery-3.6.0.min.js"></script>
   <!-- <script src="js/jquery-2.1.4.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/ajax-utils.js"></script>
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+  <script src="js/script1.js"></script>
 
   <!-- <script src="js/my_jquery_functions.js"></script> -->
   </script>
