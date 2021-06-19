@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+<!--     <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script> -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -57,25 +60,56 @@
       d-none d-md-block float-start">
       <ul class="list-group list-group-flush">
         <li class="list-group-item text-center">
-          <h5>Differentiation \((dy/dx)\)
+          <h5 style="margin-top: 6px;">Differentiation \((dy/dx)\)
           </h5>
         </li>
-        <li class="c1 list-group-item sidebarBTTN">01. Introduction to Differentiation</li>
-        <li class="c2 list-group-item sidebarBTTN">02. Rules of Differentiation</li>
-        <li class="c3 list-group-item sidebarBTTN">03. Trigonometric Functions</li>
-        <li class="c4 list-group-item sidebarBTTN">04. Inverse Trigonometric Functions</li>
-        <li class="c5 list-group-item sidebarBTTN">05. Exponential Function</li>
-        <li class="c6 list-group-item sidebarBTTN">06. Logarithm Functions</li>
-        <li class="c7 list-group-item sidebarBTTN">07. Product Rule \((U.V)\)</li>
-        <li class="c8 list-group-item sidebarBTTN">08. Quotient Rule \((U/V)\)</li>
-        <li class="c9 list-group-item sidebarBTTN">09. Chain Rule</li>
-        <li class="c10 list-group-item sidebarBTTN">10. Nth Order Derivative </li>
-        <li class="c11 list-group-item sidebarBTTN">12. Implicit Differentiation</li>
-        <li class="c12 list-group-item sidebarBTTN">13. Parametric Differentiation</li>
-        <li class="c13 list-group-item sidebarBTTN">14. Application of Differentiation</li>
-        <li class="c14 list-group-item sidebarBTTN">15. Self-Study Exercises</li>
-        <li class="c15 list-group-item sidebarBTTN" style="opacity: 0;">Empty</li>
-        <li class="c16 list-group-item sidebarBTTN"></li>
+        <li class="c1 list-group-item sidebarBTTN btn removeCLS text-start" 
+          type="button" onclick="$Mobj.clickAndLoad_Page_1();">
+          01. Introduction to Differentiation</li>
+        <li class="c2 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_2();" type="button">
+              02. Rules of Differentiation</li>
+        <li class="c3 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_3();" type="button">
+              03. Trigonometric Functions</li>
+        <li class="c4 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_4();" type="button">
+              04. Inverse Trigonometric Functions</li>
+        <li class="c5 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_5();" type="button">
+              05. Exponential Function</li>
+        <li class="c6 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_6();" type="button">
+              06. Logarithm Functions</li>
+        <li class="c7 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_7();" type="button">
+              07. Product Rule \((U.V)\)</li>
+        <li class="c8 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_8();" type="button">
+              08. Quotient Rule \((U/V)\)</li>
+        <li class="c9 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_9();" type="button">
+              09. Chain Rule</li>
+        <li class="c10 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_10();" type="button">
+              10. Nth Order Derivative </li>
+        <li class="c11 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_11();" type="button">
+              11. Implicit Differentiation</li>
+        <li class="c12 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_12();" type="button">
+              12. Parametric Differentiation</li>
+        <li class="c13 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_13();" type="button">
+              13. Application of Differentiation</li>
+        <li class="c14 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_14();" type="button">
+              14. Self-Study Exercises</li>
+        <li class="c15 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_15();" type="button" style="opacity: 0;">
+              Empty</li>
+        <li class="c16 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_16();" type="button"></li>
       </ul>
     </div><!-- SIDEBAR END -->
 
@@ -110,80 +144,81 @@
 
       <div class="d-grid gap-2 d-md-block fs-6 m-0 p-0">
 
-              <a class="c1 active btn btn-outline-success col-lg-4 col-md-6 p-2 float-start"
-                  type="button" aria-current="page" href="">
+              <li class="c1 removeCLS btn btn-outline-success col-lg-4 col-md-6 
+                  p-2 float-start" onclick="$Mobj.clickAndLoad_Page_1();" 
+                  type="button" aria-current="page">
                   01. Introduction to Differentiation
-              </a>
+              </li>
 
-              <a class="c2 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c2 removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_2();" type="button" href="">
                   02. Rules of Differentiation
-              </a>
+              </li>
 
-              <a class="c3 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c3 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_3();" type="button" href="">
                   03. Trigonometric Functions
-              </a>
+              </li>
 
-              <a class="c4 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c4 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_4();" type="button" href="">
                   04.Inverse Trigonometric Functions
-              </a>
+              </li>
 
-              <a class="c5 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c5 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_5();" type="button" href="">
                   05.Exponential Function
-              </a>
+              </li>
 
-              <a class="c6 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c6 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_6();" type="button" href="">
                   06. Logarithm Functions
-              </a>
+              </li>
 
-              <a class="c7 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c7 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_7();" type="button" href="">
                   07. Product Rule \((U.V)\)
-              </a>
+              </li>
 
-              <a class="c8 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c8 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_8();" type="button" href="">
                   08. Quotient Rule \((U/V)\)
-              </a>
+              </li>
 
-              <a class="c9 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c9 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_9();" type="button" href="">
                   09. Chain Rule
-              </a>
+              </li>
 
-              <a class="c10 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
+              <li class="c10 removeCLS removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_10();" type="button" href="">
                   10. Nth Order Derivative 
-              </a>
+              </li>
 
-              <a class="c11 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
-                  12. Implicit Differentiation
-              </a>
+              <li class="c11 removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_11();" type="button" href="">
+                  11. Implicit Differentiation
+              </li>
 
-              <a class="c12 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
-                  13. Parametric Differentiation
-              </a>
+              <li class="c12 removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_12();" type="button" href="">
+                  12. Parametric Differentiation
+              </li>
 
-              <a class="c13 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
-                  14. Application of Differentiation
-              </a>
+              <li class="c13 removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_13();" type="button" href="">
+                  13. Application of Differentiation
+              </li>
 
-              <a class="c14 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="">
-                  15. Self-Study Exercises
-              </a>
+              <li class="c14 removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_14();" type="button" href="">
+                  14. Self-Study Exercises
+              </li>
 
-              <a class="c15 btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
-                  type="button" href="" tabindex="-1" aria-disabled="true">
+              <li class="c15 removeCLS btn btn-outline-success col-lg-4 col-md-6 p-2 float-start" 
+                  onclick="$Mobj.clickAndLoad_Page_15();" type="button" href="" tabindex="-1" aria-disabled="true">
                   Disabled
-              </a>
+              </li>
 
         </div>
     </div>
@@ -226,11 +261,12 @@
   </footer>
 <!-- FOOTER BAR END -->
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <script src="js/jquery-3.6.0.min.js"></script>
-  <!-- <script src="js/jquery-2.1.4.min.js"></script> -->
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/ajax-utils.js"></script>
+  <!-- <script src="js/ajax-utils.js"></script> -->
   <!-- <script src="js/script.js"></script> -->
   <script src="js/script1.js"></script>
 
