@@ -55,17 +55,18 @@ var switchContentToActive = function(button) {
 
 var clickAndLoad = function(button, targetSelecter, invokingURL) {
 	showLoading(targetSelecter);
-	$(targetSelecter).load(invokingURL).hide().fadeIn("slow");
+	$(targetSelecter).load(invokingURL)//.hide().fadeIn("slow");
 	$("#offcanvasCLOSE").click();
 	switchContentToActive(button);
 };
 
 var clickAndPlace = function(button, targetSelecter, invokingURL){
 	showLoading(targetSelecter);
-	$(targetSelecter).load(invokingURL).hide().fadeIn("slow");
+	$(targetSelecter).load(invokingURL)//.hide().fadeIn("slow");
 	switchContentToActive(button);
 };
 
+// s
 
 $(document).ready(function() {
 
