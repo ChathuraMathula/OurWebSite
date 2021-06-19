@@ -9,12 +9,15 @@ body {
   grid-template-rows: 1fr 3fr 1fr;*/
 
 }
-
+.M0_P0 {
+  margin: 0;
+  padding: 0;
+}
 
 /****** HEADER ******/
 header {
   min-height: 50px;
-  border-bottom: 5px solid #03033D; /*Dark blue*/;
+  border-bottom: 15px solid #03033D; /*Dark blue*/;
 }
 
 /*NAVBAR TOGGLE BUTTON HOVER EFFECTS*/
@@ -46,6 +49,7 @@ header {
 /*SIDE BAR (DISPLAYS ON MD AND ABOVE DEVICES ONLY)*/
 #sideBar {
   border-right: 5px solid #03033D; /*Dark blue*/
+  border-bottom: 15px solid #03033D; /*Dark blue*/
   hight: 100%;
   width: 24%;
   position: absolute;
@@ -61,6 +65,7 @@ header {
   hight: 100%;
   width: 76%;
   margin: 0;
+  padding-bottom: 30px;
   /*border: 2px solid #03033D; Dark blue*/
 }
 
@@ -82,7 +87,6 @@ header {
 
 }
 
-
 /*SIDEBAR BUTTON STYLES*/
 .sidebarBTTN {
   transition-duration: 0.4s;
@@ -91,13 +95,26 @@ header {
   color: white;
   background-color: #03033D; /*Dark blue*/
 }
-
+.sidebarBTTN:active {
+  color: white;
+  background-color: #03033D; /*Dark blue*/  
+}
+.list-group .active {
+  color: white;
+  background-color: #03033D; /*Dark blue*/ 
+  margin: 0;
+  border-color: #03033D; /*Dark blue*/  
+}
 
 #myHeader {
 /*    background-color: #03033D; /*Dark blue*/*/
     
 }
 
+/*SUB CONTENTS OF PAGE 01*/
+.subcontent {
+  font-size: 20px;
+}
 
 
 /****** FOOTER ******/
@@ -111,6 +128,7 @@ footer {
 
 #myFooter {
   color: white;
+  font-size: 10px;
 }
 /****** FOOTER END ******/
 
