@@ -62,20 +62,23 @@ header {
 .sidebarBTTN {
   transition-duration: 0.4s;
   font-size: 14px;
+  border-color: white;
 }
 .sidebarBTTN:hover {
   color: white;
   background-color: #03033D; /*Dark blue*/
+  border-color: white;
 }
 .sidebarBTTN:active {
   color: white;
   background-color: #03033D; /*Dark blue*/  
+  border: none;
 }
 .list-group .active {
   color: white;
   background-color: #03033D; /*Dark blue*/ 
   margin: 0;
-  border-color: #03033D; /*Dark blue*/  
+  border-color: white;
 }
 
 
