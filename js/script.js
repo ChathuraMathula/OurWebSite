@@ -63,10 +63,7 @@ var clickAndLoad = function(button, targetSelecter, invokingURL) {
 			switchContentToActive(button);
 			$(".offcanvas").collapse("hide");
 			$("#offcanvasCLOSE").click();
-			$(targetSelecter).hide().fadeIn("slow",
-				function() {
-					MathJax.typesetPromise();
-				});
+			MathJax.typesetPromise();
 		});
 };
 
@@ -74,14 +71,20 @@ var clickAndPlace = function(button, targetSelecter, invokingURL){
 	showLoading(targetSelecter);
 	$(targetSelecter).load(invokingURL, 
 		function() {
-			$(targetSelecter).hide().fadeIn("slow",
-				function() {
 					MathJax.typesetPromise();
-				});
 		});
 };
 
 $(document).ready(function() {
+
+	// var d_height = window.innerHeight;
+	// (function(d_height){
+	// 	$("#sideBar").css("height", d_height);
+	// 	$("#mainContent").css("height", d_height);
+		
+		
+	// })(d_height);
+
 
 // this function invokes page1 (01. Introduction to differentiation)
 Mobj.clickAndLoad_Page_1 = function() {

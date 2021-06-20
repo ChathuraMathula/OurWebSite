@@ -1,24 +1,23 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- <script id="MathJax-script" async src="/es5/tex-chtml.js"></script> -->
-
-
-    <script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-      
     </script>
-
-	<title></title>
+	<title>OurWebSite</title>
 </head>
-<body>
 
-<!-- HEADER NAVIGATION BAR -->
+
+<body class="container-fluid m-0 p-0 position-relative text-center">
+
+
 <header>
+<!-- HEADER NAVIGATION BAR -->
   <div id="myHeader">
     <nav id="myHeaderNAV" class="container navbar navbar-light
        navbar-expand-lg SiteHeader">
@@ -50,71 +49,12 @@
       </div>
     </nav>  
   </div>
-</header>
 <!-- HEADER NAVIGATION BAR END -->
+</header>
 
 
-  <div id="CONTENTS"></div>
+<div id="topic" class="sticky-top"></div>
 
-  <!-- MAIN BODY -->
-  <div class="m-0 p-0 container-fluid row clearfix d-block">
-    <!-- SIDEBAR -->
-    <div id="sideBar" class="container verticleLine text-start m-0 p-0 col 
-      d-none d-md-block float-start">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item text-center">
-          <h5 style="margin-top: 6px;">Differentiation \((dy/dx)\)
-          </h5>
-        </li>
-        <li class="c1 list-group-item sidebarBTTN btn removeCLS text-start" 
-            onclick="$Mobj.clickAndLoad_Page_1();" type="button">
-          01. Introduction to Differentiation</li>
-        <li class="c2 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_2();" type="button">
-              02. Rules of Differentiation</li>
-        <li class="c3 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_3();" type="button">
-              03. Trigonometric Functions</li>
-        <li class="c4 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_4();" type="button">
-              04. Inverse Trigonometric Functions</li>
-        <li class="c5 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_5();" type="button">
-              05. Exponential Function</li>
-        <li class="c6 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_6();" type="button">
-              06. Logarithm Functions</li>
-        <li class="c7 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_7();" type="button">
-              07. Product Rule \((U.V)\)</li>
-        <li class="c8 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_8();" type="button">
-              08. Quotient Rule \((U/V)\)</li>
-        <li class="c9 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_9();" type="button">
-              09. Chain Rule</li>
-        <li class="c10 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_10();" type="button">
-              10. Nth Order Derivative </li>
-        <li class="c11 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_11();" type="button">
-              11. Implicit Differentiation</li>
-        <li class="c12 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_12();" type="button">
-              12. Parametric Differentiation</li>
-        <li class="c13 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_13();" type="button">
-              13. Application of Differentiation</li>
-        <li class="c14 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_14();" type="button">
-              14. Self-Study Exercises</li>
-        <li class="c15 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_15();" type="button" style="opacity: 0;">
-              Empty</li>
-        <li class="c16 list-group-item sidebarBTTN btn text-start removeCLS" 
-            onclick="$Mobj.clickAndLoad_Page_16();" type="button"></li>
-      </ul>
-    </div><!-- SIDEBAR END -->
 
   <!-- OFFCANVAS -->
   <div id="contentsDiff" class="d-grid p-2 d-md-none d-lg-none d-xl-none
@@ -225,15 +165,74 @@
 
         </div>
     </div>
-  </div>
-
-    <!-- OFFCANVAS END -->
+  </div><!-- OFFCANVAS END -->
 
 
-    <!-- MAIN CONTAINER -->
-    <div id="mainContent" class="container m-0 p-0 text-center position-relative
-      col float-end">
 
+
+<!-- MAIN CONTAINERS -->
+<div id="Main" class="position-relative text-start">
+
+	<!-- SIDEBAR -->
+	<div id="sidebar" class="position-absolute d-none d-md-block">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item text-center">
+          <h5 style="margin-top: 6px;">Differentiation \((dy/dx)\)
+          </h5>
+        </li>
+        <li class="c1 list-group-item sidebarBTTN btn removeCLS text-start" 
+            onclick="$Mobj.clickAndLoad_Page_1();" type="button">
+          01. Introduction to Differentiation</li>
+        <li class="c2 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_2();" type="button">
+              02. Rules of Differentiation</li>
+        <li class="c3 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_3();" type="button">
+              03. Trigonometric Functions</li>
+        <li class="c4 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_4();" type="button">
+              04. Inverse Trigonometric Functions</li>
+        <li class="c5 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_5();" type="button">
+              05. Exponential Function</li>
+        <li class="c6 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_6();" type="button">
+              06. Logarithm Functions</li>
+        <li class="c7 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_7();" type="button">
+              07. Product Rule \((U.V)\)</li>
+        <li class="c8 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_8();" type="button">
+              08. Quotient Rule \((U/V)\)</li>
+        <li class="c9 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_9();" type="button">
+              09. Chain Rule</li>
+        <li class="c10 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_10();" type="button">
+              10. Nth Order Derivative </li>
+        <li class="c11 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_11();" type="button">
+              11. Implicit Differentiation</li>
+        <li class="c12 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_12();" type="button">
+              12. Parametric Differentiation</li>
+        <li class="c13 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_13();" type="button">
+              13. Application of Differentiation</li>
+        <li class="c14 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_14();" type="button">
+              14. Self-Study Exercises</li>
+        <li class="c15 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_15();" type="button" style="opacity: 0;">
+              Empty</li>
+        <li class="c16 list-group-item sidebarBTTN btn text-start removeCLS" 
+            onclick="$Mobj.clickAndLoad_Page_16();" type="button"></li>
+      </ul>
+    
+	</div><!-- SIDEBAR END -->
+
+
+	<div id="mainContent" class="position-absolute bottom-0 end-0">
       <div id="LOADING" class="position-relative">
         <div class="position-absolute top-50 start-50 translate-middle">    
           <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
@@ -241,40 +240,20 @@
           </div>
         </div>
       </div>
-    
-    </div><!-- MAIN CONTAINER END -->
-  </div><!-- MAIN BODY END-->
-</body>
+	</div>
+</div>
+<!-- MAIN CONTAINERS END -->
 
 
 
-<!--   <div id="MAIN_DIV" class="container text-center">
- 
+<footer class="fixed-bottom">
+	<p>&#169;2021 All Rights Reserved.</p>
+</footer>
 
 
-    
-  </div>
- -->
 
-<!-- FOOTER BAR -->
-  <footer class="fixed-bottom">
-    <div id="myFooter" class="text-center">
-      <p>&#169;2021 All Rights Reserved.</p>
-    </div>
-  </footer>
-<!-- FOOTER BAR END -->
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <script src="js/jquery-3.6.0.min.js"></script>
-  <!-- <script src="js/jquery-2.1.4.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- <script src="js/ajax-utils.js"></script> -->
-  <!-- <script src="js/script.js"></script> -->
-  <script src="js/script1.js"></script>
-
-  <!-- <script src="js/my_jquery_functions.js"></script> -->
- 
-
+  <script src="js/script.js"></script>
 </body>
 </html>
