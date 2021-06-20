@@ -110,10 +110,9 @@ header {
 footer {
 	color: white;
 	height: 20px;
-	whidth: 100%;
-  	background-color: #03033D; /*Dark blue*/
-  	border-top: 0;
-  	opacity: 2;
+	width: 100%;
+  background-color: #03033D; /*Dark blue*/
+  border-top: 0;
 }
 
 
