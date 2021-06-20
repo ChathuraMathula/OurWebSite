@@ -14,7 +14,6 @@ $(document).ready(function(){
   	});
 // Action DONE !!
 
-
 });
 
 (function (global) { 
@@ -44,6 +43,10 @@ var showLoading = function (targetSelecter) {
   insertHtml(targetSelecter, html);
 };
 
+var loadMathJX = function() {
+	$("head").load("/MATHJAX.html");
+};
+
 // this function sets the button to active
 var switchContentToActive = function(button) {
 	$(".removeCLS").removeClass("active");
@@ -55,55 +58,46 @@ var switchContentToActive = function(button) {
 
 var clickAndLoad = function(button, targetSelecter, invokingURL) {
 	showLoading(targetSelecter);
-	$(targetSelecter).load(invokingURL)//.hide().fadeIn("slow");
-	$("#offcanvasCLOSE").click();
-	switchContentToActive(button);
+	$(targetSelecter).load(invokingURL, 
+		function() {
+			switchContentToActive(button);
+			$(".offcanvas").collapse("hide");
+			$(targetSelecter).hide().fadeIn("slow",
+				function() {
+					MathJax.typesetPromise();
+				});
+		});
 };
 
 var clickAndPlace = function(button, targetSelecter, invokingURL){
 	showLoading(targetSelecter);
-	$(targetSelecter).load(invokingURL)//.hide().fadeIn("slow");
-	switchContentToActive(button);
+	$(targetSelecter).load(invokingURL, 
+		function() {
+			$(targetSelecter).hide().fadeIn("slow",
+				function() {
+					MathJax.typesetPromise();
+				});
+		});
 };
 
-// s
-
 $(document).ready(function() {
-
-// Mobj.clickAndLoad_Page1 = function(){
-// 	$(".c1").click(function() {
-// 		showLoading("#mainContent");
-// 		function() {
-// 			$("#mainContent").load(page1).hide().fadeIn();
-// 		};
-// 	});
-// };
-
-// Mobj.clickAndLoad_Page_1 = function() {
-// 			showLoading("#mainContent");
-// 			$("#mainContent").load(page1).hide().fadeIn("slow");
-// 			$("#offcanvasCLOSE").click();
-// 			switchContentToActive(".c1");
-// 		};
 
 // this function invokes page1 (01. Introduction to differentiation)
 Mobj.clickAndLoad_Page_1 = function() {
 	clickAndLoad(".c1", "#mainContent", page1);
 }
-// this function get page1 part 1 (Definition of a function)
+// // this function get page1 part 1 (Definition of a function)
 Mobj.clickAndPlace_Page_1_1 = function() {
 	clickAndPlace("subcontent1B","#subcontent1", page1_p1);
 } 
-// this function get page1 part 1 (Definition of a function)
+// // this function get page1 part 1 (Definition of a function)
 Mobj.clickAndPlace_Page_1_2 = function() {
 	clickAndPlace("subcontent2B","#subcontent2", page1_p2);
 } 
-// this function get page1 part 1 (Definition of a function)
+// // this function get page1 part 1 (Definition of a function)
 Mobj.clickAndPlace_Page_1_3 = function() {
 	clickAndPlace("subcontent3B","#subcontent3", page1_p3);
 } 
-
-
 
 
 // this function invokes page2 (02. Rules of Differentiation)
