@@ -22,11 +22,11 @@ var Mobj = {}; // Main object created (defined onClick functions in it)
 //var urlObj = {}; // url object which has URLs to the pages to be loaded
 
 var MainPage = "/MainPage.html";
-var page1 = "/Differentiation/Introduction_to_differentiation/mainContent_page01.html";
-var page1_p1 = "/Differentiation/Introduction_to_differentiation/differentiation_Eng_pg1_part1.html";
-var page1_p2 = "/Differentiation/Introduction_to_differentiation/differentiation_Eng_pg1_part2.html";
-var page1_p3 = "/Differentiation/Introduction_to_differentiation/differentiation_Eng_pg1_part3.html";
-var page2 = "/Differentiation/Introduction_to_differentiation/mainContent_page01.html";
+var page1 = "/Differentiation/mainContent_page01.html";
+var page1_p1 = "/Differentiation/differentiation_Eng_pg1_part1.html";
+var page1_p2 = "/Differentiation/differentiation_Eng_pg1_part2.html";
+var page1_p3 = "/Differentiation/differentiation_Eng_pg1_part3.html";
+var page2 = "/Differentiation/mainContent_page01.html";
 
 // Convenience function for inserting innerHTML for 'targetSelecter'
 var insertHtml = function (targetSelecter, html) {
