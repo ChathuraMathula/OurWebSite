@@ -21,11 +21,11 @@ $(document).ready(function(){
 var Mobj = {}; // Main object created (defined onClick functions in it)
 //var urlObj = {}; // url object which has URLs to the pages to be loaded
 
-var MainPage = "/MainPage.html";
-var page1 = "/Differentiation/mainContent_page01.html";
-var page1_p1 = "/Differentiation/differentiation_Eng_pg1_part1.html";
-var page1_p2 = "/Differentiation/differentiation_Eng_pg1_part2.html";
-var page1_p3 = "/Differentiation/differentiation_Eng_pg1_part3.html";
+//var MainPage = "/MainPage.html";
+var page1 = "/Differentiation/mainContentPage01.html";
+var page1_p1 = "/Differentiation/differentiationEngPg1Part1.html";
+var page1_p2 = "/Differentiation/differentiationEngPg1Part2.html";
+var page1_p3 = "/Differentiation/differentiationEngPg1Part3.html";
 var page2 = "/Differentiation/mainContent_page01.html";
 
 // Convenience function for inserting innerHTML for 'targetSelecter'
