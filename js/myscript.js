@@ -43,10 +43,6 @@ var showLoading = function (targetSelecter) {
   insertHtml(targetSelecter, html);
 };
 
-var loadMathJX = function() {
-	$("head").load("/MATHJAX.html");
-};
-
 // this function sets the button to active
 var switchContentToActive = function(button) {
 	$(".removeCLS").removeClass("active");
@@ -76,15 +72,6 @@ var clickAndPlace = function(button, targetSelecter, invokingURL){
 };
 
 $(document).ready(function() {
-
-	// var d_height = window.innerHeight;
-	// (function(d_height){
-	// 	$("#sideBar").css("height", d_height);
-	// 	$("#mainContent").css("height", d_height);
-		
-		
-	// })(d_height);
-
 
 // this function invokes page1 (01. Introduction to differentiation)
 Mobj.clickAndLoad_Page_1 = function() {
@@ -177,13 +164,7 @@ Mobj.clickAndLoad_Page_15 = function() {
 
 });
 
-
-
-      
-            
-          
-            
-          
+           
 global.$Mobj = Mobj
 
 })(window);
