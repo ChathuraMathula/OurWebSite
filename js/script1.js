@@ -62,6 +62,7 @@ var clickAndLoad = function(button, targetSelecter, invokingURL) {
 		function() {
 			switchContentToActive(button);
 			$(".offcanvas").collapse("hide");
+			$("#offcanvasCLOSE").click();
 			$(targetSelecter).hide().fadeIn("slow",
 				function() {
 					MathJax.typesetPromise();
