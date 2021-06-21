@@ -57,9 +57,9 @@ var clickAndLoad = function(button, targetSelecter, invokingURL) {
 	$(targetSelecter).load(invokingURL, 
 		function() {
 			switchContentToActive(button);
-			$(".offcanvas").collapse("hide");
-			$("#offcanvasCLOSE").click();
-			MathJax.typesetPromise();
+			$(".offcanvas").collapse("hide", function() {
+				MathJax.typesetPromise();
+			});
 		});
 };
 

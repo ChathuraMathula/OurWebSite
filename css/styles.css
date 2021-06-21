@@ -116,9 +116,16 @@ footer {
 	width: 100%;
   background-color: #03033D; /*Dark blue*/
   border-top: 0;
+  font-size: 10px;
+}
+footer > p {
+	opacity: 0.6;
 }
 
-
+.subContentsBTTN {
+	width: 50%;
+	font-size: 20px;
+}
 
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
