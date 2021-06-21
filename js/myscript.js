@@ -23,19 +23,19 @@ var Mobj = {}; // Main object created (defined onClick functions in it)
 
 //var MainPage = "/MainPage.html";
 var page1 = "Differentiation/mainContentPage01.html";
-var page2 = "Differentiation/mainContentpage01.html";
-var page3 = "Differentiation/mainContentpage01.html";
-var page4 = "Differentiation/mainContentpage01.html";
-var page5 = "Differentiation/mainContentpage01.html";
-var page6 = "Differentiation/mainContentpage01.html";
-var page7 = "Differentiation/mainContentpage01.html";
-var page8 = "Differentiation/mainContentpage01.html";
-var page9 = "Differentiation/mainContentpage01.html";
-var page10 = "Differentiation/mainContentpage01.html";
-var page11 = "Differentiation/mainContentpage01.html";
-var page12 = "Differentiation/mainContentpage01.html";
-var page13 = "Differentiation/mainContentpage01.html";
-var page14 = "Differentiation/mainContentpage01.html";
+var page2 = "Differentiation/mainContentPage01.html";
+var page3 = "Differentiation/mainContentPage01.html";
+var page4 = "Differentiation/mainContentPage01.html";
+var page5 = "Differentiation/mainContentPage01.html";
+var page6 = "Differentiation/mainContentPage01.html";
+var page7 = "Differentiation/mainContentPage01.html";
+var page8 = "Differentiation/mainContentPage01.html";
+var page9 = "Differentiation/mainContentPage01.html";
+var page10 = "Differentiation/mainContentPage01.html";
+var page11 = "Differentiation/mainContentPage01.html";
+var page12 = "Differentiation/mainContentPage01.html";
+var page13 = "Differentiation/mainContentPage01.html";
+var page14 = "Differentiation/mainContentPage01.html";
 
 // Convenience function for inserting innerHTML for 'targetSelecter'
 var insertHtml = function (targetSelecter, html) {
