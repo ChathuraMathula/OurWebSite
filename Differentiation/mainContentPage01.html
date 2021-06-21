@@ -1,52 +1,302 @@
   
 <div id="SubContents" class="m-0 row">
 
+
+<!-- ******************************************************************** -->
+
     <div class="col-12 mb-2">
       <div class="text-center">
         <button class="btn contentsBTTNs subContentsBTTN" 
-            type="button" data-bs-toggle="collapse" 
-            onclick="$Mobj.clickAndPlace_Page_1_1();" id="subcontent1B" 
+            type="button" data-bs-toggle="collapse"  id="subcontent1B" 
             data-bs-target="#subcontent1" aria-expanded="false" aria-controls="subcontent1">
             Definition of a Function
         </button>
       </div>
       <div class="collapse mt-2" id="subcontent1">
         <div class="card card-body">
-                <!-- contents of definition of functions -->
+                
+    <div>
+      <p>
+        Function is simply a rule that tells how something depends on another thing.
+      </p>
+      <p>
+        As an example you know that the earth rotates around the sun with time. Hence
+        The position of the earth depends on time. So we say, the position of the earth
+        is a function of time.
+      </p>
+      <p>
+        Here, the time <span class="Equations">\((t)\)</span> is called the <b>independant 
+        variable</b> 
+        and, the position of the earth <span class="Equations">\((P)\)</span> at time 
+        <span class="Equations">\((t)\)</span> is the 
+        <b>dependant variable</b>.
+      </p>
+      <p>
+          <span>Therefore, we denote</span>
+          <p>
+            <span class="Equations">$$P\ =\ f(t)$$</span> which is said as <b>&quot;
+              <span class="Equations">\(P\)</span> is a function of 
+              <span class="Equations">\(t\)</span>&quot;</b>
+          </p>
+      </p>
+        <p>
+          You may be not familiar with mathematical notations, but keep in your mind that this tells you that &quot;The <span class="Equations">\(Position(P)\)</span> is a function of <span class="Equations">\(Time(t)\)</span>&quot; or &quot;At <span class="Equations">\(Time(t)\)</span> the position of the earth is denoted by <span class="Equations">\(f(t)\)</span>&quot;
+        </p>
+        <p>
+          Some people think <span class="Equations">\(f(t)\)</span> means 
+          <span class="Equations">\(f\)</span> multiplied by <span class="Equations">\(t\)</span>
+           and that is a serious misunderstanding
+        </p>
+      <div class="row">
+        <div id="Figure01" class="col-lg-4 float-start p-4">
+          <p><!-- CODE FOR FIGURE 01 -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure1.svg">
+          </p>
+        </div>
+        <div id="Figure02" class="col-lg-4 float-start p-5">
+          <p><!-- CODE FOR FIGURE 02 -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure2.svg">
+          </p>
+        </div>
+        <div id="Figure03" class="col-lg-4 float-start p-5">
+          <p><!-- CODE FOR FIGURE 03 -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure3.svg">
+          </p>
+        </div> 
+      </div>  
+
+        <p>
+          Examples of some mathematical functions
+          <span class="Equations">
+             \begin{array}{l}
+              y\ =\ f( x)\\
+              y=x^{2} \ +\ x\ +\ 25\\
+              f( x) \ =\ 4x^{3} +\ 56\\
+              f( t) \ =\ 3t^{2} \ +\ t\\
+              f( \theta ) \ =\ \sin( \theta ) \ +\ \cos( \theta ) \ +\ 4
+              \end{array}
+          </span>
+        </p>
+    </div>                
+
         </div>
       </div>
     </div>
 
+<!-- ******************************************************************** -->
 
     <div class="col-12 mb-2"> 
       <div class="text-center">
         <button class="btn contentsBTTNs subContentsBTTN" 
-            type="button" data-bs-toggle="collapse" 
-            onclick="$Mobj.clickAndPlace_Page_1_2();" id="subcontent2B" 
+            type="button" data-bs-toggle="collapse" id="subcontent2B" 
             data-bs-target="#subcontent2" aria-expanded="false" aria-controls="subcontent2">
             Limit of a Function
         </button>
       </div>
       <div class="collapse mt-2" id="subcontent2">
         <div class="card card-body">
-                <!-- contents of definition of functions -->
+                
+    <div>
+      <p>Limit of a function <span class="Equations">\(f(x)\)</span> 
+        defines the value of the function at a certain point at which the
+      independent variable <span class="Equations">\((x)\)</span> 
+      reaches some value <span class="Equations">\((a)\)</span> (reaches = approximately equal)
+      </p>
+
+      <p>
+        We denote it by, <span class="Equations">$$\lim\limits _{n\rightarrow a} \ f( x) \ =\ L$$</span>
+        <p>
+          which is said as <b>"The limit of <span class="Equations">\(f(x)\)</span> equals to 
+          <span class="Equations">\(L\)</span> as <span class="Equations">\(x\)</span> approaches 
+          <span class="Equations">\(a\)</span>"</b>
+        </p>
+      </p>
+
+      <p>
+        Let's illustrate this on <span class="Equations">\(xy\)</span> plane<br>
+        Let <span class="Equations">\(y\ =\ f(x)\)</span> be any function of
+        <span class="Equations">\(x\)</span>
+      </p>
+
+      <div class="row">
+        <div id="Figure04" class="col-lg-6 float-start p-5">
+          <p>  <!-- CODE FOR THE FIGURE 04 -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure4.svg">
+          </p>
+        </div>
+        <p class="col-lg-6 float-start p-5">
+          As you can see, when the value of <span class="Equations">\(x\)</span> 
+          reaches (approximately equals to) <span class="Equations">\(a\)</span>, 
+          the value of the function reaches <span class="Equations">\(L\)</span>. 
+          Hence we say, "When <span class="Equations">\(x\)</span> 
+          approaches <span class="Equations">\(a\)</span>, the limit of the function
+          <span class="Equations">\(y\)</span> equals to <span class="Equations">\(L\)</span>"
+        </p>
+        </div> 
+  </div>
+
+
         </div>
       </div>
     </div>
 
+<!-- ******************************************************************** -->
 
     <div class="col-12 mb-2"> 
       <div class="text-center">
         <button class="btn contentsBTTNs subContentsBTTN" 
-            type="button" data-bs-toggle="collapse" 
-            onclick="$Mobj.clickAndPlace_Page_1_3();" id="subcontent3B" 
+            type="button" data-bs-toggle="collapse" id="subcontent3B" 
             data-bs-target="#subcontent3" aria-expanded="false" aria-controls="subcontent3">
             Derivative of a Function
         </button>
       </div>
       <div class="collapse mt-2" id="subcontent3">
         <div class="card card-body">
-                <!-- contents of definition of functions -->
+             
+  <div>
+      <p>
+        We will consider a function <span class="Equations">\(y\ =\ f( x)\)</span>.<br>
+        Recall that <span class="Equations">\(x\)</span> is the independant variable and 
+        <span class="Equations">\(y\)</span> is the dependant variable (because 
+        <span class="Equations">\(y\)</span> depends on 
+        <span class="Equations">\(x\)</span> such that it satisfies the conditions denoted by 
+        <span class="Equations">\(f)\)</span>)
+      </p>
+      
+      <div id="Figure05" class="row">
+        <div class="col-lg-6 float-start p-5">
+          <P> <!-- ENTER THE CODE FOR FIGURE 5  -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure5.svg">
+          </P>
+        </div>
+        <p class="col-lg-6 float-start p-5">
+          &#8226; Firstly we will graph these data on an 
+          <span class="Equations">\(xy)\)</span> plan. <br>
+          (This plane is called the Cartesian Plane in mathematics)<br>
+          <span class="Equations">\(x\)</span> - axis shows the 
+          <span class="Equations">\(x\)</span> values and 
+          <span class="Equations">\(y\)</span> - axis shows the 
+          <span class="Equations">\(f( x)\)</span> values
+        </p>
+      </div>
+
+      <div id="Figure06" class="row">
+        <div class="col-lg-6 float-start p-5">
+          <P> <!-- ENTER THE CODE FOR FIGURE 6  -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure6.svg">
+          </P>
+        </div>
+        <p class="col-lg-6 float-start p-5">
+          &#8226; Let's assume our graph looks like this when we graph <span class="Equations">\(x\)</span> against <span class="Equations">\(f(x)\)</span>. 
+        </p>
+      </div>
+
+      <div id="Figure07" class="row">
+        <div class="col-lg-6 float-start p-5">
+          <P> <!-- ENTER THE CODE FOR FIGURE 7  -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure7.svg">
+          </P>
+        </div>
+        <p class="col-lg-6 float-start p-5">
+          &#8226; Then we will select a point on the graph to find the gradient of the graph
+          at this point. <br>
+          (Gradients is also another term that simply tells the ratio of 
+          <span class="Equations">\(y\)</span> to <span class="Equations">\(x\)</span>. 
+          that is <span class="Equations">\(y/x\)</span>) 
+        </p>
+      </div>
+
+      <div id="Figure08" class="row">
+        <div class="col-lg-6 float-start p-5">
+          <p><!-- ENTER THE CODE FOR FIGURE 8 -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure8.svg">
+          </p><!-- ENTER THE CODE FOR FIGURE 8 -->
+        </div>
+        <p class="col-lg-6 float-start p-5">
+          &#8226; Then we take another point as depicted in this illustration and draw a
+          straight line through the two points <br>
+          &#8226; Next, we find the <span class="Equations">\(slope(=gradient))\)</span> 
+          of the straight line as follows.
+          (<span class="Equations">\(slope = \delta y/\delta x , \delta \)</span> 
+          is used to denote a very small amount) 
+        </p>
+      </div>
+      
+      <p>
+        $$slope\ =\frac{\ difference\ between\ y\ values}{\ difference\ between\ x\ values}$$
+      </p>
+
+      <p>
+        $$slope\ =\frac{f( a\ +\ \delta a) \ -\ f( a)}{\ ( a\ +\ \delta a) \ -\ a}$$
+      </p>
+
+      <p>
+        $$slope\ =\frac{f( a\ +\ \delta a) \ -\ f( a)}{\delta a}$$
+      </p>
+
+      <p>
+        Let's replace <span class="Equations">\(a\)</span> with 
+        <span class="Equations">\(x\)</span>, because <span class="Equations">\(a\)</span> 
+        can be any value in the domain <span class="Equations">\(x\)</span>
+      </p>
+
+      <p>
+        $$slope\ =\frac{\delta y}{\delta x} \ =\frac{f( x\ +\ \delta x) \ -\ f( x)}{\delta x}$$
+      </p>
+
+      <p>
+        Then we find the limit of the function at both sides when 
+        <span class="Equations">\(\delta x\)</span> 
+        approaches <span class="Equations">\(0\)</span>
+      </p>
+
+      <p>
+        $$\lim\limits _{\delta x\rightarrow 0}
+          \frac{\delta y}{\delta x} \ =\lim\limits _{\delta x\rightarrow 0}\frac{f( x\ +\ \delta x)
+           \ -\ f( x)}{\delta x}$$
+      </p>
+
+      <p>
+        Lets assume this equals to <span class="Equations">\(L\)</span>,
+      </p>
+
+      <p>
+        $$\lim\limits _{\delta x\rightarrow 0}\frac{\delta y}{\delta x} \ =L$$
+      </p> 
+
+      <p>
+        Here, <span class="Equations">
+          \(\lim\limits _{\delta x\rightarrow 0}\frac{\delta y}{\delta x} \)</span>
+            is called the derivative of the function <span class="Equations">\(f(x)\)</span>
+            at point <span class="Equations">\(x\)</span> and is denoted by
+            <span class="Equations">$$\frac{dy}{dx}$$</span>
+      </p>   
+      <p>
+        Finding the derivative of a function is called the Differentiation.
+      </p>      
+
+      <div id="Figure09" class="row">
+        <div class="col-lg-6 float-start p-5">
+          <p><!-- ENTER THE CODE FOR FIGURE 9 -->
+            <img src="Figures/Introduction to Differentiation (Page 01)/Figure9.svg">
+          </p><!-- ENTER THE CODE FOR FIGURE 9 -->
+        </div>
+        <p class="col-lg-6 float-start p-5">
+          &#8226; Slope at point <span class="Equations">\(A = dy/ dx\),</span> 
+          which means the derivative of the function at point 
+          <span class="Equations">\(A\)</span> 
+          is <span class="Equations">\(dy/ dx\)</span>.
+        </p>
+      </div>
+
+      <p>
+        &#8226; Therefore you can see that Differentiation is practically used to find the rate of 
+        change of something happans. Such as flow of electricity, rates of change of population
+        growth and growth of deceases etc.
+      </p>
+    </div>
+
+
         </div>
       </div>
     </div>

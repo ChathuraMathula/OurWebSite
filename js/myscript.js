@@ -23,10 +23,19 @@ var Mobj = {}; // Main object created (defined onClick functions in it)
 
 //var MainPage = "/MainPage.html";
 var page1 = "Differentiation/mainContentPage01.html";
-var page1_p1 = "Differentiation/differentiationEngPg1Part1.html";
-var page1_p2 = "Differentiation/differentiationEngPg1Part2.html";
-var page1_p3 = "Differentiation/differentiationEngPg1Part3.html";
-var page2 = "Differentiation/mainContent_page01.html";
+var page2 = "Differentiation/mainContentpage01.html";
+var page3 = "Differentiation/mainContentpage01.html";
+var page4 = "Differentiation/mainContentpage01.html";
+var page5 = "Differentiation/mainContentpage01.html";
+var page6 = "Differentiation/mainContentpage01.html";
+var page7 = "Differentiation/mainContentpage01.html";
+var page8 = "Differentiation/mainContentpage01.html";
+var page9 = "Differentiation/mainContentpage01.html";
+var page10 = "Differentiation/mainContentpage01.html";
+var page11 = "Differentiation/mainContentpage01.html";
+var page12 = "Differentiation/mainContentpage01.html";
+var page13 = "Differentiation/mainContentpage01.html";
+var page14 = "Differentiation/mainContentpage01.html";
 
 // Convenience function for inserting innerHTML for 'targetSelecter'
 var insertHtml = function (targetSelecter, html) {
@@ -60,8 +69,8 @@ var clickAndLoad = function(button, targetSelecter, invokingURL) {
 	showLoading(targetSelecter);
 	$(targetSelecter).load(invokingURL, 
 		function() {
-			//switchContentToActive(button);
-			$(".offcanvas").collapse("hide");
+			switchContentToActive(button);
+			$("#CANVAS").collapse("hide");
 			$("#offcanvasCLOSE").click();
 			MathJax.typesetPromise();
 		});
@@ -77,23 +86,56 @@ var clickAndPlace = function(button, targetSelecter, invokingURL){
 
 $(document).ready(function() {
 
+// (function(event) {
+// 	if ($("#mainContent").scrollTop() > 50) {
+// 		$("header").hide();
+// 		$("#contentsDiff").hide();
+// 	};
+// });
+
+
+// This action is the hiding the header when scrolling
+$("#mainContent").scroll(function() {
+	if($("#mainContent").scrollTop() > 150) {
+		$("header").hide();
+		$("#CANVAS").hide();
+		$(document).scrollTop(0);
+	} else if($("#mainContent").scrollTop() > 200) {
+		$(document).scrollTop(750);
+	} else {
+		$("header").show();
+		$("#CANVAS").show();
+	}
+});
+
+$(document).scroll(function() {
+	if($(document).scrollTop() > 150) {
+		$("header").hide();
+		$("#CANVAS").hide();
+	} else {
+		$("header").show();
+		$("#CANVAS").show();		
+	}
+});
+
+
+// $("#mainContent").scroll(function() {
+// 	var top = $("#mainContent").scrollTop();
+// 	var height = $("#mainContent").height();
+// 	var maxHeightScroller = height - top;
+
+// 	if(top < maxHeightScroller + 50) {
+// 		$(document).scrollTop(top);
+// 	} 
+// });
+
+
+
 // this function invokes page1 (01. Introduction to differentiation)
 Mobj.clickAndLoad_Page_1 = function() {
 	var text = "01. Introduction to differentiation";
 	clickAndLoad(".c1", "#mainContent", page1);
 	setTopic(text);
-};
-// // this function get page1 part 1 (Definition of a function)
-Mobj.clickAndPlace_Page_1_1 = function() {
-	clickAndPlace("subcontent1B","#subcontent1", page1_p1);
-};
-// // this function get page1 part 2 (Limit of a function)
-Mobj.clickAndPlace_Page_1_2 = function() {
-	clickAndPlace("subcontent2B","#subcontent2", page1_p2);
-};
-// // this function get page1 part 3 (Derivative of a function)
-Mobj.clickAndPlace_Page_1_3 = function() {
-	clickAndPlace("subcontent3B","#subcontent3", page1_p3);
 };
 
 
