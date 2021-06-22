@@ -54,9 +54,8 @@ var showLoading = function (targetSelecter) {
 
 // this function sets the button to active
 var switchContentToActive = function(button) {
-	$(".removeCLS").removeClass("active", function() {
-			$(button).addClass("active");
-	});
+	$(".removeCLS").removeClass("active");
+	$(button).addClass("active");
 };
 
 var setTopic = function(text) {
