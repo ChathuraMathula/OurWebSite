@@ -22,20 +22,20 @@ var Mobj = {}; // Main object created (defined onClick functions in it)
 //var urlObj = {}; // url object which has URLs to the pages to be loaded
 
 //var MainPage = "/MainPage.html";
-var page1 = "Differentiation/mainContentPage01.html";
-var page2 = "Differentiation/mainContentPage01.html";
-var page3 = "Differentiation/mainContentPage01.html";
-var page4 = "Differentiation/mainContentPage01.html";
-var page5 = "Differentiation/mainContentPage01.html";
-var page6 = "Differentiation/mainContentPage01.html";
-var page7 = "Differentiation/mainContentPage01.html";
-var page8 = "Differentiation/mainContentPage01.html";
-var page9 = "Differentiation/mainContentPage01.html";
-var page10 = "Differentiation/mainContentPage01.html";
-var page11 = "Differentiation/mainContentPage01.html";
-var page12 = "Differentiation/mainContentPage01.html";
-var page13 = "Differentiation/mainContentPage01.html";
-var page14 = "Differentiation/mainContentPage01.html";
+var page1 = "Differentiation/Page01.html";
+var page2 = "Differentiation/Page01.html";
+var page3 = "Differentiation/Page01.html";
+var page4 = "Differentiation/Page01.html";
+var page5 = "Differentiation/Page01.html";
+var page6 = "Differentiation/Page01.html";
+var page7 = "Differentiation/Page01.html";
+var page8 = "Differentiation/Page01.html";
+var page9 = "Differentiation/Page01.html";
+var page10 = "Differentiation/Page01.html";
+var page11 = "Differentiation/Page01.html";
+var page12 = "Differentiation/Page01.html";
+var page13 = "Differentiation/Page01.html";
+var page14 = "Differentiation/Page01.html";
 
 // Convenience function for inserting innerHTML for 'targetSelecter'
 var insertHtml = function (targetSelecter, html) {
@@ -54,8 +54,9 @@ var showLoading = function (targetSelecter) {
 
 // this function sets the button to active
 var switchContentToActive = function(button) {
-	$(".removeCLS").removeClass("active");
-	$(button).addClass("active");
+	$(".removeCLS").removeClass("active", function() {
+			$(button).addClass("active");
+	});
 };
 
 var setTopic = function(text) {
@@ -86,17 +87,11 @@ var clickAndPlace = function(button, targetSelecter, invokingURL){
 
 $(document).ready(function() {
 
-// (function(event) {
-// 	if ($("#mainContent").scrollTop() > 50) {
-// 		$("header").hide();
-// 		$("#contentsDiff").hide();
-// 	};
-// });
 
 
 // This action is the hiding the header when scrolling
 $("#mainContent").scroll(function() {
-	if($("#mainContent").scrollTop() > 150) {
+	if($("#mainContent").scrollTop() > 40) {
 		$("header").hide();
 		$("#CANVAS").hide();
 		$(document).scrollTop(0);
@@ -117,18 +112,6 @@ $(document).scroll(function() {
 		$("#CANVAS").show();		
 	}
 });
-
-
-// $("#mainContent").scroll(function() {
-// 	var top = $("#mainContent").scrollTop();
-// 	var height = $("#mainContent").height();
-// 	var maxHeightScroller = height - top;
-
-// 	if(top < maxHeightScroller + 50) {
-// 		$(document).scrollTop(top);
-// 	} 
-// });
-
 
 
 // this function invokes page1 (01. Introduction to differentiation)
