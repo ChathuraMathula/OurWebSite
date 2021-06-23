@@ -23,7 +23,7 @@ var Mobj = {}; // Main object created (defined onClick functions in it)
 
 //var MainPage = "/MainPage.html";
 var page1 = "Differentiation/Page01.html";
-var page2 = "Differentiation/Page01.html";
+var page2 = "Differentiation/Page02.html";
 var page3 = "Differentiation/Page01.html";
 var page4 = "Differentiation/Page01.html";
 var page5 = "Differentiation/Page01.html";
