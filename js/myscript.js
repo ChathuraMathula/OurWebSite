@@ -90,7 +90,7 @@ $(document).ready(function() {
 
 // This action is the hiding the header when scrolling
 $("#mainContent").scroll(function() {
-	if($("#mainContent").scrollTop() > 40) {
+	if($("#mainContent").scrollTop() > 5) {
 		$("header").hide();
 		$("#CANVAS").hide();
 		$(document).scrollTop(0);
