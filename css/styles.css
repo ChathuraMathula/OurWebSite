@@ -124,6 +124,13 @@ header {
 	position: fixed;
 }
 
+.tableCol1 {
+	border-left: 1px solid black;
+}
+.tableRow1 {
+	border-bottom: 1px solid black;
+}
+
 footer {
 	color: white;
 	height: 20px;
