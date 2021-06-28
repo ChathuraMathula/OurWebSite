@@ -185,7 +185,9 @@ footer > p {
 #topicTag {
 	display: none;
 }
-
+#mainContent {
+	font-size: 16px;
+}
 
 
 }
@@ -196,6 +198,10 @@ footer > p {
 #topicTag {
 	display: none;
 }
+#mainContent {
+	font-size: 20px;
+}
+
 }
 
 
@@ -204,6 +210,9 @@ footer > p {
 #topicTag {
 	display: none;
 }
+#mainContent {
+	font-size: 22px;
+}
 }
 
 
@@ -211,6 +220,9 @@ footer > p {
 @media (min-width: 1399.98px) {
 #topicTag {
 	display: none;
+}
+#mainContent {
+	font-size: 24px;
 }
 }
 
