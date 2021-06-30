@@ -97,6 +97,10 @@ header {
 	background-color: #03033D; /*Dark blue*/
 }
 
+.displayPic {
+	height: 150px;
+	width: 150px;
+}
 
 /*LOADING ICON*/
 #LOADING{
