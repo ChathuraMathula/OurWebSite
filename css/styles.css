@@ -7,7 +7,7 @@ html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 body {
@@ -28,10 +28,25 @@ header {
   text-decoration: none;
 }  
 #navbarToggle:hover {
-  border-color: #03033D; /*Dark blue*/;
+  border-color: #03033D; /*Dark blue*/
  text-decoration: none;
 }
 
+.nav-item{
+	color: white; 
+	border:1px solid white;
+}
+
+.nav-item:hover {
+	border:1px solid #03033D; /*Dark blue*/
+}
+.nav-item:active {
+	border:1px solid #03033D; /*Dark blue*/
+}
+
+#navbarSupportedContent {
+	width: 40%;
+}
 
 /* HEADER -- END */
 
