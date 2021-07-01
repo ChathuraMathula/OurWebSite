@@ -115,7 +115,7 @@ $(document).scroll(function() {
 
 // this function invokes page1 (01. Introduction to differentiation)
 Mobj.clickAndLoad_Page_1 = function() {
-	var text = "01. Introduction to differentiation";
+	var text = "01. අනුකලනය හැඳින්වීම";
 	clickAndLoad(".c1", "#mainContent", page1);
 	setTopic(text);
 };
@@ -123,7 +123,7 @@ Mobj.clickAndLoad_Page_1 = function() {
 
 // this function invokes page2 (02. Rules of Differentiation)
 Mobj.clickAndLoad_Page_2 = function() {
-	var text = "02. Rules of Differentiation";
+	var text = "02. මූලික අනුකල ආකාර";
 	clickAndLoad(".c2", "#mainContent", page2);
 	setTopic(text);
 };	
