@@ -98,8 +98,8 @@ header {
 }
 
 .displayPic {
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 }
 
 /*LOADING ICON*/
@@ -153,7 +153,10 @@ footer > p {
 	width: 200px;
 	font-size: 13px;
 }
-
+.displayPic {
+	height: 50px;
+	width: 50px;
+}
 
 }
 
@@ -174,7 +177,10 @@ footer > p {
 	width: 200px;
 	font-size: 14px;
 }
-
+.displayPic {
+	height: 50px;
+	width: 50px;
+}
 
 }
 
