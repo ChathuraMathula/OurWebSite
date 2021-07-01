@@ -154,8 +154,11 @@ footer > p {
 	font-size: 13px;
 }
 .displayPic {
-	height: 100px;
-	width: 100px;
+	height: 95px;
+	width: 95px;
+}
+.ourTeamCard {
+	font-size: 12px;
 }
 
 }
@@ -178,10 +181,12 @@ footer > p {
 	font-size: 14px;
 }
 .displayPic {
-	height: 100px;
-	width: 100px;
+	height: 95px;
+	width: 95px;
 }
-
+.ourTeamCard {
+	font-size: 16px;
+}
 }
 
 
