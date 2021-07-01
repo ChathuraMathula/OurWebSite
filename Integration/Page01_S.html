@@ -1,0 +1,160 @@
+<div>
+	<div>
+
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				පළමුව අපි කාටීසියානු ඛණ්ඩාංක තලය (\(xy\)-තලය) මත ඇඳි \(x\) හි ශ්‍රිතයක් (function) සලකමු.
+			</div>
+			<div class="row">
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Integration/Figure1.svg">
+				</div>
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Integration/Figure2.svg">
+				</div>
+			</div>
+			<div class="p-2">
+				01 රූපයෙන් පෙන්වන්නේ \(y = f(x)\) ශ්‍රිතයෙ හි ප්‍රස්තාරයයි.<br>
+				එයට අපි වක්‍රයක් යැයි කියනු ලැබේ.<br><br>
+				මීළඟට, 02 රූපයෙන් <span>\(y = f(x)\)</span> වක්‍රයේ යටින් සහ \(x\) අක්ෂ යේ
+				\(a\) සිට \(b\) දක්වා ඇති වර්ගඵ්ලය ඔබට දැකිය හැක.<br>
+				එය \(S\) අකුරින් හඳුන්වමු. (S = Surface Area)
+			</div>
+			<br>
+			<div>
+				එසේනම්, වක්‍රයේ යටින් ඇති වර්ගඵ්ලය සොයන්නේ කෙසේද ?
+				<div class="text-center" style="color: red;">මදක් සිතන්න...!</div>
+				<br>
+				මේ සඳහා අපිට ගණිත ක්‍රමයක් භාවිත කළ යුතුය.<br>
+				එම ගනිත කර්මයට අපි <b>අනුකලනය</b> යැයි කියනු ලැබේ.
+				<br><br>
+				එනම් අනුකලනය භාවිතයෙන් අප දන්නා ඕනෑම ශ්‍රිතයක (function එකක)
+				යටින් ඇති වර්ගඵලය නිර්ණය කළ හැක. මෙය විවිධ ක්ෂේත්‍ර වලදී ප්‍රායෝගිකව භාවිත වේ.<br>
+				<div class="text-center" style="color:blue;">*ශ්‍රිතයක් යනු කුමක්දැයි අපැහැදිලි නම් අපගේ 
+				අවකලනය හැඳින්වීම කොටසේ නිබන්ධනය අධ්‍යනය කරන්න</div>
+			</div>
+
+		</div>
+		<br>
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				දැන් අපි අනුකලනයේදී වර්ගඵලයක් නිර්ණය කිරන්නේ කෙසේදැයි ඉගෙන ගමු. 
+			</div>
+			<div class="row">
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Integration/Figure3.svg">
+				</div>
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Integration/Figure4.svg">
+				</div>
+			</div>
+			<div class="p-2">
+				අපට එකවර මුලු වර්ගඵලය සෙවීම අපහසුය.
+				<br>
+				එබැවින්, 03 රූපයේ ආකාරයට අපි ශ්‍රිතයත් \(x\) අක්ෂයත් අතර වර්ගඵලය කුඩා තීර වලට බෙදා එක් එක් තීරයේ වර්ගඵලය සොයා එවා එකිනෙකට එකතු කිරීමෙන් සම්පූර්ණ වර්ගඵලය 
+				සොයනු ලැබේ.
+			</div>
+			<br>
+			<div>
+				04 රූපයේ ආකාරයට එක් තීරුවක් පමණක් සලකමු.<br>
+				එහි ඝනකම \(\delta x\) ප්‍රමාණයක් ලෙස ගනිමු.
+				<div class="text-center" style="color:darkblue;">
+					(\(\delta x\) යනු ඉතා කුඩා අගයකි)
+				</div>
+				<br>
+				එම අවස්තාවේ තීරුවේ උස \(y\) ට සමාන වන බව රූපය දෙස බැලීමෙන් පැහදිලි වේ.
+				<div class="text-center" style="color:darkblue;">
+					(මක්නිසාද යත් එවිට ශ්‍රිතයේ අගය \(y\) ට සමාන වේ)
+				</div>
+				<span>දැන්,</span>
+				<div>
+					<div class="text-center">තනි තීරුවක වර්ගඵලය(s) \(=\ y\ \times \delta x\)</div>
+					<span class="Equations">$$s =\ y\ \delta x$$</span> 
+				</div>
+				<br>
+				එමනිසා වක්‍රයේ යටින් ඇති වර්ගඵලය මෙවැනි තුනී තීරුවල එකතුවකි.<br>
+				So,
+				<div class="text-center">
+					වක්‍රයේ යටින් ඇති වර්ගඵලය\((S)\) = තුනී තීරු සියල්ලේම එකතුව</div>
+				<span class="Equations">$$S\ =\ s_{1} \ +\ s_{2} \ +\ s_{3} +...+\ \ s_{n}$$</span>
+				<span>ගණිතයේදී අප මෙය පහත අයුරින් නිරූපණය කරයි.</span>
+				<span class="Equations">$$S\ =\sum _{i\ =\ 1}^{n} s_{i}$$</span>
+
+				<div class="text-center" style="color:darkblue;">
+					මෙය කියවන්නේ, <q>\(s_{1}\) සිට \(s_{n}\) දකවා වූ 
+					සියලු අගයන්ගේ එකතුව \(S\) ට සමාන වේ.</q><br>
+					{\(\sum\) යනු එකතුවක් නිරූපණය කිරීමට ගණිතයේදී යොදා ගන්නා සංකේතයයි.
+					එයට අප <b>සිග්මා</b> යැයි කියනු ලැබේ}
+				</div>
+				<span>Hence,</span>
+				<span class="Equations">$$S\ =\sum y\ \delta x$$</span>
+
+				<div>
+					If we let this \(\delta x\) be very small, we can take it as\(dx\).<br>
+					Then we use the notation \(\int\) which is a stylized version of the letter 'S' 
+					to denote the <b>Sum</b> instead of \(\sum\)
+				</div>
+				<br>
+				<div class="text-center">
+					Now, the area under the curve \(y\) and \(x - axis\) is called the <br><b>Integral of the 
+					function with respect to \(x\).</b>
+					<br>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				<span>One important thing is that,</span> 
+				<br>
+				<div>
+					You know that the differentiation (or finding the derivative of a function) gives the rate of 
+					change of something.
+					<br><br>
+					Here,
+					<br>
+					Integration gives the area or volume of something. Similarly Integration is the reverse process of Differentiation.
+				</div>
+				<div class="m-0 position-relative">
+					<img src="Figures/Integration/Figure5.svg" class="col-6 position-relative top-0 start-50 
+						translate-middle-x">
+				</div>
+				<div>
+					If we differentiation \(y = f(x)\) w.r.t \(x\) we get the result \(\frac{d( f( x))}{dx}\).<br>
+					Then, if we integrate the result back w.r.t \(x\) we get \(f(x)\).
+					<span class="Equations">$$\int \frac{d( f( x))}{dx} dx\ =\ f( x)$$</span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				<div class="border p-1 bg-light">
+					If we find the area under the curve within an exact region (which means we integrate a function within a limit(here, \(a\) to \(b\)) we call it a <b>Definite Integral</b>)
+				</div>
+				<br>
+				<div class="border p-1 bg-light">
+					At the same times, if we find the integral of some finction without considering an exact 
+					region (which means we integrate a function without considering a limit) we call is an
+					<b>Indefinite Integral</b>
+				</div>
+				<br>
+				<div class="m-0 position-relative">
+					<img src="Figures/Integration/Figure6.svg" class="col-10 col-lg-6 col-md-8 col-sm-10 position-relative top-0 start-50 
+						translate-middle-x">
+				</div>
+				<br>
+				<div class="text-center" style="color:red;">
+					You must add the word 'constant' each time you find an Indefinite Integral.<br>
+					Please go through the examples in next pages.
+				</div>
+			</div>
+		</div>		
+
+
+	</div>
+</div>
