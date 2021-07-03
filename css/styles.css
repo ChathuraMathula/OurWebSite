@@ -52,6 +52,17 @@ html, body {
 .activated {
 	opacity: 1;
 }
+
+.activeTopic {
+	background-color: #03033D;
+	color: white !important;	
+}
+
+.activeTopic:hover {
+	background-color: #03033D !important; 
+	color: white !important !important;	
+	border: 1px solid #03033D !important;	 /*dark blue*/
+}
 /*ACTIVATED CLASS END*/
 
 /*TopicBar*/
@@ -87,24 +98,26 @@ html, body {
   padding-top: 120px;
   overflow-y: scroll;
   border-right: 2px solid #03033D;
-  background-color: white;
+  background-color: #e6f2ff;
   display: block;
 }
 
 .SideBarContents {
 	width: 220px;
-	padding: 10px;
+	padding: 5px;
 }
 
 .SideBar a {
 	text-decoration: none;
 	color: black;
 	width: 100%;
+	border: 1px solid #e6f2ff; /*light blue*/
 }
 
 .SideBar a:hover {
 	color: #03033D;
-	background-color: lightgray;
+	background-color: white;
+	border: 1px solid #03033D; /*dark blue*/
 }
 /*SideBar END*/
 
@@ -112,9 +125,9 @@ html, body {
 .MainContent {
 	 
   margin-left: 220px; /* Same as the width of the sidenav */
-  margin-right: 150px;
+/*  margin-right: 150px;*/
   font-size: 18px; /* Increased text to enable scrolling */
-  padding:135px 15px 20px 15px;
+  padding:135px 20px 20px 15px;
   background-color: white;
 }
 /*MainContent END*/

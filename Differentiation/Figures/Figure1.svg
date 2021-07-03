@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 220 220" style="enable-background:new 0 0 220 220;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#03033D;}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{stroke:#000000;stroke-width:0.3169;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-width:1.5844;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:0.9506;stroke-miterlimit:10;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st7{fill:none;stroke:#000000;stroke-width:0.3169;stroke-miterlimit:8;}
+	.st8{clip-path:url(#SVGID_4_);}
+	.st9{font-family:'Calibri';}
+	.st10{font-size:6.2892px;}
+	.st11{clip-path:url(#SVGID_6_);}
+	.st12{clip-path:url(#SVGID_8_);}
+	.st13{clip-path:url(#SVGID_10_);}
+	.st14{clip-path:url(#SVGID_12_);}
+	.st15{clip-path:url(#SVGID_14_);}
+	.st16{clip-path:url(#SVGID_16_);}
+	.st17{clip-path:url(#SVGID_18_);}
+	.st18{clip-path:url(#SVGID_20_);}
+	.st19{clip-path:url(#SVGID_22_);}
+	.st20{clip-path:url(#SVGID_24_);}
+	.st21{clip-path:url(#SVGID_26_);}
+	.st22{clip-path:url(#SVGID_28_);}
+	.st23{clip-path:url(#SVGID_30_);}
+	.st24{clip-path:url(#SVGID_32_);}
+	.st25{clip-path:url(#SVGID_34_);}
+	.st26{font-size:6.4407px;}
+	.st27{clip-path:url(#SVGID_36_);}
+	.st28{clip-path:url(#SVGID_38_);}
+	.st29{clip-path:url(#SVGID_40_);}
+	.st30{clip-path:url(#SVGID_42_);}
+	.st31{clip-path:url(#SVGID_44_);}
+	.st32{clip-path:url(#SVGID_46_);}
+	.st33{clip-path:url(#SVGID_48_);}
+	.st34{clip-path:url(#SVGID_50_);}
+	.st35{clip-path:url(#SVGID_52_);}
+	.st36{clip-path:url(#SVGID_54_);}
+	.st37{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3.1136" y1="72.6982" x2="83.4749" y2="72.6982">
+		<stop  offset="2.717173e-07" style="stop-color:#03033D"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</linearGradient>
+	<ellipse class="st0" cx="43.3" cy="72.7" rx="40.2" ry="66.8"/>
+	<path class="st1" d="M43.3,6c22.1,0,40,29.9,40,66.7s-18,66.7-40,66.7c-22.1,0-40-29.9-40-66.7S21.2,6,43.3,6 M43.3,5.7
+		C21,5.7,3,35.7,3,72.7s18.1,67,40.3,67s40.3-30,40.3-67S65.6,5.7,43.3,5.7L43.3,5.7z"/>
+</g>
+<g>
+	
+		<radialGradient id="SVGID_2_" cx="150.5748" cy="65.6326" r="54.8306" gradientTransform="matrix(1.1365 0 0 0.9682 5.3726 9.1539)" gradientUnits="userSpaceOnUse">
+		<stop  offset="2.717173e-07" style="stop-color:#03033D;stop-opacity:0.6"/>
+		<stop  offset="0.2077" style="stop-color:#3D3D69;stop-opacity:0.4754"/>
+		<stop  offset="0.5999" style="stop-color:#A4A4B9;stop-opacity:0.24"/>
+		<stop  offset="0.8724" style="stop-color:#E6E6EB;stop-opacity:7.656026e-02"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</radialGradient>
+	<ellipse class="st2" cx="176.5" cy="72.7" rx="40.2" ry="66.8"/>
+	<path class="st1" d="M176.5,6c22.1,0,40,29.9,40,66.7s-18,66.7-40,66.7s-40-29.9-40-66.7S154.4,6,176.5,6 M176.5,5.7
+		c-22.3,0-40.3,30-40.3,67s18.1,67,40.3,67s40.3-30,40.3-67S198.8,5.7,176.5,5.7L176.5,5.7z"/>
+</g>
+<ellipse class="st3" cx="43.5" cy="32.6" rx="4.3" ry="3.7"/>
+<ellipse class="st3" cx="43.5" cy="55.2" rx="4.3" ry="3.7"/>
+<ellipse class="st3" cx="43.5" cy="81.5" rx="4.3" ry="3.7"/>
+<ellipse class="st3" cx="43.5" cy="108.7" rx="4.3" ry="3.7"/>
+<ellipse class="st3" cx="176.7" cy="30" rx="4.3" ry="3.7"/>
+<ellipse class="st3" cx="176.7" cy="56.6" rx="4.3" ry="3.7"/>
+<ellipse class="st3" cx="176.7" cy="85.3" rx="4.3" ry="3.7"/>
+<line class="st4" x1="45" y1="32.5" x2="172.4" y2="30.7"/>
+<line class="st4" x1="44.3" y1="55" x2="175.8" y2="85.1"/>
+<line class="st4" x1="43.3" y1="80.7" x2="177.5" y2="29.9"/>
+<line class="st4" x1="43.3" y1="108.5" x2="176.5" y2="56.5"/>
+<line class="st5" x1="104.4" y1="54.1" x2="110.6" y2="55.3"/>
+<line class="st5" x1="107.1" y1="59.7" x2="110.6" y2="55.3"/>
+<line class="st5" x1="106.8" y1="29" x2="111.6" y2="31.6"/>
+<line class="st5" x1="107.5" y1="35.1" x2="111.6" y2="31.6"/>
+<line class="st5" x1="107.5" y1="72.6" x2="112.6" y2="70.8"/>
+<line class="st5" x1="110.6" y1="66.7" x2="112.3" y2="70.5"/>
+<line class="st5" x1="105.1" y1="81.6" x2="112" y2="81.6"/>
+<line class="st5" x1="109.9" y1="86.6" x2="112" y2="81.6"/>
+<g>
+	<polygon class="st6" points="36.4,163.1 43.5,157 50.6,163.1 47.1,163.1 47.1,179.2 39.9,179.2 39.9,163.1 36.4,163.1 	"/>
+	<polygon class="st7" points="36.4,163.1 43.5,157 50.6,163.1 47.1,163.1 47.1,179.2 39.9,179.2 39.9,163.1 36.4,163.1 	"/>
+</g>
+<g>
+	<polygon class="st6" points="169.2,163.1 176.4,157 183.5,163.1 179.9,163.1 179.9,179.2 172.8,179.2 172.8,163.1 169.2,163.1 	"/>
+	<polygon class="st7" points="169.2,163.1 176.4,157 183.5,163.1 179.9,163.1 179.9,179.2 172.8,179.2 172.8,163.1 169.2,163.1 	"/>
+</g>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st8">
+			<text transform="matrix(1.1738 0 0 1 143.8318 188.569)"><tspan x="0" y="0" class="st9 st10">T</tspan><tspan x="3.1" y="0" class="st9 st10">h</tspan><tspan x="6.4" y="0" class="st9 st10">e</tspan><tspan x="9.5" y="0" class="st9 st10"> </tspan><tspan x="10.9" y="0" class="st9 st10">s</tspan><tspan x="13.4" y="0" class="st9 st10">e</tspan><tspan x="16.5" y="0" class="st9 st10">t</tspan><tspan x="18.6" y="0" class="st9 st10"> </tspan><tspan x="20" y="0" class="st9 st10">of</tspan><tspan x="25.3" y="0" class="st9 st10"> </tspan><tspan x="26.7" y="0" class="st9 st10">d</tspan><tspan x="30" y="0" class="st9 st10">e</tspan><tspan x="33.1" y="0" class="st9 st10">p</tspan><tspan x="36.4" y="0" class="st9 st10">e</tspan><tspan x="39.5" y="0" class="st9 st10">nd</tspan><tspan x="46.1" y="0" class="st9 st10">e</tspan><tspan x="49.3" y="0" class="st9 st10">n</tspan><tspan x="52.5" y="0" class="st9 st10">t</tspan></text>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_5_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 			"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st11">
+			<defs>
+				<rect id="SVGID_7_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st12">
+				<text transform="matrix(1.1738 0 0 1 141.4207 196.1286)" class="st9 st10">v</text>
+			</g>
+		</g>
+		<g class="st11">
+			<defs>
+				<polygon id="SVGID_9_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 				"/>
+			</defs>
+			<clipPath id="SVGID_10_">
+				<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st13">
+				<defs>
+					<rect id="SVGID_11_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+				</defs>
+				<clipPath id="SVGID_12_">
+					<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st14">
+					<text transform="matrix(1.1738 0 0 1 144.6522 196.1286)"><tspan x="0" y="0" class="st9 st10">a</tspan><tspan x="3" y="0" class="st9 st10">r</tspan><tspan x="5.2" y="0" class="st9 st10">i</tspan><tspan x="6.6" y="0" class="st9 st10">a</tspan><tspan x="9.7" y="0" class="st9 st10">b</tspan><tspan x="13" y="0" class="st9 st10">l</tspan><tspan x="14.4" y="0" class="st9 st10">es</tspan><tspan x="20" y="0" class="st9 st10"> </tspan><tspan x="21.4" y="0" class="st9 st10">a</tspan><tspan x="24.5" y="0" class="st9 st10">r</tspan><tspan x="26.6" y="0" class="st9 st10">e</tspan></text>
+				</g>
+			</g>
+			<g class="st13">
+				<defs>
+					<polygon id="SVGID_13_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 					"/>
+				</defs>
+				<clipPath id="SVGID_14_">
+					<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st15">
+					<defs>
+						<rect id="SVGID_15_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+					</defs>
+					<clipPath id="SVGID_16_">
+						<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st16">
+						<text transform="matrix(1.1738 0 0 1 181.1531 196.1286)"><tspan x="0" y="0" class="st9 st10">c</tspan><tspan x="2.6" y="0" class="st9 st10">a</tspan><tspan x="5.6" y="0" class="st9 st10">ll</tspan><tspan x="8.5" y="0" class="st9 st10">ed</tspan></text>
+					</g>
+				</g>
+				<g class="st15">
+					<defs>
+						<polygon id="SVGID_17_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 						"/>
+					</defs>
+					<clipPath id="SVGID_18_">
+						<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st17">
+						<defs>
+							<rect id="SVGID_19_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+						</defs>
+						<clipPath id="SVGID_20_">
+							<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st18">
+							<text transform="matrix(1.1738 0 0 1 200.3533 196.1286)"><tspan x="0" y="0" class="st9 st10">t</tspan><tspan x="2.1" y="0" class="st9 st10">h</tspan><tspan x="5.4" y="0" class="st9 st10">e</tspan></text>
+						</g>
+					</g>
+					<g class="st17">
+						<defs>
+							<polygon id="SVGID_21_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 							"/>
+						</defs>
+						<clipPath id="SVGID_22_">
+							<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st19">
+							<defs>
+								<rect id="SVGID_23_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+							</defs>
+							<clipPath id="SVGID_24_">
+								<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st20">
+								<text transform="matrix(1.1738 0 0 1 136.3192 203.6862)"><tspan x="0" y="0" class="st9 st10">C</tspan><tspan x="3.3" y="0" class="st9 st10">o</tspan></text>
+							</g>
+						</g>
+						<g class="st19">
+							<defs>
+								<polygon id="SVGID_25_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 								"/>
+							</defs>
+							<clipPath id="SVGID_26_">
+								<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st21">
+								<defs>
+									<rect id="SVGID_27_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+								</defs>
+								<clipPath id="SVGID_28_">
+									<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+								</clipPath>
+								<g class="st22">
+									<text transform="matrix(1.1738 0 0 1 144.1453 203.6862)" class="st9 st10">-</text>
+								</g>
+							</g>
+							<g class="st21">
+								<defs>
+									<polygon id="SVGID_29_" points="131.9,209.1 219.9,209.1 219.9,180.8 131.9,180.8 131.9,209.1 									"/>
+								</defs>
+								<clipPath id="SVGID_30_">
+									<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
+								</clipPath>
+								<g class="st23">
+									<defs>
+										<rect id="SVGID_31_" x="131.9" y="180.8" width="88.1" height="28.4"/>
+									</defs>
+									<clipPath id="SVGID_32_">
+										<use xlink:href="#SVGID_31_"  style="overflow:visible;"/>
+									</clipPath>
+									<g class="st24">
+										<text transform="matrix(1.1738 0 0 1 146.3963 203.6862)"><tspan x="0" y="0" class="st9 st10">d</tspan><tspan x="3.3" y="0" class="st9 st10">om</tspan><tspan x="11.6" y="0" class="st9 st10">a</tspan><tspan x="14.7" y="0" class="st9 st10">i</tspan><tspan x="16.1" y="0" class="st9 st10">n</tspan><tspan x="19.4" y="0" class="st9 st10"> </tspan><tspan x="20.9" y="0" class="st9 st10">of</tspan><tspan x="26.1" y="0" class="st9 st10"> </tspan><tspan x="27.6" y="0" class="st9 st10">t</tspan><tspan x="29.7" y="0" class="st9 st10">h</tspan><tspan x="33" y="0" class="st9 st10">e</tspan><tspan x="36.1" y="0" class="st9 st10"> </tspan><tspan x="37.5" y="0" class="st9 st10">f</tspan><tspan x="39.4" y="0" class="st9 st10">un</tspan><tspan x="46" y="0" class="st9 st10">c</tspan><tspan x="48.7" y="0" class="st9 st10">ti</tspan><tspan x="52.2" y="0" class="st9 st10">on</tspan></text>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_33_" x="3.3" y="180.4" width="80.5" height="29.1"/>
+		</defs>
+		<clipPath id="SVGID_34_">
+			<use xlink:href="#SVGID_33_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st25">
+			<text transform="matrix(1.1738 0 0 1 7.8909 188.4089)"><tspan x="0" y="0" class="st9 st26">T</tspan><tspan x="3.1" y="0" class="st9 st26">h</tspan><tspan x="6.5" y="0" class="st9 st26">e</tspan><tspan x="9.7" y="0" class="st9 st26"> </tspan><tspan x="11.2" y="0" class="st9 st26">s</tspan><tspan x="13.7" y="0" class="st9 st26">e</tspan><tspan x="16.9" y="0" class="st9 st26">t</tspan><tspan x="19.1" y="0" class="st9 st26"> </tspan><tspan x="20.5" y="0" class="st9 st26">of</tspan><tspan x="25.9" y="0" class="st9 st26"> </tspan><tspan x="27.3" y="0" class="st9 st26">i</tspan><tspan x="28.8" y="0" class="st9 st26">nd</tspan><tspan x="35.6" y="0" class="st9 st26">e</tspan><tspan x="38.8" y="0" class="st9 st26">p</tspan><tspan x="42.1" y="0" class="st9 st26">e</tspan><tspan x="45.3" y="0" class="st9 st26">nd</tspan><tspan x="52.1" y="0" class="st9 st26">e</tspan><tspan x="55.3" y="0" class="st9 st26">n</tspan><tspan x="58.6" y="0" class="st9 st26">t</tspan></text>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_35_" points="3.3,209.5 83.8,209.5 83.8,180.4 3.3,180.4 3.3,209.5 			"/>
+		</defs>
+		<clipPath id="SVGID_36_">
+			<use xlink:href="#SVGID_35_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st27">
+			<defs>
+				<rect id="SVGID_37_" x="3.3" y="180.4" width="80.5" height="29.1"/>
+			</defs>
+			<clipPath id="SVGID_38_">
+				<use xlink:href="#SVGID_37_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st28">
+				<text transform="matrix(1.1738 0 0 1 8.2493 196.1481)" class="st9 st26">v</text>
+			</g>
+		</g>
+		<g class="st27">
+			<defs>
+				<polygon id="SVGID_39_" points="3.3,209.5 83.8,209.5 83.8,180.4 3.3,180.4 3.3,209.5 				"/>
+			</defs>
+			<clipPath id="SVGID_40_">
+				<use xlink:href="#SVGID_39_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st29">
+				<defs>
+					<rect id="SVGID_41_" x="3.3" y="180.4" width="80.5" height="29.1"/>
+				</defs>
+				<clipPath id="SVGID_42_">
+					<use xlink:href="#SVGID_41_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st30">
+					<text transform="matrix(1.1738 0 0 1 11.5569 196.1481)"><tspan x="0" y="0" class="st9 st26">a</tspan><tspan x="3.1" y="0" class="st9 st26">r</tspan><tspan x="5.3" y="0" class="st9 st26">i</tspan><tspan x="6.8" y="0" class="st9 st26">a</tspan><tspan x="9.9" y="0" class="st9 st26">b</tspan><tspan x="13.3" y="0" class="st9 st26">l</tspan><tspan x="14.7" y="0" class="st9 st26">es</tspan><tspan x="20.5" y="0" class="st9 st26"> </tspan><tspan x="21.9" y="0" class="st9 st26">a</tspan><tspan x="25" y="0" class="st9 st26">r</tspan><tspan x="27.2" y="0" class="st9 st26">e</tspan></text>
+				</g>
+			</g>
+			<g class="st29">
+				<defs>
+					<polygon id="SVGID_43_" points="3.3,209.5 83.8,209.5 83.8,180.4 3.3,180.4 3.3,209.5 					"/>
+				</defs>
+				<clipPath id="SVGID_44_">
+					<use xlink:href="#SVGID_43_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st31">
+					<defs>
+						<rect id="SVGID_45_" x="3.3" y="180.4" width="80.5" height="29.1"/>
+					</defs>
+					<clipPath id="SVGID_46_">
+						<use xlink:href="#SVGID_45_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st32">
+						<text transform="matrix(1.1738 0 0 1 48.9368 196.1481)"><tspan x="0" y="0" class="st9 st26">c</tspan><tspan x="2.7" y="0" class="st9 st26">a</tspan><tspan x="5.8" y="0" class="st9 st26">ll</tspan><tspan x="8.7" y="0" class="st9 st26">ed</tspan></text>
+					</g>
+				</g>
+				<g class="st31">
+					<defs>
+						<polygon id="SVGID_47_" points="3.3,209.5 83.8,209.5 83.8,180.4 3.3,180.4 3.3,209.5 						"/>
+					</defs>
+					<clipPath id="SVGID_48_">
+						<use xlink:href="#SVGID_47_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st33">
+						<defs>
+							<rect id="SVGID_49_" x="3.3" y="180.4" width="80.5" height="29.1"/>
+						</defs>
+						<clipPath id="SVGID_50_">
+							<use xlink:href="#SVGID_49_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st34">
+							<text transform="matrix(1.1738 0 0 1 68.6019 196.1481)"><tspan x="0" y="0" class="st9 st26">t</tspan><tspan x="2.2" y="0" class="st9 st26">h</tspan><tspan x="5.5" y="0" class="st9 st26">e</tspan></text>
+						</g>
+					</g>
+					<g class="st33">
+						<defs>
+							<polygon id="SVGID_51_" points="3.3,209.5 83.8,209.5 83.8,180.4 3.3,180.4 3.3,209.5 							"/>
+						</defs>
+						<clipPath id="SVGID_52_">
+							<use xlink:href="#SVGID_51_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st35">
+							<defs>
+								<rect id="SVGID_53_" x="3.3" y="180.4" width="80.5" height="29.1"/>
+							</defs>
+							<clipPath id="SVGID_54_">
+								<use xlink:href="#SVGID_53_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st36">
+								<text transform="matrix(1.1738 0 0 1 7.8602 203.8874)"><tspan x="0" y="0" class="st9 st26">D</tspan><tspan x="4" y="0" class="st9 st26">om</tspan><tspan x="12.5" y="0" class="st9 st26">a</tspan><tspan x="15.6" y="0" class="st9 st26">i</tspan><tspan x="17.1" y="0" class="st9 st26">n</tspan><tspan x="20.4" y="0" class="st9 st26"> </tspan><tspan x="21.9" y="0" class="st9 st26">of</tspan><tspan x="27.3" y="0" class="st9 st26"> </tspan><tspan x="28.8" y="0" class="st9 st26">t</tspan><tspan x="30.9" y="0" class="st9 st26">h</tspan><tspan x="34.3" y="0" class="st9 st26">e</tspan><tspan x="37.5" y="0" class="st9 st26"> </tspan><tspan x="39" y="0" class="st9 st26">f</tspan><tspan x="40.9" y="0" class="st9 st26">un</tspan><tspan x="47.7" y="0" class="st9 st26">c</tspan><tspan x="50.4" y="0" class="st9 st26">ti</tspan><tspan x="54" y="0" class="st9 st26">on</tspan></text>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	
+		<image style="overflow:visible;" width="154" height="48" xlink:href="data:image/png;base64,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" transform="matrix(0.2096 0 0 0.1781 27.4105 145.2787)">
+	</image>
+</g>
+<g>
+	
+		<image style="overflow:visible;" width="300" height="66" xlink:href="data:image/png;base64,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" transform="matrix(0.1973 0 0 0.1676 146.3026 142.8282)">
+	</image>
+</g>
+<g>
+	<path class="st37" d="M116.5,10.5c-0.3,0-0.5,0.1-0.7,0.3c-0.2,0.2-0.3,0.4-0.4,0.8c-0.1,0.3-0.2,0.6-0.2,0.9
+		c0,0.2,0.1,0.4,0.2,0.5c0.1,0.1,0.3,0.2,0.5,0.2c0.2,0,0.5-0.1,0.6-0.3c0.2-0.2,0.3-0.4,0.4-0.8s0.2-0.6,0.2-0.9
+		c0-0.2-0.1-0.4-0.2-0.5C116.9,10.5,116.7,10.5,116.5,10.5L116.5,10.5z M113.4,10.3h0.2l-0.5,2c-0.1,0.2-0.1,0.4-0.1,0.5
+		c0,0.1,0,0.1,0,0.2s0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0.1-0.1,0.2-0.1,0.4-0.3l0.2,0.2c-0.2,0.2-0.4,0.4-0.6,0.4
+		c-0.1,0.1-0.3,0.1-0.5,0.1c-0.2,0-0.3,0-0.4-0.1s-0.1-0.2-0.1-0.4c0-0.2,0-0.4,0.1-0.6l0.3-1c0.1-0.2,0.1-0.4,0.1-0.5
+		c0-0.1,0-0.2-0.1-0.2c-0.1,0-0.2-0.1-0.3-0.1l0-0.2L113.4,10.3L113.4,10.3z M116.6,10.2c0.4,0,0.7,0.1,0.9,0.3s0.3,0.4,0.3,0.8
+		c0,0.2,0,0.5-0.1,0.8s-0.2,0.5-0.4,0.7c-0.2,0.2-0.4,0.3-0.6,0.4c-0.2,0.1-0.5,0.1-0.8,0.1c-0.4,0-0.7-0.1-0.9-0.3
+		c-0.2-0.2-0.3-0.4-0.3-0.8c0-0.2,0-0.4,0.1-0.6c0.1-0.3,0.2-0.6,0.4-0.8c0.2-0.2,0.4-0.4,0.7-0.5S116.3,10.2,116.6,10.2L116.6,10.2
+		z M107.8,10.2c0.3,0,0.6,0,0.9,0.1l-0.2,0.7h-0.4c0-0.2,0-0.3,0-0.3c0-0.1-0.1-0.1-0.1-0.2c-0.1,0-0.1-0.1-0.2-0.1
+		c-0.2,0-0.5,0.1-0.7,0.3c-0.2,0.2-0.4,0.4-0.5,0.7s-0.2,0.6-0.2,0.9c0,0.2,0,0.4,0.1,0.5c0.1,0.1,0.2,0.2,0.4,0.2
+		c0.2,0,0.4,0,0.6-0.1s0.3-0.2,0.5-0.3l0.2,0.2c-0.2,0.2-0.5,0.4-0.7,0.5c-0.2,0.1-0.5,0.2-0.8,0.2c-0.4,0-0.6-0.1-0.8-0.3
+		c-0.2-0.2-0.3-0.4-0.3-0.8c0-0.2,0-0.5,0.1-0.7c0.1-0.3,0.2-0.5,0.4-0.7c0.2-0.2,0.4-0.4,0.7-0.5C107.3,10.3,107.5,10.2,107.8,10.2
+		L107.8,10.2z M119.4,10.2c0.2,0,0.3,0,0.4,0.1c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0,0.2-0.1,0.4l0,0c0.2-0.3,0.5-0.5,0.7-0.6
+		c0.2-0.1,0.4-0.2,0.7-0.2c0.2,0,0.4,0.1,0.5,0.2c0.1,0.1,0.2,0.3,0.2,0.5c0,0.1,0,0.3-0.1,0.6l-0.2,0.8c-0.1,0.2-0.1,0.4-0.1,0.5
+		c0,0.1,0,0.1,0,0.2s0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0.1-0.1,0.2-0.1,0.4-0.3l0.2,0.2c-0.2,0.2-0.4,0.3-0.6,0.4
+		c-0.2,0.1-0.3,0.1-0.5,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.1-0.2-0.1-0.4c0-0.1,0-0.3,0.1-0.6l0.2-0.5c0.1-0.2,0.1-0.3,0.1-0.4
+		s0-0.2,0-0.2c0-0.1,0-0.2-0.1-0.3s-0.1-0.1-0.3-0.1c-0.1,0-0.2,0-0.3,0.1c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.2,0.3-0.3,0.4
+		s-0.1,0.3-0.2,0.5l-0.3,1.4h-0.6l0.5-2c0.1-0.2,0.1-0.4,0.1-0.5c0-0.1,0-0.1,0-0.2s-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.2,0.1
+		c-0.1,0.1-0.2,0.1-0.3,0.3l-0.2-0.2c0.2-0.2,0.4-0.3,0.6-0.4C119,10.3,119.2,10.2,119.4,10.2L119.4,10.2z M102.2,10.2
+		c0.2,0,0.3,0,0.4,0.1c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0,0.2-0.1,0.4l0,0c0.2-0.3,0.5-0.5,0.7-0.6c0.2-0.1,0.4-0.2,0.7-0.2
+		c0.2,0,0.4,0.1,0.5,0.2c0.1,0.1,0.2,0.3,0.2,0.5c0,0.1,0,0.3-0.1,0.6l-0.2,0.8c-0.1,0.2-0.1,0.4-0.1,0.5c0,0.1,0,0.1,0,0.2
+		c0,0,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0.1-0.1,0.2-0.1,0.4-0.3l0.2,0.2c-0.2,0.2-0.4,0.3-0.6,0.4c-0.2,0.1-0.3,0.1-0.5,0.1
+		c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.1-0.2-0.1-0.4c0-0.1,0-0.3,0.1-0.6l0.2-0.5c0.1-0.2,0.1-0.3,0.1-0.4c0-0.1,0-0.2,0-0.2
+		c0-0.1,0-0.2-0.1-0.3s-0.1-0.1-0.3-0.1c-0.1,0-0.2,0-0.3,0.1c-0.1,0.1-0.2,0.2-0.4,0.3s-0.2,0.3-0.3,0.4c-0.1,0.1-0.1,0.3-0.2,0.5
+		l-0.3,1.4h-0.6l0.5-2c0.1-0.2,0.1-0.4,0.1-0.5c0-0.1,0-0.1,0-0.2s-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.2,0.1c-0.1,0.1-0.2,0.1-0.3,0.3
+		l-0.2-0.2c0.2-0.2,0.4-0.3,0.6-0.4C101.9,10.3,102,10.2,102.2,10.2L102.2,10.2z M97.9,10.2c0.2,0,0.3,0,0.4,0.1
+		c0.1,0.1,0.1,0.2,0.1,0.4c0,0.2,0,0.4-0.1,0.6l-0.2,0.5c0,0.1-0.1,0.2-0.1,0.3c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.1
+		c0,0.1,0,0.2,0.1,0.3c0.1,0.1,0.1,0.1,0.3,0.1c0.1,0,0.2,0,0.3-0.1c0.1-0.1,0.2-0.2,0.4-0.3c0.1-0.1,0.2-0.3,0.3-0.4
+		c0.1-0.1,0.1-0.3,0.2-0.5l0.3-1.4h0.6l-0.5,2c-0.1,0.2-0.1,0.4-0.1,0.5c0,0.1,0,0.1,0,0.2s0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1
+		c0.1-0.1,0.2-0.1,0.4-0.3l0.2,0.2c-0.2,0.2-0.4,0.3-0.6,0.4c-0.2,0.1-0.3,0.1-0.5,0.1c-0.2,0-0.3,0-0.4-0.1
+		c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.1,0-0.2,0.1-0.4l0,0c-0.2,0.3-0.5,0.5-0.7,0.6c-0.2,0.1-0.4,0.2-0.7,0.2s-0.4-0.1-0.5-0.2
+		c-0.1-0.1-0.2-0.3-0.2-0.5c0-0.1,0-0.3,0.1-0.6l0.2-0.8c0.1-0.2,0.1-0.4,0.1-0.5c0-0.1,0-0.1,0-0.2s-0.1-0.1-0.2-0.1
+		c-0.1,0-0.2,0-0.2,0.1c-0.1,0.1-0.2,0.1-0.3,0.3l-0.2-0.2c0.2-0.2,0.4-0.3,0.5-0.4c0.1-0.1,0.2-0.1,0.3-0.1
+		C97.7,10.2,97.8,10.2,97.9,10.2L97.9,10.2z M110.3,9.5h0.5l-0.2,0.8h1.1l-0.1,0.3h-1.1l-0.3,1.2c-0.1,0.2-0.1,0.4-0.1,0.5
+		c0,0.1,0,0.2,0,0.2c0,0.3,0.1,0.4,0.4,0.4c0.1,0,0.2,0,0.3-0.1s0.3-0.2,0.4-0.4l0.2,0.2c-0.2,0.2-0.4,0.4-0.6,0.5
+		c-0.2,0.1-0.4,0.2-0.6,0.2c-0.5,0-0.8-0.2-0.8-0.7c0-0.1,0-0.3,0.1-0.4l0.4-1.6h-0.6l0.1-0.2c0.1,0,0.3,0,0.3,0
+		c0.1,0,0.1,0,0.2-0.1s0.1-0.1,0.1-0.1c0-0.1,0.1-0.1,0.1-0.2C110.2,9.9,110.2,9.7,110.3,9.5L110.3,9.5z M113.3,9.1h0.7l-0.2,0.6
+		h-0.7L113.3,9.1L113.3,9.1z M96,8.8c0.2,0,0.4,0,0.6,0.1l-0.1,0.5h-0.3c0-0.1-0.1-0.2-0.1-0.3C96,9,95.9,9,95.8,9
+		c-0.1,0-0.3,0-0.4,0.1c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.1-0.1,0.3-0.2,0.5l-0.1,0.3h0.9l-0.1,0.3h-0.9l-0.7,2.7
+		c-0.1,0.5-0.3,0.8-0.5,1c-0.2,0.2-0.5,0.3-0.9,0.3c-0.1,0-0.2,0-0.2,0l0.1-0.3c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.3-0.1
+		c0.1,0,0.2-0.1,0.2-0.3s0.1-0.3,0.2-0.5l0.8-3h-0.6l0.1-0.2c0.2,0,0.3,0,0.4,0s0.1,0,0.2-0.1c0,0,0.1-0.1,0.1-0.1s0.1-0.1,0.1-0.3
+		c0.1-0.4,0.3-0.7,0.6-0.8C95.3,8.9,95.6,8.8,96,8.8L96,8.8z"/>
+	<path class="st37" d="M106,16.2l0.1,0.2c-0.6,0.2-1,0.5-1.3,0.9c-0.3,0.5-0.4,1.1-0.4,1.8c0,0.7,0.1,1.3,0.4,1.8
+		c0.3,0.5,0.7,0.8,1.3,1l-0.1,0.2c-0.7-0.2-1.3-0.5-1.7-1c-0.4-0.5-0.6-1.2-0.6-1.9c0-0.8,0.2-1.4,0.6-1.9S105.3,16.4,106,16.2
+		L106,16.2z"/>
+	<path class="st37" d="M109.7,16.2c0.2,0,0.4,0,0.6,0.1l-0.1,0.5h-0.3c0-0.1-0.1-0.2-0.1-0.3c-0.1-0.1-0.1-0.1-0.2-0.1
+		c-0.1,0-0.3,0-0.4,0.1s-0.2,0.2-0.2,0.3c-0.1,0.1-0.1,0.3-0.2,0.5l-0.1,0.3h0.9l-0.1,0.3h-0.9l-0.7,2.7c-0.1,0.5-0.3,0.8-0.5,1
+		c-0.2,0.2-0.5,0.3-0.9,0.3c-0.1,0-0.2,0-0.2,0l0.1-0.3c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.3-0.1c0.1,0,0.2-0.1,0.2-0.3s0.1-0.3,0.2-0.5
+		l0.8-3h-0.6l0.1-0.2c0.2,0,0.3,0,0.4,0c0.1,0,0.1,0,0.2-0.1c0,0,0.1-0.1,0.1-0.1c0,0,0.1-0.1,0.1-0.3c0.1-0.4,0.3-0.7,0.6-0.8
+		C109,16.3,109.3,16.2,109.7,16.2L109.7,16.2z"/>
+	<path class="st37" d="M110.9,16.2c0.7,0.2,1.3,0.5,1.6,1s0.6,1.2,0.6,1.9c0,0.8-0.2,1.4-0.6,1.9s-0.9,0.9-1.7,1l-0.1-0.2
+		c0.6-0.2,1-0.5,1.3-1c0.3-0.5,0.4-1.1,0.4-1.8c0-0.7-0.1-1.3-0.4-1.8c-0.3-0.5-0.7-0.8-1.3-0.9L110.9,16.2z"/>
+</g>
+<g>
+	
+		<image style="overflow:visible;" width="207" height="63" xlink:href="data:image/png;base64,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
+DAD+4aXIq95B0QAAAABJRU5ErkJggg==" transform="matrix(0.1178 0 0 0.1175 98.3001 209.4899)">
+	</image>
+</g>
+</svg>
