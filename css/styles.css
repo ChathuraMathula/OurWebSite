@@ -166,6 +166,11 @@ html, body {
 }
 /*MainContent end*/
 
+/*NEXT AND PREVIOUS BUTTON TEXT*/
+.nextPrevious {
+	font-size: 8px;
+}
+
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -200,6 +205,10 @@ html, body {
 	padding:135px 15px 20px 15px;
 }
 
+/*NEXT AND PREVIOUS BUTTON TEXT*/
+.nextPrevious {
+	font-size: 10px;
+}
 
 }
 
