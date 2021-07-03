@@ -67,6 +67,11 @@ html, body {
 #content {
 	display: none;
 	margin-left: 10px;
+	border-color: white;
+}
+#content:hover {
+	border-color: white;
+	background-color: black;
 }
 /*TopicBar END*/
 
