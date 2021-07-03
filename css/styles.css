@@ -108,7 +108,7 @@ html, body {
   margin-left: 220px; /* Same as the width of the sidenav */
   margin-right: 150px;
   font-size: 18px; /* Increased text to enable scrolling */
-  padding:135px 15px;
+  padding:135px 15px 20px 15px;
   background-color: white;
 }
 /*MainContent END*/
@@ -143,7 +143,7 @@ html, body {
 .MainContent {
 	margin: 0;
 	width: 100%;
-	padding:135px 14px;
+	padding:135px 14px 20px 14px;
 }
 /*MainContent end*/
 
@@ -176,7 +176,7 @@ html, body {
 .MainContent {
 	margin: 0;
 	width: 100%;
-	padding:135px 15px;
+	padding:135px 15px 20px 15px;
 }
 
 
@@ -211,7 +211,7 @@ html, body {
 .MainContent {
 	margin: 0;
 	width: 100%;
-	padding:135px 16px;
+	padding:135px 16px 20px 16px;
 }
 
 }
