@@ -18,18 +18,18 @@ if (Top > 1) {
 
 // CONTENT SIDEBAR TOGGLE ACTION
 $("#content").click(function(){
-	$(".SideBar").toggle();
+	$(".SideBar").slideToggle();
 });
 
 //CONTENT SIDEBARS BLUR EVENT ACTION	
-$("#content").blur(function() {
-	if(window.innerWidth < 992) {
-		$(".SideBar").toggle();
-	}
-});
-	$("#content").click(function () {
-    	$(event.target).focus();
-  	});
+// $("#content").blur(function() {
+// 	if(window.innerWidth < 992) {
+// 		$(".SideBar").slideUp("slow");
+// 	}
+// });
+// 	$("#content").click(function () {
+//     	$(event.target).focus();
+//   	});
 // Action DONE !!
 
 

@@ -83,6 +83,7 @@ html, body {
   overflow-y: scroll;
   border-right: 2px solid #03033D;
   background-color: white;
+  display: block;
 }
 
 .SideBarContents {
