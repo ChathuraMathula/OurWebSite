@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	$(document).scroll(function(){
 	var Top = $(document).scrollTop();
-	if (Top > 5) {
+	if (Top > 1) {
 		$(".Header").hide();
 		$(".TopicBar").css("top", 0);
 		$(".SideBarContents").css("top", 45);
