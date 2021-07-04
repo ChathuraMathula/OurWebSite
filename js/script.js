@@ -32,5 +32,8 @@ $(document).ready(function(){
 	$(".w3-main").click(function(){
 		$(".w3-sidebar").hide();
 	});
+	$(document).scroll(function(){
+		$(".w3-sidebar").hide();
+	});	
 
 });
