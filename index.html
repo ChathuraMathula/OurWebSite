@@ -1,148 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">	
-  	<link rel="stylesheet" href="css/bootstrap.min.css">
-  	<link rel="stylesheet" href="css/styles.css">
-  	<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
-  	<title>Nevel Maths</title>
-</head>
-
-
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 <body>
 
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2" id="HeaderBar" style="position: relative;z-index: 4;font-size: 18px;
+    background-color: white;color:#282A35;padding-left:12px;padding-right:16px;height: 75px;">
 
-
-
-<!-- HEADER -->
-<div class="Header">
-  <div style="height: 72px; width: 72px; font-size: 16px;" class="position-absolute top-50 start-0 translate-middle-y">
-    <a id="logo" href="">
-      <img src="logo.svg">
-    <a>
-  </div>
-  <div id="navContent" class="position-absolute top-50 end-0 translate-middle-y">
-    <a class="btn" type="button" href="">
-      About Us
-    </a>
-    <a class="btn" type="button" href="">
-      සිංහල
-    </a>
     
-  </div>
-  
 </div>
-<!-- HEADER END -->
 
 <!-- TOPIC BAR -->
-<div class="TopicBar">
-  
-  <button id="content" style="height: 40px; width: 100px;" 
-    class="btn row position-absolute top-50 start-0 translate-middle-y">
-    <img src="Figures/content.svg" class="position-relative top-50 start-0 translate-middle-y 
-      p-0 m-0 float-start"
-      style="height: 36px; width: 30px;">
-      <p style="color: white; width: 50px; font-size:10px;" class="position-relative 
-      top-50 end-0 translate-middle-y col float-end m-0 p-0">Contents</p>
-  </button>
-  
-  
+<div class="w3-card-2 topicBar" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hover-blue w3-hide-large" style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">&#9776;</button>
 </div>
-<!-- TOPIC BAR END -->
 
-<!-- SIDEBAR -->
-<div class="SideBar">
-  <div class="SideBarContents" style="font-size: 16px;">
-    <div class="text-center pt-1 pb-1">
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
       <h5>Differentiation \((dy/dx)\)</h5>
     </div>
     
-    <a class="btn text-start" type="button" href="Differentiation/Differentiation_1.html">
-      01. Definition of a Function.
+    <a class="w3-button text-start" href="">
+      Definition of a Function.
     </a>
-    <a class="btn text-start" type="button" href="">
-      02. Limit of a Function
+    <a class="w3-button text-start" href="">
+      Limit of a Function
     </a>
-    <a class="btn text-start" type="button" href="">
-      03. Introduction of Differentiation
+    <a class="w3-button text-start" href="">
+      Differentiation Intro
     </a>
-    <a class="btn text-start" type="button" href="">
-      04. Rules of Differentiation
+    <a class="w3-button text-start" href="">
+      Rules of Differentiation
     </a>
-    <a class="btn text-start" type="button" href="">
-      05. Trigonometric Functions
+    <a class="w3-button text-start" href="">
+      Trigonometric Functions
     </a>
-    <a class="btn text-start" type="button" href="">
-      06. Inverse Trigonometric Functions
+    <a class="w3-button text-start" href="">
+      Inverse Trigonometric <br>Functions
     </a>
-    <a class="btn text-start" type="button" href="">
-      07. Exponential Function
+    <a class="w3-button text-start" href="">
+      Exponential Function
     </a>
-    <a class="btn text-start" type="button" href="">
-      08. Logarithm Functions
+    <a class="w3-button text-start" href="">
+      Logarithm Functions
     </a>
-    <a class="btn text-start" type="button" href="">
-      09. Product Rule \((U.V)\)
+    <a class="w3-button text-start" href="">
+      Product Rule \((U.V)\)
     </a>
-    <a class="btn text-start" type="button" href="">
-      10. Quotient Rule \((U/V)\)
+    <a class="w3-button text-start" href="">
+      Quotient Rule \((U/V)\)
     </a>
-    <a class="btn text-start" type="button" href="">
-      11. Chain Rule
+    <a class="w3-button text-start" href="">
+      Chain Rule
     </a>
-    <a class="btn text-start" type="button" href="">
-      12. Nth Order Derivative
+    <a class="w3-button text-start" href="">
+      Nth Order Derivative
     </a>
-    <a class="btn text-start" type="button" href="">
-      13. Implicit Differentiation
+    <a class="w3-button text-start" href="">
+      Implicit Differentiation
     </a>
-    <a class="btn text-start" type="button" href="">
-      14. Parametric Differentiation
+    <a class="w3-button text-start" href="">
+      Parametric Differentiation
     </a>
-    <a class="btn text-start" type="button" href="">
-      15. Application of Differentiation
+    <a class="w3-button text-start" href="">
+      Applications
     </a>
-    <a class="btn text-start" type="button" href="">
-      16. Self-Study Exercises
+    <a class="w3-button text-start" href="">
+      Self-Study Exercises
     </a>
+
+
+    </div>
   </div>
 </div>
-<!-- SIDE BAR END -->
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row" id="mainContent" style="margin-left: 220px;
+  font-size: 16px;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div class="col-lg-10" style="border-right: 1px solid #f1f1f1; padding-top: 20px;
+    padding-bottom: 20px;">
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+  border-top: 1px solid #f1f1f1; border-bottom: 1px solid #f1f1f1;">
+
+    <button class="btn col-2 m-0 float-start rounded-pill" type="button">
+      &#10094;&#10094;
+    </button>
+
+    <div class="col m-0 text-center">
+      <h1>01. Definition of a Function.</h1>
+    </div>
+      
+    <button class="btn col-2 m-0 float-end rounded-pill" type="button">
+      &#10095;&#10095;    
+    </button>
+
+</div> 
+<!-- NEXT AND PREVIOUS BUTTONS end--> 
+
+      <br>
+      <ul>
+      <li>
+        Function is simply a rule that tells how something depends on another thing.
+      </li>
+      <li>
+        As an example you know that the earth rotates around the sun with time. Hence
+        The position of the earth depends on time. So we say, the position of the earth
+        is a function of time.
+      </li>
+      <li>
+        Here, the time <span class="Equations">\((t)\)</span> is called the <b>independant 
+        variable</b> 
+        and, the position of the earth <span class="Equations">\((P)\)</span> at time 
+        <span class="Equations">\((t)\)</span> is the 
+        <b>dependant variable</b>.
+      </li>
+      <li>
+          <span>Therefore, we denote</span>
+          <p>
+            <span class="Equations">$$P\ =\ f(t)$$</span> which is said as <b>&quot;
+              <span class="Equations">\(P\)</span> is a function of 
+              <span class="Equations">\(t\)</span>&quot;</b>
+          </p>
+      </li>
+        <li>
+          You may be not familiar with mathematical notations, but keep in your mind that this tells you that &quot;The <span class="Equations">\(Position(P)\)</span> is a function of <span class="Equations">\(Time(t)\)</span>&quot; or &quot;At <span class="Equations">\(Time(t)\)</span> the position of the earth is denoted by <span class="Equations">\(f(t)\)</span>&quot;
+        </li>
+        <li>
+          Some people think <span class="Equations">\(f(t)\)</span> means 
+          <span class="Equations">\(f\)</span> multiplied by <span class="Equations">\(t\)</span>
+           and that is a serious misunderstanding
+        </li>
+      </ul>
+      <br>
 
 
-<!-- MAIN  -->
-<div class="MainContent">
-  <div>
-  <b>Sidebar</b>
-  <p>This sidebar is of full height (100%) and always shown.</p>
-  <p>Scroll down the page to see the result.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae heeee.</p>
-  </div>
+      <div class="row">
+        <div id="Figure01" class="float-start">
+          <div class="col-7 position-relative top-50 start-50 translate-middle">
+            <img alt="figure" src="Figures/Figure1.svg">
+          </div>
+        </div>
+        <div id="Figure02" class="float-start">
+          <div class="col-7 position-relative top-50 start-50 translate-middle">
+            <img alt="figure" src="Figures/Figure2.svg">
+          </div>
+        </div>
+        <div id="Figure03" class="float-start">
+          <div class="col-7 position-relative top-50 start-50 translate-middle">
+            <img alt="figure" src="Figures/Figure3.svg">
+          </div>
+        </div> 
+      </div> 
+
+      <ul>
+        <li>
+          Examples of some mathematical functions
+        </li>
+      </ul>
+          <span class="Equations">
+             \begin{array}{l}
+              y\ =\ f( x)\\
+              y=x^{2} \ +\ x\ +\ 25\\
+              f( x) \ =\ 4x^{3} +\ 56\\
+              f( t) \ =\ 3t^{2} \ +\ t\\
+              f( \theta ) \ =\ \sin( \theta ) \ +\ \cos( \theta ) \ +\ 4
+              \end{array}
+          </span>
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="#" class="w3-button nextPrevious">&#10094;&#10094; Previous</a>
+        <a href="#" class="w3-button nextPrevious w3-right">Next &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+  </div> 
+<!-- DEFINITION OF A FUNCTION END --> 
+
 </div>
-<!-- MAIN END -->
-
-
-
-
-
-
-
-<!-- <footer class="fixed-bottom text-center">
-  <div>
-    <p>&#169;2021 All Rights Reserved.</p>
-  </div>
-</footer> -->
-
-
-
+<!-- MAIN CONTENT END -->
+  
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
