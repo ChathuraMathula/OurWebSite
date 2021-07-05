@@ -57,7 +57,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 .TopicButton:hover, .nextPrevious:hover {
-    background-color: #c2d6d6;
-    color: #03033D;
+    background-color: #c2d6d6 !important;
+    color: #03033D !important;
 }
 /*TOBIC BAR STYLES END*/
