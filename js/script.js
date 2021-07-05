@@ -4,8 +4,10 @@ $(document).ready(function(){
 	$(document).scroll(function(){
 		if ($(document).scrollTop() > 75) {
 			$("#TopicBar").css("position", "fixed");
+			$(".w3-main").css("padding-top", 45);
 		} else {
 			$("#TopicBar").css("position", "relative");
+			$(".w3-main").css("padding-top", 0);
 		}
 	});
 
