@@ -5,6 +5,7 @@
 /*MAIN PAGE TUTORIAL SELECT BUTTONS STYLES*/
 .calculusButton {
     transition-duration: 0.4s;
+    cursor: pointer;
 } 
 .calculusButton:hover {
     color:#dfecef;
