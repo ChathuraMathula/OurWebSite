@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+	// SWITCH LANGUAGE
+	$(".lang").click(function(){
+		if($(".sinhala").css("display") == "none") {
+			$(".english").hide();
+			$(".sinhala").show();
+			$(".showLang").text("English");
+		} else if($(".english").css("display") == "none") {
+			$(".sinhala").hide();
+			$(".english").show();
+			$(".showLang").text("සිංහල");
+		}
+	});
+
 	// FIX TOPIC BAR TO THE TOP
 	$(document).scroll(function(){
 		if ($(document).scrollTop() > 75) {
