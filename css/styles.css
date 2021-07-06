@@ -2,6 +2,15 @@
 
 /*body background end*/
 
+/*MAIN PAGE TUTORIAL SELECT BUTTONS STYLES*/
+.calculusButton {
+    transition-duration: 0.4s;
+} 
+.calculusButton:hover {
+    color:#dfecef;
+    background-color:#304f4f !important;
+}
+/*MAIN PAGE TUTORIAL SELECT BUTTONS STYLES END*/
 
 /*SIDEBAR STYLE*/
 #leftSideBar1 {
