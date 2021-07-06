@@ -42,7 +42,7 @@ $(document).ready(function(){
 	// DARK MODE BUTTON #446f6f
 	$("#dark_mode").click(function(){
 		$(".w3-main").css("background-color", "#619e9e");
-		$(".w3-main").css("color", "black").css("border-right", "1px solid black");
+		$(".w3-main").css("color", "black");
 		$(".DARK").css("background-color", "#304f4f").css("color", "white");
 		$("#topicName").css("border-bottom", "1px solid black");
 		$("#main").css("border-right", "1px solid black");
@@ -54,8 +54,8 @@ $(document).ready(function(){
 		$(".w3-main").css("background-color", "#eff5f5");
 		$(".w3-main").css("color", "black");
 		$(".DARK").css("background-color", "#809fff").css("color", "black");
-		$("#topicName").css("border-bottom", "#d9d9d9");
-		$("#main").css("border-right", "#d9d9d9");
+		$("#topicName").css("border-bottom", "1px solid #d9d9d9");
+		$("#main").css("border-right", "1px solid #d9d9d9");
 		$("#leftSideBar2").css("background-color", "#c2d6d6").css("color", "black");
 	});
 });
