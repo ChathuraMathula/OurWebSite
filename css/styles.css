@@ -1,5 +1,9 @@
 /* body backgroung */
-
+.bg-pic {
+    background-image: url('../Figures/home_background.png');
+    background-size: 350px 350px;
+    background-attachment: fixed;
+} 
 /*body background end*/
 
 /*MAIN PAGE TUTORIAL SELECT BUTTONS STYLES*/
