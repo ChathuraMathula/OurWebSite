@@ -5,6 +5,9 @@
     background-attachment: fixed;
 } 
 /*body background end*/
+html {
+  scroll-behavior: smooth;
+}
 
 /*MAIN PAGE TUTORIAL SELECT BUTTONS STYLES*/
 .calculusButton {
