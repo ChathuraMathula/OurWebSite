@@ -60,6 +60,8 @@ $(document).ready(function(){
 		$("#topicName").css("border-bottom", "1px solid black");
 		$("#main").css("border-right", "1px solid black");
 		$("#leftSideBar2").css("background-color", "#a3a3c2").css("color", "black");
+		$("#HeaderBar").css("background-color", "#619e9e").css("color", "#eff5f5");
+		$("#logo-main").css("background-color", "#304f4f");
 	});
 
 	// Light MODE BUTTON #809fff
@@ -70,5 +72,7 @@ $(document).ready(function(){
 		$("#topicName").css("border-bottom", "1px solid #d9d9d9");
 		$("#main").css("border-right", "1px solid #d9d9d9");
 		$("#leftSideBar2").css("background-color", "#c2d6d6").css("color", "black");
+		$("#HeaderBar").css("background-color", "#eff5f5").css("color", "#809fff");
+		$("#logo-main").css("background-color", "#809fff");
 	});
 });
