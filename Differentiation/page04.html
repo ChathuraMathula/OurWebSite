@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/w3pro.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body class="bg-pic" style="padding:0 !important;">
+
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2 m-0" id="HeaderBar" style="position: relative;font-size: 
+  18px;
+    background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
+    <div style="width: 80%; height: 75px;" class="row">
+      <div class="col-4 float-start">
+        <div id="logo-main" class="rounded-circle position-relative top-50 start-50 translate-middle" style="background-color: #809fff;height:60px; width: 60px;">
+            <img src="../logo_main.svg" 
+            class="position-relative top-50 start-50 translate-middle"
+            style="height:40px; width: 40px;">  
+        </div>
+      </div>
+      <div class="col-8 float-end">
+        <div class="text-center position-relative top-50 start-50 translate-middle">
+          <h3>nevelmaths.com</h3>
+        </div>  
+      </div>
+    </div>    
+</div>
+
+<!-- TOPIC BAR -->
+<div class="w3-card-2 topicBar DARK" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hide-large" 
+    style="height: 45px; width: 45px; color: white; 
+    font-size: 25px;padding: 2px;">&#9776;
+  </button>
+  <!-- LANGUAGE BUTTON -->
+  <button onclick="location.href='page04_S.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 55px; 
+    font-size: 13px;padding: 2px; color: white !important;">
+    <span>සිංහල</span>
+  </button>
+  <!-- DARK MODE BUTTON -->
+  <button id="dark_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/dark_mode.svg">
+  </button>
+  <!-- LIGHT MODE BUTTON -->
+  <button id="light_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/light_mode.svg">
+  </button>
+  <!-- HOME BUTTON -->
+  <button onclick="location.href='../index.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/home.svg">
+  </button>
+</div>
+
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
+      <h5>Differentiation \((dy/dx)\)</h5>
+    </div>
+
+    <a class="w3-button text-start" href="start.html">
+      <span class="english">Get Started</span>
+    </a>
+    <a class="w3-button text-start" href="page01.html">
+      <span>Definition of a Function</span>
+    </a>
+    <a class="w3-button text-start" href="page02.html">
+      <span>Limit of a Function</span>
+    </a>
+    <a class="w3-button text-start" href="page03.html">
+      <span>Differentiation Intro</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page04.html">
+      <span>Rules of Differentiation</span>
+    </a>
+    <a class="w3-button text-start" href="page05.html">
+      <span>Trigonometric Functions</span>
+    </a>
+    <a class="w3-button text-start" href="page06.html">
+      <span>Inverse Trigonometric <br>Functions</span>
+    </a>
+    <a class="w3-button text-start" href="page07.html">
+      <span>Exponential Function</span>
+    </a>
+    <a class="w3-button text-start" href="page08.html">
+      <span>Logarithm Functions</span>
+    </a>
+    <a class="w3-button text-start" href="page09.html">
+      <span>Product Rule \((U.V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page10.html">
+      <span>Quotient Rule \((U/V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page11.html">
+      <span>Chain Rule</span>
+    </a>
+    <a class="w3-button text-start" href="page12.html">
+      <span>Nth Order Derivative</span>
+    </a>
+    <a class="w3-button text-start" href="page13.html">
+      <span>Implicit Differentiation</span>
+    </a>
+    <a class="w3-button text-start" href="page14.html">
+      <span>Parametric Differentiation</span>
+    </a>
+    <a class="w3-button text-start" href="page15.html">
+      <span>Self-Study Exercises</span>
+    </a>
+
+
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row mb-0" id="mainContent" style="margin-left: 219px; margin-right: 0;
+  font-size: 16px; padding-top: 0; background-color: #eff5f5;border-left: 1px solid black;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div id="main" class="col-lg-10" style="border-right: 1px solid #d9d9d9;
+      padding-top: 20px; padding-bottom: 20px;">
+
+
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+   border-bottom: 1px solid #d9d9d9;">
+
+    <a href="page03.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+      &#10094;&#10094;
+    </a>
+
+    <div class="col m-0 text-center">
+      <h1>Rules of Differentiation</h1>
+    </div>
+      
+    <a href="page05.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+      &#10095;&#10095;    
+    </a>
+
+</div> 
+ <!-- NEXT AND PREVIOUS BUTTONS end  -->
+
+      <br>
+      <!-- Rules of Differentiation BEGINS -->
+    <div class="text-center">
+      In this section you are going to learn the Basic rules of differentiation.
+    </div>
+    <br><br>
+    <ul>
+      <li>\(f(x)\) is the function that is going to be differentiated</li>
+      <br>
+      <li>
+        The result after \(f(x)\) is differentiated with respect to \(x\) is denoted by \(f^{\prime}(x)\).
+      </li>
+      <br>
+    </ul>
+    <div>In mathematics we call,
+    <p class="text-center">
+      <b>\(f^{\prime}(x)\) is the first derivative of the function \(f(x)\)
+      </b>
+    </p>
+    <br>
+    <ul>
+      <li>
+      There is a few of basic rules that you must keep in you mind when you differentiate a function.
+      </li>
+    </ul>
+    </div>
+  <div class="ps-5">
+    <p>The basic rules of Differentiation</p>
+    <ol>
+      <li>Constant Rule</li>
+      <li>Constant Multiple Rule</li>
+      <li>Power Rule</li>
+      <li>Sum Rule</li>
+      <li>Differance Rule</li>
+    </ol>
+  </div>
+  <hr>
+
+  <div>
+      <h4>1. Constant Rule.</h4>
+      <ul>
+        <li>
+          This rule says, the value of the derivative of any constant (denoted by \(k\)) is always zero \((0)\).
+        </li>
+      </ul>
+      <span>
+        If our function is, \(y = k\) (constant),     
+      </span>   
+      <span>
+        $$f( x) \ =\ k\ ( constant)$$
+      </span> 
+      <span>
+        $$\frac{dy}{dx} \ =0\ \ or$$ 
+      </span>
+      <span>
+        $$\frac{d( f( x))}{dx} =\ 0\ \ or$$ 
+      </span>
+      <span>
+        $$\frac{d( k)}{dx} \ =\ 0\ or$$
+      </span>
+      <span>
+        $$f'( x) \ =\ 0$$
+      </span>     
+  </div>
+      <hr>
+  <div>
+      <h4>2. Constant Multiple Rule</h4>
+      <ul>
+      <li>
+        The derivative of a constant (denoted by \(k\)) multiplied by a function \(f(x)\) is constant multiplied by the derivative of the function. 
+      </li>
+      </ul>
+      <span>
+        If our function \(y\) is constant \(k\) times another function \(f(x)\),
+      </span>
+      <span>
+        $$y\ =\ k.f( x)$$
+      </span>
+      <span>Differentiate with respect to <span>\(x\)</span>, we have</span>
+      <span>
+        $$\frac{dy}{dx} \ =\ \frac{d( k.f( x))}{dx}$$
+      </span> 
+      <span>
+        $$\frac{d( k.f( x))}{dx} \ =\ k.\frac{d( f( x))}{dx}$$
+      </span> 
+      <span>
+        $$k.\frac{d( f( x))}{dx} \ =\ kf'( x)$$
+      </span> 
+      <span>
+        Hence, $$\frac{d( kf( x))}{dx} \ =\ kf'( x)$$
+      </span> 
+  </div>
+      <hr>
+  <div>
+      <h4>3. Power Rule</h4>
+      <ul>
+      <li>
+        Power Rule is about how to differentiate expressions of the form \(x^{n}\).
+      </li>
+      <br>
+      <li>
+        Here, first you must take the power of the expression (denoted by \(n\)) and it should be multiplied by \(x^{n-1}\)
+      </li>
+      </ul>
+      <br>
+        Let's take our function \(y\)
+        <span>$$y\ =\ x^{n}$$</span>
+        <span>differentiate with respect to \(x\), we have</span>
+        <span>$$\frac{dy}{dx} \ =\ nx^{n-1} \ ( n\ is\ a\ number)$$</span>
+        Hence, the first derivative of any function of the form of \(x^{n}\) is \(nx^{n-1}\)
+  </div>
+      <br>
+      <hr>
+  <div>
+      <h4>4. Sum Rule</h4>
+      <ul>
+      <li>
+        The derivative of the sum of two or more functions is the sum of their derivatives.<br>
+      </li>
+      </ul>
+      <span>
+        Let's assume \(u\) and \(v\) are two functions of which the co-domain is \(x\)</span>.
+      </span>
+      <span>
+        Alternatively we say \(u\) and \(v\) are two  functions of \(x\)</span>
+      </span>
+      <span>
+        Then, by definition
+      </span>
+      <span>
+        $$u\ =\ f_{1}( x) \ \ ,\ v\ =\ f_{2}( x)$$
+      </span> 
+      <span>
+        differentiate each with respect to \(x\), we have
+      </span>     
+      <span>
+        $$\frac{du}{dx} \ =\ f'_{1}( x) \ \ ,\ \ \ \frac{dv}{dx} \ =\ f'_{2}( x)$$
+      </span> 
+      <span>
+        If our function is the sum of two functions
+      </span> 
+      <span>
+        $$y\ =\ u\ +\ v$$
+      </span> 
+      <span>
+        Hence, $$\frac{dy}{dx} =\frac{d( u+v)}{dx}$$
+      </span> 
+      <span>
+        $$\frac{d( u+v)}{dx} \ =\ \frac{du}{dx} \ +\ \frac{dv}{dx}$$
+      </span> 
+  </div>
+      <hr>
+  <div>
+      <h4>5.Differance Rule</h4>
+      <ul>
+        <li>
+          The derivative of the subtraction of two or more functions is the subtraction of their derivatives.
+        </li>
+      </ul>
+      <span>
+        Let's assume \(u\) and \(v\) are two functions of which the co-domain is \(x\).
+      </span>
+      <span>
+        Alternatively we say \(u\) and \(v\) are two  functions of \(x\)
+      </span>
+      <span>
+        Then, by definition
+      </span>
+      <span>
+        $$u\ =\ f_{1}( x) \ \ ,\ v\ =\ f_{2}( x)$$
+      </span> 
+      <span>
+        differentiate each with respect to \(x\), we have
+      </span>     
+      <span>
+        $$\frac{du}{dx} \ =\ f'_{1}( x) \ \ ,\ \ \ \frac{dv}{dx} \ =\ f'_{2}( x)$$
+      </span> 
+      <span>
+        If our function is the sum of two functions
+      </span> 
+      <span>
+        $$y\ =\ u\ -\ v$$
+      </span> 
+      <span>
+        Hence, $$\frac{dy}{dx} =\frac{d( u-v)}{dx}$$
+      </span> 
+      <span>
+        $$\frac{d( u-v)}{dx} \ =\ \frac{du}{dx} \ -\ \frac{dv}{dx}$$
+      </span>       
+  </div>
+  <br>
+  <p class="text-center">*****</p>
+  <!-- Rules of Differentiation ENDS -->
+<hr><hr>
+  <!-- EXAMPLES -->
+<div>
+  <h2 class="text-center">Examples</h2>
+  
+            <div>
+          <h6>Example 1</h6> 
+          <span class="Equations">
+            $$y\ =\ 7x^{2} \ +\ 5$$
+          </span>
+          <span>
+            differentiate with respect to <span class="Equations">\(x\)</span>, we have
+          </span>  
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ \frac{d\left( \ 7x^{2} \ +\ 5\right)}{dx}$$
+          </span>
+          <span>
+            By applying the Sum Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ \frac{d\left( \ 7x^{2}\right)}{dx} \ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Multiple, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 7\ \times \left[\frac{d\left( x^{2}\right)}{dx}\right] \ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            By applying Power Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 7\ \times \left[ 2x^{2-1}\right] \ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 7\ \times 2x\ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 7\ \times 2x\ +\ 0$$
+          </span>
+          <span>
+            Hence,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 14x$$
+          </span>           
+            </div>
+            <hr>
+
+            <div>
+          <h6>Example 2</h6> 
+          <span class="Equations">
+            $$y\ =\ 10x^{3}$$
+          </span>
+          <span>
+            differentiate with respect to <span class="Equations">\(x\)</span>, we have
+          </span>  
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ \frac{d\left( 10x^{3}\right)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Multiple, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 10\ \times \ \left[\frac{d\left( x^{3}\right)}{dx}\right]$$
+          </span>
+          <span>
+            By applying Power Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 10\ \times \ \left[ 3x^{( 3-1)}\right]$$
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 10\ \times \ \left[ 3x^{2}\right]$$
+          </span>
+          <span>
+            Hence,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ 30x^{2}$$
+          </span>             
+            </div>
+            <hr>
+
+            <div>
+          <h6>Example 3</h6> 
+          <span class="Equations">
+            $$y\ =\ 5x\ -\ 1$$
+          </span>
+          <span>
+            differentiate with respect to <span class="Equations">\(x\)</span>, we have
+          </span>  
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ \frac{d( 5x\ -\ 1)}{dx}$$
+          </span>
+          <span>
+            By applying Difference Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =\ \frac{d( 5x)}{dx} -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Multiple, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =5\ \times \ \left[\frac{d( x)}{dx}\right] -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            By applying Power Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =5\ \times \ \left[ x^{1-1}\right] -\frac{d( 1)}{dx}$$
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =5\ \times \ \left[ x^{0}\right] -\frac{d( 1)}{dx}$$
+          </span> 
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =5\ \times \ [ 1] -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            you must keep in your mind that the 0th power of any value equals to 
+            <span class="Equations">\(1\)</span>
+          </span>
+          <span>
+            That is <span class="Equations">\(1^{0} =2^{0} =50^{0} =99999^{0} = 1\)
+            </span>
+          </span>
+          <span>
+            Then, By applying Constant Rule, we have,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =5\ \times \ [ 1] -0$$
+          </span>
+          <span>
+            Hence,
+          </span>
+          <span class="Equations">
+            $$\frac{dy}{dx} \ =5$$
+          </span>           
+            </div>
+            <hr>
+
+            <div>
+          <h6>Summery</h6> 
+          <span class="Equations">
+            $$\frac{d( k)}{dx} \ =0\ \ where\ \ ( k\ =\ constant)$$
+          </span>
+          <span class="Equations">
+            $$\frac{d[ kf( x)]}{dx} \ =\ kf'( x) \ \ where\ \ ( k\ =\ constant)$$
+          </span>  
+          <span class="Equations">
+            $$\frac{d\left( x^{n}\right)}{dx} \ =\ nx^{n-1} \ ( n\ is\ a\ number)$$
+          </span>  
+          <span class="Equations">
+            $$\frac{d( u+v)}{dx} \ =\ \frac{du}{dx} \ +\ \frac{dv}{dx}$$
+          </span>  
+          <span class="Equations">
+            $$\frac{d( u-v)}{dx} \ =\ \frac{du}{dx} \ -\ \frac{dv}{dx}$$
+          </span>         
+            </div>  
+
+          </div>
+  <!-- EXAMPLES END -->
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="page03.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+          <span>Previous</span> 
+        </a>
+        <a href="page05.html" class="DARK w3-button nextPrevious w3-right">
+          <span>Next</span>
+        &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+    <!-- DEFINITION OF A FUNCTION END  -->
+  </div> 
+
+  <div class="m-0 p-0 w3-card-2 DARK" style="height: 35px;
+  background-image:url('../Figures/home_background.png');background-color: #809fff;
+      background-size: 350px 350px;">
+  </div>
+</div>
+<!-- MAIN CONTENT END -->
+
+<!-- FOOTER -->
+<div class="w3-main row" style="margin-left: 219px; margin-right: 0; margin-bottom: 0;
+  font-size: 16px; padding: 0 !important;">
+
+<div style="width: 100%; height:200px;"></div>
+
+<!-- FOOTER LEARN -->
+<div id="Footer" class="w3-card m-0 p-0" style=" background-color: rgb(38, 0, 77); height:400px; width: 100%;">
+  <div style=" background-color: rgba(255, 255, 255, 0.3); 
+      background-image:url('../Figures/home_background.png');
+      background-size: 350px 350px; height:inherit; ">
+  <div style=";height:inherit; padding-top: 30px;">
+  <div class="row d-grid m-0" 
+  style=" border-bottom:1px solid #26004d; background-color: rgb(255, 204, 179); height:370px ; color: #26004d; padding-top: 20px;">
+    <div class=" col-12 position-relative" style="height:120px; width: 100%;">
+    <img src="../logo_footer.svg" class="text-center position-absolute start-50 bottom-0 translate-middle-x
+      " style="height:120px; width: 120px;">
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0;">
+      
+      <!-- ABOUT US BUTTON -->
+      <a class="w3-button" 
+        href="../aboutus.html">
+        <img src="../svg/about_us.svg">
+        <br>About Us
+      </a>
+      <!-- ABOUT US BUTTON END -->
+
+      <!-- LANGUAGE SINHALA BUTTON -->
+      <a class="w3-button" 
+        href="page04_S.html">
+        <img src="../svg/language.svg">
+        <br><span>සිංහල</span>
+      </a>
+      <!-- LANGUAGE SINHALA BUTTON -->
+      
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0; height: 45px;
+    border-bottom: 1px solid #26004d;">
+      
+      <!-- FACEBOOK -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/facebook.svg">
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/instagram.svg">
+      </a>
+
+      <!-- TWITTER -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/twitter.svg">
+      </a>
+
+      <!-- EMAIL -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/email.svg">
+      </a>
+
+      
+    </div>
+    
+    <div class="m-0 p-0 w3-bar col-12 text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- FOOTER END-->
+</div>
+  
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
