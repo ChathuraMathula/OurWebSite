@@ -40,7 +40,7 @@
     font-size: 25px;padding: 2px;">&#9776;
   </button>
   <!-- LANGUAGE BUTTON -->
-  <button onclick="location.href='start_S.html';" class="TopicButton w3-button w3-right" 
+  <button onclick="location.href='page01_S.html';" class="lang TopicButton w3-button w3-right" 
     style="height: 45px; width: 55px; 
     font-size: 13px;padding: 2px; color: white !important;">
     <span>සිංහල</span>
@@ -76,10 +76,10 @@
       <h5>Differentiation \((dy/dx)\)</h5>
     </div>
 
-    <a class="w3-button text-start sideActive" href="start.html">
+    <a class="w3-button text-start" href="start.html">
       <span class="english">Get Started</span>
     </a>
-    <a class="w3-button text-start" href="page01.html">
+    <a class="w3-button text-start sideActive" href="page01.html">
       <span>Definition of a Function</span>
     </a>
     <a class="w3-button text-start" href="page02.html">
@@ -146,15 +146,15 @@
 <div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
    border-bottom: 1px solid #d9d9d9;">
 
-    <a href="../index.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+    <a href="start.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
       &#10094;&#10094;
     </a>
 
     <div class="col m-0 text-center">
-      <h1 class="english">Get Started</h1>
+      <h1>Definition of a Function</h1>
     </div>
       
-    <a href="page01.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+    <a href="page02.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
       &#10095;&#10095;    
     </a>
 
@@ -162,13 +162,87 @@
  <!-- NEXT AND PREVIOUS BUTTONS end  -->
 
       <br>
+      <ul>
+      <li>
+        Function is simply a rule that tells how something depends on another thing.
+      </li>
+      <br>
+      <li>
+        As an example you know that the earth rotates around the sun with time. Hence
+        The position of the earth depends on time. So we say, the position of the earth
+        is a function of time.
+      </li>
+      <br>
+      <li>
+        Here, the time <span class="Equations">\((t)\)</span> is called the <b>independant 
+        variable</b> 
+        and, the position of the earth <span class="Equations">\((P)\)</span> at time 
+        <span class="Equations">\((t)\)</span> is the 
+        <b>dependant variable</b>.
+      </li>
+      <br>
+      <li>
+          <span>Therefore, we denote</span>
+          <p>
+            <span class="Equations">$$P\ =\ f(t)$$</span> which is said as <b>&quot;
+              <span class="Equations">\(P\)</span> is a function of 
+              <span class="Equations">\(t\)</span>&quot;</b>
+          </p>
+      </li>
+      <br>
+        <li>
+          You may be not familiar with mathematical notations, but keep in your mind that this tells you that &quot;The <span class="Equations">\(Position(P)\)</span> is a function of <span class="Equations">\(Time(t)\)</span>&quot; or &quot;At <span class="Equations">\(Time(t)\)</span> the position of the earth is denoted by <span class="Equations">\(f(t)\)</span>&quot;
+        </li>
+        <br>
+        <li>
+          Some people think <span class="Equations">\(f(t)\)</span> means 
+          <span class="Equations">\(f\)</span> multiplied by <span class="Equations">\(t\)</span>
+           and that is a serious misunderstanding
+        </li>
+      </ul>
+      <br>
+
+      
+      <div class="row">
+        <div id="Figure01" class="float-start">
+          <div class="col-7 p-2 position-relative top-50 start-50 translate-middle">
+            <img class="figure" alt="figure" src="Figures/Figure1.svg">
+          </div>
+        </div>
+        <div id="Figure02" class="float-start">
+          <div class="col-7 position-relative top-50 start-50 translate-middle">
+            <img class="figure" alt="figure" src="Figures/Figure2.svg">
+          </div>
+        </div>
+        <div id="Figure03" class="float-start">
+          <div class="col-7 position-relative top-50 start-50 translate-middle">
+            <img class="figure" alt="figure" src="Figures/Figure3.svg">
+          </div>
+        </div> 
+      </div>
+      
+
+      <ul>
+        <li>
+          Examples of some mathematical functions
+        </li>
+      </ul>
+          <span>
+             \begin{array}{l}
+              y\ =\ f( x)\\
+              y=x^{2} \ +\ x\ +\ 25\\
+              f( x) \ =\ 4x^{3} +\ 56\\
+              f( t) \ =\ 3t^{2} \ +\ t\\
+              f( \theta ) \ =\ \sin( \theta ) \ +\ \cos( \theta ) \ +\ 4
+              \end{array}
+          </span>
 
 <!-- NEXT PREVIOUS BUTTONS -->
       <div class="w3-bar">
-        <a href="../index.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+        <a href="start.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
           <span>Previous</span> 
         </a>
-        <a href="page01.html" class="DARK w3-button nextPrevious w3-right">
+        <a href="page02.html" class="DARK w3-button nextPrevious w3-right">
           <span>Next</span>
         &#10095;&#10095;</a>
       </div>
@@ -214,7 +288,7 @@
 
       <!-- LANGUAGE SINHALA BUTTON -->
       <a class="w3-button" 
-        href="start_S.html">
+        href="page01_S.html">
         <img src="../svg/language.svg">
         <br><span>සිංහල</span>
       </a>

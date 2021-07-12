@@ -40,7 +40,7 @@
     font-size: 25px;padding: 2px;">&#9776;
   </button>
   <!-- LANGUAGE BUTTON -->
-  <button onclick="location.href='start_S.html';" class="TopicButton w3-button w3-right" 
+  <button onclick="location.href='page03_S.html';" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 55px; 
     font-size: 13px;padding: 2px; color: white !important;">
     <span>සිංහල</span>
@@ -76,7 +76,7 @@
       <h5>Differentiation \((dy/dx)\)</h5>
     </div>
 
-    <a class="w3-button text-start sideActive" href="start.html">
+    <a class="w3-button text-start" href="start.html">
       <span class="english">Get Started</span>
     </a>
     <a class="w3-button text-start" href="page01.html">
@@ -85,7 +85,7 @@
     <a class="w3-button text-start" href="page02.html">
       <span>Limit of a Function</span>
     </a>
-    <a class="w3-button text-start" href="page03.html">
+    <a class="w3-button text-start sideActive" href="page03.html">
       <span>Differentiation Intro</span>
     </a>
     <a class="w3-button text-start" href="page04.html">
@@ -146,15 +146,15 @@
 <div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
    border-bottom: 1px solid #d9d9d9;">
 
-    <a href="../index.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+    <a href="page02.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
       &#10094;&#10094;
     </a>
 
     <div class="col m-0 text-center">
-      <h1 class="english">Get Started</h1>
+      <h1>Derivative of a Function</h1>
     </div>
       
-    <a href="page01.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+    <a href="page04.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
       &#10095;&#10095;    
     </a>
 
@@ -162,13 +162,197 @@
  <!-- NEXT AND PREVIOUS BUTTONS end  -->
 
       <br>
+      <!-- DERIVATIVE OF A FUNCTION BEGINS -->
+      <ul>
+        <li>Consider a function \(y\ =\ f( x)\).</li>
+        <br>
+        <li>\(x\) is the independant variable</li>
+        <br>
+        <li>\(y\) is the dependant variable</li>
+      </ul>
+      <div class="text-center">
+        (because \(y\) depends on \(x\) such that it satisfies the conditions denoted by \(f\))
+      </div>
+
+        <hr>      
+      <div id="Figure05" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure5.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-10 position-relative start-50 top-50 translate-middle">
+            <ul class="m-0">
+              <li>Firstly we will graph these data on an \(xy\) plane.</li>
+              <br>
+            </ul>
+            <div class="text-center">
+              (This plane is called the Cartesian Plane in mathematics)<br>
+              \(x\) - axis shows the \(x\) values and \(y\) - axis shows the \(f( x)\) values
+            </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+      <div id="Figure06" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure6.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-10 position-relative start-50 top-50 translate-middle">
+            <ul class="m-0">
+              <li>We draw \(x\) against \(f(x)\)</li>
+              <br>
+            </ul>
+            <div class="text-center">
+              Assume our graph looks like in figure 06
+            </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+      <div id="Figure07" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure7.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-10 position-relative start-50 top-50 translate-middle">
+            <ul class="m-0">
+              <li>
+                we will select a point on the graph to find the gradient (slope) 
+                of the graph at this point.
+              </li>
+              <br>
+            </ul>
+            <div class="text-center">
+              Gradient is also another term that simply tells the ratio of \(y\) to \(x\). 
+              that is \(y/x\)
+            </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+      <div id="Figure08" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure8.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-10 position-relative start-50 top-50 translate-middle">
+            <ul class="m-0">
+              <li>
+                We take another point as in figure 08 and draw a
+                straight line through the two points
+              </li><br>
+              <li>
+                Next, we find the slope(=gradient) of the straight line as follows.
+              </li>
+              <br>
+            </ul>
+            <div class="text-center">
+              $$slope = \delta y/\delta x$$
+              (\(\delta\) is used to denote a very small amount)
+            </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+
+
+      <p>
+        $$slope\ =\frac{\ difference\ between\ y\ values}{\ difference\ between\ x\ values}$$
+      </p>
+
+      <p>
+        $$slope\ =\frac{f( a\ +\ \delta a) \ -\ f( a)}{\ ( a\ +\ \delta a) \ -\ a}$$
+      </p>
+
+      <p>
+        $$slope\ =\frac{f( a\ +\ \delta a) \ -\ f( a)}{\delta a}$$
+      </p>
+
+    <ul>
+      <li>
+        Let's replace \(a\) with \(x\), because \(a\) can be any value in the domain \(x\)
+      </li>
+    </ul>
+
+      <p>
+        $$slope\ =\frac{\delta y}{\delta x} \ =\frac{f( x\ +\ \delta x) \ -\ f( x)}{\delta x}$$
+      </p>
+
+    <ul>
+      <li>
+        Then we find the limit of the function at both sides when \(\delta x\) approaches \(0\)
+      </li>
+    </ul>
+
+      <p>
+        $$\lim\limits _{\delta x\rightarrow 0}
+          \frac{\delta y}{\delta x} \ =\lim\limits _{\delta x\rightarrow 0}\frac{f( x\ +\ \delta x)
+           \ -\ f( x)}{\delta x}$$
+      </p>
+
+    <ul>
+      <li>
+        Let's assume this equals to \(L\)
+      </li>
+    </ul>
+
+      <p>
+        $$\lim\limits _{\delta x\rightarrow 0}\frac{\delta y}{\delta x} \ =L$$
+      </p> 
+
+      <div class="text-center">
+        Here, \(\lim\limits _{\delta x\rightarrow 0}\frac{\delta y}{\delta x} \) is called the derivative of the function \(f(x)\) at point \(x\) and is denoted by 
+        $$\frac{dy}{dx}$$
+      </div>   
+      
+    <ul>
+      <li>
+        <b>Finding the derivative of a function is called the Differentiation.</b>
+      </li>
+    </ul>      
+
+        <hr>
+
+        <div id="Figure09" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure9.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-10 position-relative start-50 top-50 translate-middle">
+            <div class="text-center">
+              Slope at point \(P\), is the derivative of the function at point \(P\)
+              <br> That is \(dy/ dx\).
+            </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+
+      <p>
+        &#8226; Therefore Differentiation is practically used to find the rates of 
+        change of something happans. Such as flow of electricity, rates of change of population
+        growth and growth of deceases etc.
+      </p>
+  </div>
+  <!-- DERIVATIVE OF A FUNCTION ENDS -->
 
 <!-- NEXT PREVIOUS BUTTONS -->
       <div class="w3-bar">
-        <a href="../index.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+        <a href="page02.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
           <span>Previous</span> 
         </a>
-        <a href="page01.html" class="DARK w3-button nextPrevious w3-right">
+        <a href="page04.html" class="DARK w3-button nextPrevious w3-right">
           <span>Next</span>
         &#10095;&#10095;</a>
       </div>
@@ -214,7 +398,7 @@
 
       <!-- LANGUAGE SINHALA BUTTON -->
       <a class="w3-button" 
-        href="start_S.html">
+        href="page03_S.html">
         <img src="../svg/language.svg">
         <br><span>සිංහල</span>
       </a>
