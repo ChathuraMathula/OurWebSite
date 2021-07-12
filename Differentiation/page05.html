@@ -18,7 +18,9 @@
     background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
     <div style="width: 80%; height: 75px;" class="row">
       <div class="col-4 float-start">
-        <div id="logo-main" class="rounded-circle position-relative top-50 start-50 translate-middle" style="background-color: #809fff;height:60px; width: 60px;">
+        <div id="logo-main"  onclick="location.href = '../index.html';"
+        class="rounded-circle position-relative top-50 start-50 translate-middle" 
+        style=" cursor:pointer !important;background-color: #809fff;height:60px; width: 60px;">
             <img src="../logo_main.svg" 
             class="position-relative top-50 start-50 translate-middle"
             style="height:40px; width: 40px;">  
@@ -26,7 +28,7 @@
       </div>
       <div class="col-8 float-end">
         <div class="text-center position-relative top-50 start-50 translate-middle">
-          <h3>nevelmaths.com</h3>
+          <h3 onclick="location.href = '../index.html';" style=" cursor:pointer;">nevelmaths.com</h3>
         </div>  
       </div>
     </div>    
@@ -291,37 +293,37 @@
   <br>
             <div>
               <h5>Example 1</h5> 
-                <span class="Equations">
+                <span>
                     $$f( x) \ =\ sin\ x\ +\ 3$$
                 </span> 
                 <span>
                     differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{d( f( x))}{dx} \ =\ \frac{d( sin\ x\ +\ 3)}{dx}$$
                 </span> 
                 <span>
                     By applying The Sum Rule, We have,
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{d( f( x))}{dx} \ =\ \frac{d( sin\ x)}{dx} +\ \frac{d( 3)}{dx}$$
                 </span> 
-                <span class="Equations">
+                <span>
                     $$f'( x) \ =\ \frac{d( sin\ x)}{dx} +\ \frac{d( 3)}{dx}$$
                 </span> 
                 <span>
                     By applying The Constant Rule, We have,
                 </span> 
-                <span class="Equations">
+                <span>
                     $$f'( x) \ =\ \frac{d( sin\ x)}{dx} +\ 0$$
                 </span> 
-                <span class="Equations">
+                <span>
                     $$f'( x) \ =\ \frac{d( sin\ x)}{dx}$$
                 </span> 
                 <span>
                     By taking the derivative of sin x, We have,
                 </span>
-                <span class="Equations">
+                <span>
                     $$f'( x) \ =\ cos\ x$$
                 </span>               
             </div>
@@ -331,46 +333,46 @@
             <br>
             <div>
               <h5>Example 2</h5> 
-                <span class="Equations">
+                <span>
                     $$y\ =\ cos\ x\ -\ 3x^{4} \ -\ 15$$
                 </span> 
                 <span>
                     differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d\left( cos\ x\ -\ 3x^{4} \ -\ 15\right)}{dx}$$
                 </span>
                 <span>
                     By applying The Difference Rule, We have,
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx} -\ \frac{d( 15)}{dx}$$
                 </span>
                 <span>
                     By applying The Constant Rule, We have,
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx} -\ 0$$
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx}$$
                 </span>
                 <span>
                     By applying The Constant Multiple Rule, We have,
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times \left[\frac{d\left( x^{4}\right)}{dx}\right]$$
                 </span>
                 <span>
                     By applying The Power Rule, We have,
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times \left[ 4x^{( 4-1)}\right]$$
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times 4x^{( 3)}$$
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 12x^{3}$$
                 </span>
                 <span>
@@ -382,7 +384,7 @@
                 <span>
                     Hence,
                 </span>
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ -\left( sinx\ +\ 12x^{3}\right)$$
                 </span>             
             </div>
@@ -392,46 +394,46 @@
             <br>
             <div>
               <h5>Example 3</h5> 
-                <span class="Equations">
+                <span>
                     $$y\ =\ 2\left(\frac{sin\ x}{cos\ x}\right) \ +\ 31$$
                 </span>  
-                <span class="Equations">
+                <span>
                     Because of $$\frac{sin\ x}{cos\ x} \ =\ tan\ x$$
                 </span>             
-                <span class="Equations">
+                <span>
                     $$y\ =\ 2( tan\ x) \ +\ 31$$
                 </span> 
                 <span>
                     differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x] \ +\ 31)}{dx}$$
                 </span> 
                 <span>
                     By applying The Sum Rule, We have,
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x])}{dx} +\ \frac{d( 31)}{dx}$$
                 </span> 
                 <span>
                     By applying The Constant Rule, We have,
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x])}{dx} +\ 0$$
                 </span> 
                 <span>
                     By applying The Constant Multiple Rule, We have,
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ 2\ \times \left[\frac{d( tan\ x)}{dx}\right]$$
                 </span> 
                 <span>
                     By taking the derivative of tan x, We have,
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ 2\ \times \left[ sec^{2} \ x\right]$$
                 </span> 
-                <span class="Equations">
+                <span>
                     $$\frac{dy}{dx} \ =\ 2\ sec^{2} \ x$$
                 </span> 
             </div>
