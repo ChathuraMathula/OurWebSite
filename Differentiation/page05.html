@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/w3pro.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body class="bg-pic" style="padding:0 !important;">
+
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2 m-0" id="HeaderBar" style="position: relative;font-size: 
+  18px;
+    background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
+    <div style="width: 80%; height: 75px;" class="row">
+      <div class="col-4 float-start">
+        <div id="logo-main" class="rounded-circle position-relative top-50 start-50 translate-middle" style="background-color: #809fff;height:60px; width: 60px;">
+            <img src="../logo_main.svg" 
+            class="position-relative top-50 start-50 translate-middle"
+            style="height:40px; width: 40px;">  
+        </div>
+      </div>
+      <div class="col-8 float-end">
+        <div class="text-center position-relative top-50 start-50 translate-middle">
+          <h3>nevelmaths.com</h3>
+        </div>  
+      </div>
+    </div>    
+</div>
+
+<!-- TOPIC BAR -->
+<div class="w3-card-2 topicBar DARK" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hide-large" 
+    style="height: 45px; width: 45px; color: white; 
+    font-size: 25px;padding: 2px;">&#9776;
+  </button>
+  <!-- LANGUAGE BUTTON -->
+  <button onclick="location.href='page05_S.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 55px; 
+    font-size: 13px;padding: 2px; color: white !important;">
+    <span>සිංහල</span>
+  </button>
+  <!-- DARK MODE BUTTON -->
+  <button id="dark_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/dark_mode.svg">
+  </button>
+  <!-- LIGHT MODE BUTTON -->
+  <button id="light_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/light_mode.svg">
+  </button>
+  <!-- HOME BUTTON -->
+  <button onclick="location.href='../index.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/home.svg">
+  </button>
+</div>
+
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
+      <h5>Differentiation \((dy/dx)\)</h5>
+    </div>
+
+    <a class="w3-button text-start" href="start.html">
+      <span class="english">Get Started</span>
+    </a>
+    <a class="w3-button text-start" href="page01.html">
+      <span>Definition of a Function</span>
+    </a>
+    <a class="w3-button text-start" href="page02.html">
+      <span>Limit of a Function</span>
+    </a>
+    <a class="w3-button text-start" href="page03.html">
+      <span>Differentiation Intro</span>
+    </a>
+    <a class="w3-button text-start" href="page04.html">
+      <span>Rules of Differentiation</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page05.html">
+      <span>Trigonometric Functions</span>
+    </a>
+    <a class="w3-button text-start" href="page06.html">
+      <span>Inverse Trigonometric <br>Functions</span>
+    </a>
+    <a class="w3-button text-start" href="page07.html">
+      <span>Exponential Function</span>
+    </a>
+    <a class="w3-button text-start" href="page08.html">
+      <span>Logarithm Functions</span>
+    </a>
+    <a class="w3-button text-start" href="page09.html">
+      <span>Product Rule \((U.V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page10.html">
+      <span>Quotient Rule \((U/V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page11.html">
+      <span>Chain Rule</span>
+    </a>
+    <a class="w3-button text-start" href="page12.html">
+      <span>Nth Order Derivative</span>
+    </a>
+    <a class="w3-button text-start" href="page13.html">
+      <span>Implicit Differentiation</span>
+    </a>
+    <a class="w3-button text-start" href="page14.html">
+      <span>Parametric Differentiation</span>
+    </a>
+    <a class="w3-button text-start" href="page15.html">
+      <span>Self-Study Exercises</span>
+    </a>
+
+
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row mb-0" id="mainContent" style="margin-left: 219px; margin-right: 0;
+  font-size: 16px; padding-top: 0; background-color: #eff5f5;border-left: 1px solid black;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div id="main" class="col-lg-10" style="border-right: 1px solid #d9d9d9;
+      padding-top: 20px; padding-bottom: 20px;">
+
+
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+   border-bottom: 1px solid #d9d9d9;">
+
+    <a href="page04.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+      &#10094;&#10094;
+    </a>
+
+    <div class="col m-0 text-center">
+      <h1>Trigonometric Functions</h1>
+    </div>
+      
+    <a href="page06.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+      &#10095;&#10095;    
+    </a>
+
+</div> 
+ <!-- NEXT AND PREVIOUS BUTTONS end  -->
+
+      <br>
+  <!-- Trigonometric Functions BEGINS -->
+  <ul>
+    <li>Trigonometry is concerned with the connection between the sides and 
+        angles in any right angled triangle
+    </li>
+    <br>
+    <li>Trigonometric function can be defined in terms of ratios.</li>
+  </ul>
+  <div class="text-center">
+    Consider a right angled triangle \(ABC\) as shown in the figure.
+  </div>
+  <br>
+      <div id="Figure10" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure10.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-12 position-relative start-50 top-50 translate-middle">
+            <ul class="m-0">
+              <li> 
+                The <b>Hypotenuse</b> is the side opposite the right angle of a 
+                right angled triangle
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-sm-6 col-12 float-start p-1 m-0">
+          <div class="col-12 position-relative start-50 top-50 translate-middle">
+          <span>
+            $$sin\ \hat{A} \ =\ \frac{Opposite\ Side}{Hypotenuse} \ =\ \frac{BC}{AB}$$
+          </span>
+          <span>
+            $$cos\ \hat{A} \ =\ \frac{Adjacent\ Side}{Hypotenuse} \ =\ \frac{AC}{AB}$$
+          </span>
+          <span>
+            $$tan\ \hat{A} \ =\ \frac{Opposite\ Side}{Adjacent\ Side} \ =\ \frac{BC}{AC}$$
+          </span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-12 float-start p-1 m-0">
+          <div class="col-12 position-relative start-50 top-50 translate-middle">
+          <span>
+            $$cosec\ \hat{A} \ \ =\ \frac{1}{sin\ \hat{A} \ }$$
+          </span>
+          <span>
+            $$sec\ \hat{A} \ \ =\ \frac{1}{cos\ \hat{A} \ }$$
+          </span>
+          <span>
+            $$cot\ \hat{A} \ \ =\ \frac{1}{tan\ \hat{A} \ }$$
+          </span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+            <br>
+            <div>
+              <h4>1. Derivative of \(sin  (x)\)<span class="visually-hidden">sin x</span></h4>
+              <span>
+                $$\frac{d( sin\ x)}{dx} \ =\ cos\ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>2. Derivative of \(cos  (x)\)<span class="visually-hidden">cos x</span></h4>
+              <span>
+                $$\frac{d( cos\ x)}{dx} \ =\ -sin\ x$$
+              </span>
+            </div>
+            <hr>            
+
+            <br>
+            <div>
+              <h4>3. Derivative of \(Tan  (x)\)<span class="visually-hidden">tan x</span></h4>
+              <span>
+                $$\frac{d( tan\ x)}{dx} \ =\ sec^{2} \ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>4. Derivative of \(cosec  (x)\)<span class="visually-hidden">cosec x</span></h4>
+              <span>
+                $$\frac{d( cosec\ x)}{dx} \ =\ -cosec\ x\ .\ cot\ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>5. Derivative of \(sec  (x)\)<span class="visually-hidden">sec x</span></h4>
+              <span>
+                $$\frac{d( sec\ x)}{dx} \ =\ sec\ x\ .\ tan\ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>6. Derivative of \(cot  (x)\)<span class="visually-hidden">cot x</span></h4>
+              <span>
+                $$\frac{d( cot\ x)}{dx} \ =\ -cosec^{2} \ x$$
+              </span>
+            </div>
+                                                
+          </div>
+  <ul>
+    
+  </ul>
+  
+  <br>
+  <p class="text-center">*****</p>
+  <!-- Trigonometric Functions ENDS -->
+<hr><hr>
+  <!-- EXAMPLES -->
+  <div>
+    <h2 class="text-center">Examples</h2>
+  <br>
+            <div>
+              <h5>Example 1</h5> 
+                <span class="Equations">
+                    $$f( x) \ =\ sin\ x\ +\ 3$$
+                </span> 
+                <span>
+                    differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
+                </span> 
+                <span class="Equations">
+                    $$\frac{d( f( x))}{dx} \ =\ \frac{d( sin\ x\ +\ 3)}{dx}$$
+                </span> 
+                <span>
+                    By applying The Sum Rule, We have,
+                </span> 
+                <span class="Equations">
+                    $$\frac{d( f( x))}{dx} \ =\ \frac{d( sin\ x)}{dx} +\ \frac{d( 3)}{dx}$$
+                </span> 
+                <span class="Equations">
+                    $$f'( x) \ =\ \frac{d( sin\ x)}{dx} +\ \frac{d( 3)}{dx}$$
+                </span> 
+                <span>
+                    By applying The Constant Rule, We have,
+                </span> 
+                <span class="Equations">
+                    $$f'( x) \ =\ \frac{d( sin\ x)}{dx} +\ 0$$
+                </span> 
+                <span class="Equations">
+                    $$f'( x) \ =\ \frac{d( sin\ x)}{dx}$$
+                </span> 
+                <span>
+                    By taking the derivative of sin x, We have,
+                </span>
+                <span class="Equations">
+                    $$f'( x) \ =\ cos\ x$$
+                </span>               
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <div>
+              <h5>Example 2</h5> 
+                <span class="Equations">
+                    $$y\ =\ cos\ x\ -\ 3x^{4} \ -\ 15$$
+                </span> 
+                <span>
+                    differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d\left( cos\ x\ -\ 3x^{4} \ -\ 15\right)}{dx}$$
+                </span>
+                <span>
+                    By applying The Difference Rule, We have,
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx} -\ \frac{d( 15)}{dx}$$
+                </span>
+                <span>
+                    By applying The Constant Rule, We have,
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx} -\ 0$$
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx}$$
+                </span>
+                <span>
+                    By applying The Constant Multiple Rule, We have,
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times \left[\frac{d\left( x^{4}\right)}{dx}\right]$$
+                </span>
+                <span>
+                    By applying The Power Rule, We have,
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times \left[ 4x^{( 4-1)}\right]$$
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times 4x^{( 3)}$$
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 12x^{3}$$
+                </span>
+                <span>
+                    By taking the derivative of cos x, We have,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ -sinx-\ 12x^{3}$$
+                </span>
+                <span>
+                    Hence,
+                </span>
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ -\left( sinx\ +\ 12x^{3}\right)$$
+                </span>             
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <div>
+              <h5>Example 3</h5> 
+                <span class="Equations">
+                    $$y\ =\ 2\left(\frac{sin\ x}{cos\ x}\right) \ +\ 31$$
+                </span>  
+                <span class="Equations">
+                    Because of $$\frac{sin\ x}{cos\ x} \ =\ tan\ x$$
+                </span>             
+                <span class="Equations">
+                    $$y\ =\ 2( tan\ x) \ +\ 31$$
+                </span> 
+                <span>
+                    differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
+                </span> 
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x] \ +\ 31)}{dx}$$
+                </span> 
+                <span>
+                    By applying The Sum Rule, We have,
+                </span> 
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x])}{dx} +\ \frac{d( 31)}{dx}$$
+                </span> 
+                <span>
+                    By applying The Constant Rule, We have,
+                </span> 
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x])}{dx} +\ 0$$
+                </span> 
+                <span>
+                    By applying The Constant Multiple Rule, We have,
+                </span> 
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ 2\ \times \left[\frac{d( tan\ x)}{dx}\right]$$
+                </span> 
+                <span>
+                    By taking the derivative of tan x, We have,
+                </span> 
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ 2\ \times \left[ sec^{2} \ x\right]$$
+                </span> 
+                <span class="Equations">
+                    $$\frac{dy}{dx} \ =\ 2\ sec^{2} \ x$$
+                </span> 
+            </div>
+            <br>
+</div>
+  <!-- EXAMPLES END -->
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="page04.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+          <span>Previous</span> 
+        </a>
+        <a href="page06.html" class="DARK w3-button nextPrevious w3-right">
+          <span>Next</span>
+        &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+    <!-- DEFINITION OF A FUNCTION END  -->
+  </div> 
+
+  <div class="m-0 p-0 w3-card-2 DARK" style="height: 35px;
+  background-image:url('../Figures/home_background.png');background-color: #809fff;
+      background-size: 350px 350px;">
+  </div>
+</div>
+<!-- MAIN CONTENT END -->
+
+<!-- FOOTER -->
+<div class="w3-main row" style="margin-left: 219px; margin-right: 0; margin-bottom: 0;
+  font-size: 16px; padding: 0 !important;">
+
+<div style="width: 100%; height:200px;"></div>
+
+<!-- FOOTER LEARN -->
+<div id="Footer" class="w3-card m-0 p-0" style=" background-color: rgb(38, 0, 77); height:400px; width: 100%;">
+  <div style=" background-color: rgba(255, 255, 255, 0.3); 
+      background-image:url('../Figures/home_background.png');
+      background-size: 350px 350px; height:inherit; ">
+  <div style=";height:inherit; padding-top: 30px;">
+  <div class="row d-grid m-0" 
+  style=" border-bottom:1px solid #26004d; background-color: rgb(255, 204, 179); height:370px ; color: #26004d; padding-top: 20px;">
+    <div class=" col-12 position-relative" style="height:120px; width: 100%;">
+    <img src="../logo_footer.svg" class="text-center position-absolute start-50 bottom-0 translate-middle-x
+      " style="height:120px; width: 120px;">
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0;">
+      
+      <!-- ABOUT US BUTTON -->
+      <a class="w3-button" 
+        href="../aboutus.html">
+        <img src="../svg/about_us.svg">
+        <br>About Us
+      </a>
+      <!-- ABOUT US BUTTON END -->
+
+      <!-- LANGUAGE SINHALA BUTTON -->
+      <a class="w3-button" 
+        href="page05_S.html">
+        <img src="../svg/language.svg">
+        <br><span>සිංහල</span>
+      </a>
+      <!-- LANGUAGE SINHALA BUTTON -->
+      
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0; height: 45px;
+    border-bottom: 1px solid #26004d;">
+      
+      <!-- FACEBOOK -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/facebook.svg">
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/instagram.svg">
+      </a>
+
+      <!-- TWITTER -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/twitter.svg">
+      </a>
+
+      <!-- EMAIL -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/email.svg">
+      </a>
+
+      
+    </div>
+    
+    <div class="m-0 p-0 w3-bar col-12 text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- FOOTER END-->
+</div>
+  
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
