@@ -42,7 +42,7 @@
     font-size: 25px;padding: 2px;">&#9776;
   </button>
   <!-- LANGUAGE BUTTON -->
-  <button onclick="location.href='page06_S.html';" class="TopicButton w3-button w3-right" 
+  <button onclick="location.href='page09_S.html';" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 55px; 
     font-size: 13px;padding: 2px; color: white !important;">
     <span>සිංහල</span>
@@ -96,7 +96,7 @@
     <a class="w3-button text-start" href="page05.html">
       <span>Trigonometric Functions</span>
     </a>
-    <a class="w3-button text-start sideActive" href="page06.html">
+    <a class="w3-button text-start" href="page06.html">
       <span>Inverse Trigonometric <br>Functions</span>
     </a>
     <a class="w3-button text-start" href="page07.html">
@@ -105,7 +105,7 @@
     <a class="w3-button text-start" href="page08.html">
       <span>Logarithm Functions</span>
     </a>
-    <a class="w3-button text-start" href="page09.html">
+    <a class="w3-button text-start sideActive" href="page09.html">
       <span>Product Rule \((U.V)\)</span>
     </a>
     <a class="w3-button text-start" href="page10.html">
@@ -148,15 +148,15 @@
 <div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
    border-bottom: 1px solid #d9d9d9;">
 
-    <a href="page05.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+    <a href="page08.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
       &#10094;&#10094;
     </a>
 
     <div class="col m-0 text-center">
-      <h1>Inverse Trigonometric Functions</h1>
+      <h1>Product Rule \((U.V)\)</h1>
     </div>
       
-    <a href="page07.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+    <a href="page10.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
       &#10095;&#10095;    
     </a>
 
@@ -164,185 +164,42 @@
  <!-- NEXT AND PREVIOUS BUTTONS end  -->
 
       <br>
-  <!-- Inverse Trigonometric Functions BEGINS -->
-<ul>
-  <li>
-    Inverse Trigonometric Functions are used to obtain an angle from any of the angle's trigonometric ratio.
-  </li>
-</ul>
-      <div id="Figure10" class="row m-0">
-        <div class="col-md-6 col-12 p-1">
-          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
-            <img src="Figures/Figure10.svg">
-          </div>
+  <!-- Exponential Function BEGINS -->
+<span>Let's assume \(U\) and \(V\) be two funtions of \(x\)</span>
+        <span>So,</span>
+        <span class="Equations">
+          $$U\ =\ f_{1}( x) \ \ ,\ V\ =\ f_{2}( x)$$
+        </span>
+        <span>Then the product of two funtions of \(x\) can be written as,</span>
+        <span class="Equations">
+          $$U.V$$
+        </span>
+        <span>If this is another funtion called \(y\)</span>
+        <span>We can say,</span>
+        <span class="Equations">
+          $$y = U.V$$
+        </span>
+        <div style="color: red;" class="text-center">
+          &#8226; Here, dot is used to denote the product of two functions
         </div>
-        <div class="col-md-6 col-12 float-start p-1 m-0">
-          <div class="col-12 position-relative start-50 top-50 translate-middle">
-            <span class="Equations">
-              $$sin\ \hat{A} \ =\ \frac{Opposite\ Side}{Hypotenuse}$$
-            </span>
-            <span class="Equations">
-              $$sin\ \hat{A} \ =\ \frac{BC}{AB}$$
-            </span>
-            <span class="Equations">
-              $$\hat{A} \ =\ sin^{-1}\left(\frac{BC}{AB}\right)$$
-            </span>
-          </div>
+        <span>Then, if we want to find the derivative of this function w.r.t \(x\)</span><br>
+        <div style="color: red;" class="text-center">
+          &#8226; w.r.t = with respect to
         </div>
-      </div>
-
-      <div class="text-center" style="color: red;">
-              *The symbol \(sin^{-1} X\) where \(X\) is a ratio, should not be confused with \(( sin\ X)^{-1}\).
-      </div>
-      <br>
-        <span>Keep in your mind,</span><br><br>
-        <span>$$sin^{-1} X\ \neq \ ( sin\ X)^{-1}$$</span>
-        <span>$$( sin\ X)^{-1} \ =\ \frac{1}{sin\ X}$$</span>
-<br><hr>
-      <div class="p-0">
-        <div class="text-center">Let's see Domains of Inverse Functions.</div>
-        <br>
-        <div class="p-2 w3-card">
-        <table class="table">
-          <thead>
-
-            <tr>
-              <th scope="col"></th>
-              <th scope="col" class="text-start" style="width: 30%;">Inverse Function</th>
-              <th scope="col" class="text-center">Domain</th>             
-            </tr>
-
-          </thead>
-          <tbody>
-
-            <tr class="tableRow1">
-              <th scope="row">01.</th>
-              <td>\(\theta \ =\ sin^{-1} X\)</td>
-              <td rowspan="2" class="p-lg-5 p-0 tableCol1 tableRow1">
-                <div id="Figure10_1">
-                  <p><!-- CODE FOR FIGURE 10_1 -->
-                    <img src="../Figures/Figure10_1.svg">
-                  </p>
-                </div>                
-              </td>            
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">02.</th>
-              <td>\(\theta \ =\ cos^{-1} X\)</td>
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">03.</th>
-              <td>\(\theta \ =\ cosec^{-1} X\)</td>
-              <td rowspan="2" class="p-lg-5 p-0 tableCol1 tableRow1">
-                <div id="Figure10_2">
-                  <p><!-- CODE FOR FIGURE 10_2 -->
-                    <img src="../Figures/Figure10_2.svg">
-                  </p>
-                </div>
-              </td>             
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">04.</th>
-              <td>\(\theta \ =\ sec^{-1} X\)</td>
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">05.</th>
-              <td>\(\theta \ =\ tan^{-1} X\)</td>
-              <td rowspan="2" class="p-lg-5 p-0 tableCol1 tableRow1">
-                <div id="Figure10_3">
-                  <p><!-- CODE FOR FIGURE 10_3 -->
-                    <img src="../Figures/Figure10_3.svg">
-                  </p>
-                </div>
-              </td>             
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">06.</th>
-              <td>\(\theta \ =\ cot^{-1} X\)</td>             
-            </tr>
-
-          </tbody>
-        </table>
-      </div>
-      </div>
-
-<div>
-  <hr>
-  <br>
-            <div>
-              <h4>1. Derivative of \(sin^{-1} X\)<span class="visually-hidden">sin x</span></h4>
-              <span>
-                $$\frac{d\left( sin^{-1} X\right)}{dx} \ =\ \frac{1}{\sqrt{1-x^{2}}}$$
-              </span>
-            </div>
-            <hr>
-
-            <br>
-            <div>
-              <h4>2. Derivative of \(cos^{-1} X\)<span class="visually-hidden">cos x</span></h4>
-              <span>
-                $$\frac{d\left( cos^{-1} X\right)}{dx} \ =\ \frac{-1}{\sqrt{1-x^{2}}}$$
-              </span>
-            </div>
-            <hr>            
-
-            <br>
-            <div>
-              <h4>3. Derivative of \(tan^{-1} X\)<span class="visually-hidden">tan x</span></h4>
-              <span>
-                $$\frac{d\left( tan^{-1} X\right)}{dx} \ =\ \frac{1}{1+x^{2}}$$
-              </span>
-            </div>
-            <hr>
-
-            <br>
-            <div>
-              <h4>4. Derivative of \(cosec^{-1} X\)<span class="visually-hidden">cosec x</span></h4>
-              <span>
-                $$\frac{d\left( cosec^{-1} X\right)}{dx} \ =\ \frac{-1}{ | x | \sqrt{x^{2} -\ 1}}$$
-              </span>
-            </div>
-            <hr>
-
-            <br>
-            <div>
-              <h4>5. Derivative of \(sec^{-1} X\)<span class="visually-hidden">sec x</span></h4>
-              <span>
-                $$\frac{d\left( sec^{-1} X\right)}{dx} \ =\ \frac{1}{ | x | \sqrt{x^{2} -\ 1}}$$
-              </span>
-            </div>
-            <hr>
-
-            <br>
-            <div>
-              <h4>6. Derivative of \(cot^{-1} X\)<span class="visually-hidden">cot x</span></h4>
-              <span>
-                $$\frac{d\left( cot^{-1} X\right)}{dx} \ =\ \frac{-1}{1+x^{2}}$$
-              </span>
-            </div>
-            <hr>
-            
-            <div>
-              <div style="color: red;">
-                 \(| x |\) is the absolute value which is the non-negative value of \(x\).
-                 <br><br>
-                 <span>For example,</span>
-                 <div>
-                  $$| 3 | = 3$$
-                  $$| -3 | = 3$$
-                 </div>                 
-              </div>
-            </div>
-</div>
+        <span class="Equations">
+          $$\frac{dy}{dx} \ =\frac{d( U.V)}{dx}$$
+        </span>
+        <span>Then the <b>Product Rule</b> says,</span>
+        <span class="Equations">
+          $$\frac{d( U.V)}{dx} \ =U.\frac{d( V)}{dx} \ +V.\frac{d( U)}{dx}$$
+        </span>
+        <div style="color: blue;" class="text-center">
+          &#8226; Please refer the examples mentioned below to have a better understanding about this rule.
+        </div>
 
   <br>
   <p class="text-center">*****</p>
-  <!-- Inverse Trigonometric Functions ENDS -->
+  <!-- Exponential Function ENDS -->
 <hr><hr>
   <!-- EXAMPLES -->
   <div>
@@ -352,32 +209,62 @@
           <h5>Example 1</h5> 
           <div class="equations">
           <span>
-              $$y\ =\ 5\ cos^{-1} x\ +\ 7\ sin^{-1} x$$
+              $$y\ =\ ( 5x\ +\ sin\ x) \ .\left( 2x^{2\ } +3\right)$$
           </span> 
           <span>
-              differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
+            Here we can take,
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\ 5\ \left[\frac{d\left( cos^{-1} x\right)}{dx}\right] \ +\ 7\ \left[\frac{d\left( sin^{-1} x\right)}{dx}\right]$$
+              $$U\ =\ 5x\ +\ sin\ x$$
           </span> 
+          <span>and</span>
           <span>
-              $$\frac{dy}{dx} \ =\ 5\ \left[\frac{-1}{\sqrt{1-x^{2}}}\right] \ +\ 7\ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
+              $$V\ =\ 2x^{2\ } +3$$
+          </span>
+          <span>
+            Then this equation is in the form of \(y =U.V\),
+          </span>
+          <span>By applying the product rule we have,</span>
+          <span>
+              $$\frac{dy}{dx} \ =U.\frac{d( V)}{dx} \ +V.\frac{d( U)}{dx}$$
+          </span>
+          <br>
+        <div> 
+          <span>
+            $$\frac{dy}{dx} \ =( 5x\ +\ sin\ x) .\left\{\frac{d\left( 2x^{2\ } +3\right)}{dx}\right\}$$
+          </span>
+          <span>
+            $$+\left( 2x^{2\ } +3\right) .\left\{\frac{d( 5x\ +\ sin\ x)}{dx}\right\}$$
+          </span>
+          <br>
+          <span>
+            $$\frac{dy}{dx} \ =( 5x\ +\ sin\ x) .\left\{\frac{d\left( 2x^{2\ }\right)}{dx} +\frac{d( 3)}{dx}\right\}$$
           </span> 
+
           <span>
-              $$\frac{dy}{dx} \ =\ -5\ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right] \ +\ 7\ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
+            $$+\left( 2x^{2\ } +3\right) .\left\{\frac{d( 5x)}{dx} +\frac{d( sin\ x)}{dx}\right\}$$
+          </span> 
+        </div>
+        <br>
+          <span>
+            $$\frac{dy}{dx} \ =( 5x\ +\ sin\ x)( 4x+0)$$
           </span>  
           <span>
-              $$\frac{dy}{dx} \ =\ ( 7-5) \ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\ ( 2) \ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
-          </span> 
-          <span>
-              Hence, We have,
+            $$+\left( 2x^{2\ } +3\right)( 5+cos\ x)$$
           </span>
+          <br>
+
           <span>
-              $$\frac{dy}{dx} \ =\ \frac{2}{\sqrt{1-x^{2}}}$$
-          </span>
+            $$\frac{dy}{dx} \ =( 5x\ +\ sin\ x)( 4x) \ +\left( 2x^{2\ } +3\right)( 5+cos\ x)$$
+          </span> 
+          <br>
+          <span>
+            $$\frac{dy}{dx} \ =\ ( 30\ +\ 2cos\ x) \ x^{2\ } \ +\ ( 4sin\ x) x$$
+          </span>  
+
+          <span>
+            $$+\ ( 15\ +\ 3cos\ x)$$
+          </span> 
           </div>               
             </div>
             <br>
@@ -388,80 +275,43 @@
           <h5>Example 2</h5>
           <div class="equations"> 
           <span>
-              $$y\ =cot^{-1} x\ +\ 8x\ +\ 2$$
+              $$y\ =\ 2x^{2} .e^{2x}$$
           </span> 
           <span>
-              differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
+            $$U\ =\ \ 2x^{2} , V\ =\ \ e^{2x}$$
+          </span>
+          <span>By applying the product rule we have,</span> 
+          <span>
+              $$\frac{dy}{dx} \ =\frac{d\ \left( 2x^{2} .e^{2x}\right)}{dx}$$
+          </span>
+          <span>
+              $$\frac{dy}{dx} \ =2x^{2}\left\{\frac{d\ \left( e^{2x}\right)}{dx}\right\} +e^{2x}\left\{\frac{d\ \left( 2x^{2}\right)}{dx}\right\}$$
+          </span>
+          <span>
+              $$\frac{dy}{dx} \ =2x^{2} .2e^{2x} \ \ +\ e^{2x}( 4x)$$
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cot^{-1} x\ +\ 8x\ +\ 2\right)}{dx}$$
+            $$\frac{dy}{dx} \ =4x^{2} e^{2x} \ \ +\ e^{2x}( 4x)$$
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\left( 4x^{2} \ +\ 4x\right) e^{2x}$$
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cot^{-1} x\right)}{dx} +\frac{d( 8x)}{dx} +\frac{d( 2)}{dx}$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\left[\frac{-1}{1+x^{2}}\right] \ +\ ( 8\times 1) \ +\ 0$$
+            $$\frac{dy}{dx} \ =\left( x^{2} \ +\ x\right) 4e^{2x}$$
           </span>  
           <span>
-              $$\frac{dy}{dx} \ =\left[\frac{-1}{1+x^{2}}\right] \ +\ 8$$
-          </span>
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{1+x^{2}} \ +\ \frac{8\ \times \left( 1+x^{2}\right)}{1+x^{2}}$$
-          </span>  
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1\ +\ 8\ +\ 8x^{2}}{1+x^{2}}$$
-          </span> 
-          <span>
-              Hence, We have,
-          </span>
-          <span>
-              $$\frac{dy}{dx} \ =\frac{8x^{2} \ +\ 7}{1+x^{2}}$$
-          </span>
           </div>               
             </div>
-            <br>
-            <hr>
-
-            <br>
-            <div>
-          <h5>Example 3</h5> 
-          <div class="equations">
-          <span>
-              $$y\ =cos^{-1} x\ +\ 5x^{2}$$
-          </span> 
-          <span>
-              differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cos^{-1} x\ +\ 5x^{2}\right)}{dx}$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cos^{-1} x\right)}{dx} +\frac{d\left( 5x^{2}\right)}{dx}$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{\sqrt{1-x^{2}}} \ +\ 5\ \times \ \frac{d\left( x^{2}\right)}{dx}$$
-          </span>  
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{\sqrt{1-x^{2}}} \ +\ 5\ \times \ 2x^{1}$$
-          </span> 
-          <span>
-              Hence, We have,
-          </span>
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{\sqrt{1-x^{2}}} \ +\ 10x$$
-          </span>  
-          </div>             
-            </div>
-            <br>
+            <br>           
 </div>
   <!-- EXAMPLES END -->
 
 <!-- NEXT PREVIOUS BUTTONS -->
       <div class="w3-bar">
-        <a href="page05.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+        <a href="page08.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
           <span>Previous</span> 
         </a>
-        <a href="page07.html" class="DARK w3-button nextPrevious w3-right">
+        <a href="page10.html" class="DARK w3-button nextPrevious w3-right">
           <span>Next</span>
         &#10095;&#10095;</a>
       </div>
@@ -507,7 +357,7 @@
 
       <!-- LANGUAGE SINHALA BUTTON -->
       <a class="w3-button" 
-        href="page06_S.html">
+        href="page09_S.html">
         <img src="../svg/language.svg">
         <br><span>සිංහල</span>
       </a>

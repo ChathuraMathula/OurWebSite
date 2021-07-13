@@ -42,7 +42,7 @@
     font-size: 25px;padding: 2px;">&#9776;
   </button>
   <!-- LANGUAGE BUTTON -->
-  <button onclick="location.href='page06_S.html';" class="TopicButton w3-button w3-right" 
+  <button onclick="location.href='page08_S.html';" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 55px; 
     font-size: 13px;padding: 2px; color: white !important;">
     <span>සිංහල</span>
@@ -96,13 +96,13 @@
     <a class="w3-button text-start" href="page05.html">
       <span>Trigonometric Functions</span>
     </a>
-    <a class="w3-button text-start sideActive" href="page06.html">
+    <a class="w3-button text-start" href="page06.html">
       <span>Inverse Trigonometric <br>Functions</span>
     </a>
     <a class="w3-button text-start" href="page07.html">
       <span>Exponential Function</span>
     </a>
-    <a class="w3-button text-start" href="page08.html">
+    <a class="w3-button text-start sideActive" href="page08.html">
       <span>Logarithm Functions</span>
     </a>
     <a class="w3-button text-start" href="page09.html">
@@ -148,15 +148,15 @@
 <div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
    border-bottom: 1px solid #d9d9d9;">
 
-    <a href="page05.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+    <a href="page07.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
       &#10094;&#10094;
     </a>
 
     <div class="col m-0 text-center">
-      <h1>Inverse Trigonometric Functions</h1>
+      <h1>Logarithm Functions</h1>
     </div>
       
-    <a href="page07.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+    <a href="page09.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
       &#10095;&#10095;    
     </a>
 
@@ -164,185 +164,106 @@
  <!-- NEXT AND PREVIOUS BUTTONS end  -->
 
       <br>
-  <!-- Inverse Trigonometric Functions BEGINS -->
+  <!-- Exponential Function BEGINS -->
 <ul>
   <li>
-    Inverse Trigonometric Functions are used to obtain an angle from any of the angle's trigonometric ratio.
+    The general form of an <b>Exponential Function</b> is
   </li>
 </ul>
-      <div id="Figure10" class="row m-0">
+<span>
+  $$y\ =\ a^{x}$$
+</span>
+<div class="text-center">(where \(a\ \neq \ 1\) and \(a\  >\ 0\))</div>
+
+      <div id="Figure11_12" class="row m-0">
         <div class="col-md-6 col-12 p-1">
           <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
-            <img src="Figures/Figure10.svg">
+            <img src="Figures/Figure11.svg">
           </div>
         </div>
-        <div class="col-md-6 col-12 float-start p-1 m-0">
-          <div class="col-12 position-relative start-50 top-50 translate-middle">
-            <span class="Equations">
-              $$sin\ \hat{A} \ =\ \frac{Opposite\ Side}{Hypotenuse}$$
-            </span>
-            <span class="Equations">
-              $$sin\ \hat{A} \ =\ \frac{BC}{AB}$$
-            </span>
-            <span class="Equations">
-              $$\hat{A} \ =\ sin^{-1}\left(\frac{BC}{AB}\right)$$
-            </span>
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure12.svg">
           </div>
         </div>
       </div>
 
-      <div class="text-center" style="color: red;">
-              *The symbol \(sin^{-1} X\) where \(X\) is a ratio, should not be confused with \(( sin\ X)^{-1}\).
-      </div>
-      <br>
-        <span>Keep in your mind,</span><br><br>
-        <span>$$sin^{-1} X\ \neq \ ( sin\ X)^{-1}$$</span>
-        <span>$$( sin\ X)^{-1} \ =\ \frac{1}{sin\ X}$$</span>
-<br><hr>
-      <div class="p-0">
-        <div class="text-center">Let's see Domains of Inverse Functions.</div>
+      <ul>
+        <li>The Function \(y\ =\ e^{x}\) is called the Natural Exponential Function.</li>
+          <br>
+        <li>Here, \(e\) is a constant and it is called the Euler's constant.</li>
+      </ul>
+        <span>$$e\ \approx \ 2.71828...$$</span>
+        <span>Which means \(e\) is approximately equal to \(2.71828\)</span>
         <br>
-        <div class="p-2 w3-card">
-        <table class="table">
-          <thead>
+        <br>
+        <span>Let's consider the exponential function,</span>
+        <span>$$y\ =\ a^{x}$$</span>
+        <span>By taking logarithms in base \(e\), of both sides, we have,</span>
+        <span>$$\log_{e} \ y\ =\ \log_{e} \ \left( a^{x}\right)$$</span>
 
-            <tr>
-              <th scope="col"></th>
-              <th scope="col" class="text-start" style="width: 30%;">Inverse Function</th>
-              <th scope="col" class="text-center">Domain</th>             
-            </tr>
+        <div style="color: red;" class="border p-2 text-center">
+          In logarithm, \(\log_{a} \ \left( x^{r}\right) \ =r\ \log_{a} \ x\)
+        </div>
+        <br>
+        <span>So, by applying this rule,</span>
+        <span>$$\log_{e} \ y\ =\ x\log_{e} \ a$$</span>
 
-          </thead>
-          <tbody>
+        <div style="color: red;" class="border p-2 text-center">
+          In logarithm, \(\log_{10} \ A\ =\lg A\) <br>
+          At the same times, \(\log_{e} \ A\ =\ln A\)
+        </div>
+        <br>
 
-            <tr class="tableRow1">
-              <th scope="row">01.</th>
-              <td>\(\theta \ =\ sin^{-1} X\)</td>
-              <td rowspan="2" class="p-lg-5 p-0 tableCol1 tableRow1">
-                <div id="Figure10_1">
-                  <p><!-- CODE FOR FIGURE 10_1 -->
-                    <img src="../Figures/Figure10_1.svg">
-                  </p>
-                </div>                
-              </td>            
-            </tr>
+        <span>Hence we write,</span>
+        <span>$$\log_{e} \ y\ \ =\ x\ \ln a$$</span>
 
-            <tr class="tableRow1">
-              <th scope="row">02.</th>
-              <td>\(\theta \ =\ cos^{-1} X\)</td>
-            </tr>
+        <div style="color: red;" class="border p-2 text-center">
+          Again in logarithm, \(\log_{a} \ y\ =b\) can be written as \(y\ =\ a^{b}\)
+        </div>
+        <br>
 
-            <tr class="tableRow1">
-              <th scope="row">03.</th>
-              <td>\(\theta \ =\ cosec^{-1} X\)</td>
-              <td rowspan="2" class="p-lg-5 p-0 tableCol1 tableRow1">
-                <div id="Figure10_2">
-                  <p><!-- CODE FOR FIGURE 10_2 -->
-                    <img src="../Figures/Figure10_2.svg">
-                  </p>
-                </div>
-              </td>             
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">04.</th>
-              <td>\(\theta \ =\ sec^{-1} X\)</td>
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">05.</th>
-              <td>\(\theta \ =\ tan^{-1} X\)</td>
-              <td rowspan="2" class="p-lg-5 p-0 tableCol1 tableRow1">
-                <div id="Figure10_3">
-                  <p><!-- CODE FOR FIGURE 10_3 -->
-                    <img src="../Figures/Figure10_3.svg">
-                  </p>
-                </div>
-              </td>             
-            </tr>
-
-            <tr class="tableRow1">
-              <th scope="row">06.</th>
-              <td>\(\theta \ =\ cot^{-1} X\)</td>             
-            </tr>
-
-          </tbody>
-        </table>
-      </div>
-      </div>
+        <span>So, we have,</span>
+        <span>$$y\ =\ e^{\ x\ \ln a}$$</span>
+<br><hr><br>
 
 <div>
-  <hr>
-  <br>
-            <div>
-              <h4>1. Derivative of \(sin^{-1} X\)<span class="visually-hidden">sin x</span></h4>
+              <h4>1. Derivative of \(e^{x}\)<span class="visually-hidden">e to x</span></h4>
               <span>
-                $$\frac{d\left( sin^{-1} X\right)}{dx} \ =\ \frac{1}{\sqrt{1-x^{2}}}$$
+                $$\frac{d\left( e^{x}\right)}{dx} \ =e^{x}$$
               </span>
             </div>
+            <br>
             <hr>
-
             <br>
             <div>
-              <h4>2. Derivative of \(cos^{-1} X\)<span class="visually-hidden">cos x</span></h4>
+              <h4>2. Derivative of \(e^{kx}\)<span class="visually-hidden">e to x</span></h4>
               <span>
-                $$\frac{d\left( cos^{-1} X\right)}{dx} \ =\ \frac{-1}{\sqrt{1-x^{2}}}$$
+                $$\frac{d\left( e^{kx}\right)}{dx} \ =ke^{kx}$$
               </span>
             </div>
-            <hr>            
-
             <br>
-            <div>
-              <h4>3. Derivative of \(tan^{-1} X\)<span class="visually-hidden">tan x</span></h4>
-              <span>
-                $$\frac{d\left( tan^{-1} X\right)}{dx} \ =\ \frac{1}{1+x^{2}}$$
-              </span>
-            </div>
             <hr>
 
-            <br>
-            <div>
-              <h4>4. Derivative of \(cosec^{-1} X\)<span class="visually-hidden">cosec x</span></h4>
-              <span>
-                $$\frac{d\left( cosec^{-1} X\right)}{dx} \ =\ \frac{-1}{ | x | \sqrt{x^{2} -\ 1}}$$
+        <div style="color: #03033D;" class="m-2 w3-card p-2 text-center">
+          Now you get the idea that we cannot differentiate \(y = a^{x}\) directly.<br>
+          To do so, we have to rewrite this equation as mentioned above.
+          <br>
+          <span>Hence, now </span>
+          <span>
+                $$y\ =\ e^{\ x\ \ln a}$$
               </span>
-            </div>
-            <hr>
-
-            <br>
-            <div>
-              <h4>5. Derivative of \(sec^{-1} X\)<span class="visually-hidden">sec x</span></h4>
+              <span>Then you have to differentiate this equation with respect to \(x\)</span><br>
+              <span>That is,</span>
               <span>
-                $$\frac{d\left( sec^{-1} X\right)}{dx} \ =\ \frac{1}{ | x | \sqrt{x^{2} -\ 1}}$$
+                $$\frac{dy}{dx} \ =\frac{d\left( e^{\ x\ \ln a}\right)}{dx}$$
               </span>
-            </div>
-            <hr>
-
-            <br>
-            <div>
-              <h4>6. Derivative of \(cot^{-1} X\)<span class="visually-hidden">cot x</span></h4>
-              <span>
-                $$\frac{d\left( cot^{-1} X\right)}{dx} \ =\ \frac{-1}{1+x^{2}}$$
-              </span>
-            </div>
-            <hr>
-            
-            <div>
-              <div style="color: red;">
-                 \(| x |\) is the absolute value which is the non-negative value of \(x\).
-                 <br><br>
-                 <span>For example,</span>
-                 <div>
-                  $$| 3 | = 3$$
-                  $$| -3 | = 3$$
-                 </div>                 
-              </div>
-            </div>
-</div>
+              <span style="color: red;">&#8226; To differentiate this you must know the chain rule.</span>
+        </div> 
 
   <br>
   <p class="text-center">*****</p>
-  <!-- Inverse Trigonometric Functions ENDS -->
+  <!-- Exponential Function ENDS -->
 <hr><hr>
   <!-- EXAMPLES -->
   <div>
@@ -352,32 +273,23 @@
           <h5>Example 1</h5> 
           <div class="equations">
           <span>
-              $$y\ =\ 5\ cos^{-1} x\ +\ 7\ sin^{-1} x$$
+              $$y\ =2\ e^{\ x}$$
           </span> 
           <span>
               differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\ 5\ \left[\frac{d\left( cos^{-1} x\right)}{dx}\right] \ +\ 7\ \left[\frac{d\left( sin^{-1} x\right)}{dx}\right]$$
+              $$\frac{dy}{dx} \ =\frac{d\left( 2\ e^{\ x}\right)}{dx}$$
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\ 5\ \left[\frac{-1}{\sqrt{1-x^{2}}}\right] \ +\ 7\ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\ -5\ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right] \ +\ 7\ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
-          </span>  
-          <span>
-              $$\frac{dy}{dx} \ =\ ( 7-5) \ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\ ( 2) \ \times \ \left[\frac{1}{\sqrt{1-x^{2}}}\right]$$
-          </span> 
+              $$\frac{dy}{dx} \ =2\frac{d\left( e^{\ x}\right)}{dx}$$
+          </span>
           <span>
               Hence, We have,
           </span>
           <span>
-              $$\frac{dy}{dx} \ =\ \frac{2}{\sqrt{1-x^{2}}}$$
-          </span>
+              $$\frac{dy}{dx} \ =2\ e^{\ x}$$
+          </span> 
           </div>               
             </div>
             <br>
@@ -388,34 +300,25 @@
           <h5>Example 2</h5>
           <div class="equations"> 
           <span>
-              $$y\ =cot^{-1} x\ +\ 8x\ +\ 2$$
+              $$y\ =\ 4\left( x\ +\ \ e^{\ x}\right) \ +\ cos\ x$$
           </span> 
           <span>
               differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cot^{-1} x\ +\ 8x\ +\ 2\right)}{dx}$$
+              $$\frac{dy}{dx} \ =\frac{d\left\{4\left( x\ +\ \ e^{\ x}\right)\right\}}{dx} \ +\frac{d( cos\ x)}{dx}$$
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cot^{-1} x\right)}{dx} +\frac{d( 8x)}{dx} +\frac{d( 2)}{dx}$$
+              $$\frac{dy}{dx} \ =\frac{d( 4x)}{dx} \ +\frac{d\left( 4e^{\ x}\right)}{dx} \ +\frac{d( cos\ x)}{dx}$$
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\left[\frac{-1}{1+x^{2}}\right] \ +\ ( 8\times 1) \ +\ 0$$
-          </span>  
-          <span>
-              $$\frac{dy}{dx} \ =\left[\frac{-1}{1+x^{2}}\right] \ +\ 8$$
+              $$\frac{dy}{dx} \ =4\ +\ 4x\ -\ sin\ x$$
           </span>
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{1+x^{2}} \ +\ \frac{8\ \times \left( 1+x^{2}\right)}{1+x^{2}}$$
-          </span>  
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1\ +\ 8\ +\ 8x^{2}}{1+x^{2}}$$
-          </span> 
           <span>
               Hence, We have,
           </span>
           <span>
-              $$\frac{dy}{dx} \ =\frac{8x^{2} \ +\ 7}{1+x^{2}}$$
+              $$\frac{dy}{dx} \ =4( 1+x) \ -sin\ x$$
           </span>
           </div>               
             </div>
@@ -427,28 +330,22 @@
           <h5>Example 3</h5> 
           <div class="equations">
           <span>
-              $$y\ =cos^{-1} x\ +\ 5x^{2}$$
+              $$y\ =\ x^{2} \ +\ 2e^{x} \ -\ cot^{-1} \ x$$
           </span> 
           <span>
               differentiate with respect to \(x\)<span class="visually-hidden">x</span>, we have
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cos^{-1} x\ +\ 5x^{2}\right)}{dx}$$
+              $$\frac{dy}{dx} \ =\frac{d\left( x^{2}\right)}{dx} \ +\frac{d\left( 2e^{x}\right)}{dx} \ -\frac{d\left( cot^{-1} \ x\right)}{dx}$$
           </span> 
           <span>
-              $$\frac{dy}{dx} \ =\frac{d\left( cos^{-1} x\right)}{dx} +\frac{d\left( 5x^{2}\right)}{dx}$$
-          </span> 
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{\sqrt{1-x^{2}}} \ +\ 5\ \times \ \frac{d\left( x^{2}\right)}{dx}$$
-          </span>  
-          <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{\sqrt{1-x^{2}}} \ +\ 5\ \times \ 2x^{1}$$
-          </span> 
+              $$\frac{dy}{dx} \ =\ 2x\ +\ 2e^{x} \ -\left\{\frac{-1}{\sqrt{1-x^{2}}}\right\}$$
+          </span>
           <span>
               Hence, We have,
           </span>
           <span>
-              $$\frac{dy}{dx} \ =\frac{-1}{\sqrt{1-x^{2}}} \ +\ 10x$$
+              $$\frac{dy}{dx} \ =\ 2\left( x\ +\ e^{x}\right) +\ \frac{1}{\sqrt{1-x^{2}}}$$
           </span>  
           </div>             
             </div>
@@ -458,10 +355,10 @@
 
 <!-- NEXT PREVIOUS BUTTONS -->
       <div class="w3-bar">
-        <a href="page05.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+        <a href="page07.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
           <span>Previous</span> 
         </a>
-        <a href="page07.html" class="DARK w3-button nextPrevious w3-right">
+        <a href="page09.html" class="DARK w3-button nextPrevious w3-right">
           <span>Next</span>
         &#10095;&#10095;</a>
       </div>
@@ -507,7 +404,7 @@
 
       <!-- LANGUAGE SINHALA BUTTON -->
       <a class="w3-button" 
-        href="page06_S.html">
+        href="page08_S.html">
         <img src="../svg/language.svg">
         <br><span>සිංහල</span>
       </a>
