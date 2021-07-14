@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/w3pro.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body class="bg-pic" style="padding:0 !important;">
+
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2 m-0" id="HeaderBar" style="position: relative;font-size: 
+  18px;
+    background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
+    <div style="width: 80%; height: 75px;" class="row">
+      <div class="col-4 float-start">
+        <div id="logo-main"  onclick="location.href = '../index.html';"
+        class="rounded-circle position-relative top-50 start-50 translate-middle" 
+        style=" cursor:pointer !important;background-color: #809fff;height:60px; width: 60px;">
+            <img src="../logo_main.svg" 
+            class="position-relative top-50 start-50 translate-middle"
+            style="height:40px; width: 40px;">  
+        </div>
+      </div>
+      <div class="col-8 float-end">
+        <div class="text-center position-relative top-50 start-50 translate-middle">
+          <h3 onclick="location.href = '../index.html';" style=" cursor:pointer;">nevelmaths.com</h3>
+        </div>  
+      </div>
+    </div>    
+</div>
+
+<!-- TOPIC BAR -->
+<div class="w3-card-2 topicBar DARK" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hide-large" 
+    style="height: 45px; width: 45px; color: white; 
+    font-size: 25px;padding: 2px;">&#9776;
+  </button>
+  <!-- LANGUAGE BUTTON -->
+  <button onclick="location.href='page01.html';" class="lang TopicButton w3-button w3-right" 
+    style="height: 45px; width: 55px; 
+    font-size: 13px;padding: 2px; color: white !important;">
+    <span>English</span>
+  </button>
+  <!-- DARK MODE BUTTON -->
+  <button id="dark_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/dark_mode.svg">
+  </button>
+  <!-- LIGHT MODE BUTTON -->
+  <button id="light_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/light_mode.svg">
+  </button>
+  <!-- HOME BUTTON -->
+  <button onclick="location.href='../index.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/home.svg">
+  </button>
+</div>
+
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
+      <h5>අවකලනය \((dy/dx)\)</h5>
+    </div>
+
+    <a class="w3-button text-start" href="start_S.html">
+      <span>පටන් ගැන්ම</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page01_S.html">
+      <span>අනුකලනය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page02_S.html">
+      <span>සීමාව හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page03_S.html">
+      <span>ව්‍යුත්පන්නය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page04_S.html">
+      <span>මූලික අවකලන නීති</span>
+    </a>
+    <a class="w3-button text-start" href="page05_S.html">
+      <span>ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page06_S.html">
+      <span>ප්‍රතිලෝම ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page07_S.html">
+      <span>ඝාතීය ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page08_S.html">
+      <span>ලඝු ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page09_S.html">
+      <span>ගුණ කිරීමේ නීතිය \((U.V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page10_S.html">
+      <span>බෙදීමේ නීතිය \((U/V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page11_S.html">
+      <span>දාම නීතිය</span>
+    </a>
+    <a class="w3-button text-start" href="page12_S.html">
+      <span>අනුයාත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page13_S.html">
+      <span>අධ්‍යාහෘත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page14_S.html">
+      <span>පරාමිතික අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page15_S.html">
+      <span>අභ්‍යාස</span>
+    </a>
+
+
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row mb-0" id="mainContent" style="margin-left: 219px; margin-right: 0;
+  font-size: 16px; padding-top: 0; background-color: #eff5f5;border-left: 1px solid black;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div id="main" class="col-lg-10" style="border-right: 1px solid #d9d9d9;
+      padding-top: 20px; padding-bottom: 20px;">
+
+
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+   border-bottom: 1px solid #d9d9d9;">
+
+    <a href="start_S.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+      &#10094;&#10094;
+    </a>
+
+    <div class="col m-0 text-center">
+      <h1>අනුකලනය හැඳින්වීම</h1>
+    </div>
+      
+    <a href="page02_S.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+      &#10095;&#10095;    
+    </a>
+
+</div> 
+ <!-- NEXT AND PREVIOUS BUTTONS end  -->
+
+      <br>
+
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				පළමුව අපි කාටීසියානු ඛණ්ඩාංක තලය (\(xy\)-තලය) මත ඇඳි \(x\) හි ශ්‍රිතයක් (function) සලකමු.
+			</div>
+			<div class="row">
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Figure1_S.svg">
+				</div>
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Figure2_S.svg">
+				</div>
+			</div>
+			<div class="p-2">
+				01 රූපයෙන් පෙන්වන්නේ \(y = f(x)\) ශ්‍රිතයෙ හි ප්‍රස්තාරයයි.<br>
+				එයට අපි වක්‍රයක් යැයි කියනු ලැබේ.<br><br>
+				මීළඟට, 02 රූපයෙන් <span>\(y = f(x)\)</span> වක්‍රයේ යටින් සහ \(x\) අක්ෂ යේ
+				\(a\) සිට \(b\) දක්වා ඇති වර්ගඵ්ලය ඔබට දැකිය හැක.<br>
+				එය \(S\) අකුරින් හඳුන්වමු. (S = Surface Area)
+			</div>
+			<br>
+			<div>
+				එසේනම්, වක්‍රයේ යටින් ඇති වර්ගඵ්ලය සොයන්නේ කෙසේද ?
+				<div class="text-center" style="color: red;">මදක් සිතන්න...!</div>
+				<br>
+				මේ සඳහා අපිට ගණිත ක්‍රමයක් භාවිත කළ යුතුය.<br>
+				එම ගනිත කර්මයට අපි <b>අනුකලනය</b> යැයි කියනු ලැබේ.
+				<br><br>
+				එනම් අනුකලනය භාවිතයෙන් අප දන්නා ඕනෑම ශ්‍රිතයක (function එකක)
+				යටින් ඇති වර්ගඵලය නිර්ණය කළ හැක. මෙය විවිධ ක්ෂේත්‍ර වලදී ප්‍රායෝගිකව භාවිත වේ.<br>
+				<div class="text-center" style="color:blue;">*ශ්‍රිතයක් යනු කුමක්දැයි අපැහැදිලි නම් අපගේ 
+				අවකලනය හැඳින්වීම කොටසේ නිබන්ධනය අධ්‍යනය කරන්න</div>
+			</div>
+
+		</div>
+		<br>
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				දැන් අපි අනුකලනයේදී වර්ගඵලයක් නිර්ණය කිරන්නේ කෙසේදැයි ඉගෙන ගමු. 
+			</div>
+			<div class="row">
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Figure3_S.svg">
+				</div>
+				<div class="col-6 m-0 p-2">
+					<img src="Figures/Figure4_S.svg">
+				</div>
+			</div>
+			<div class="p-2">
+				අපට එකවර මුලු වර්ගඵලය සෙවීම අපහසුය.
+				<br>
+				එබැවින්, 03 රූපයේ ආකාරයට අපි ශ්‍රිතයත් \(x\) අක්ෂයත් අතර වර්ගඵලය කුඩා තීර වලට බෙදා එක් එක් තීරයේ වර්ගඵලය සොයා එවා එකිනෙකට එකතු කිරීමෙන් සම්පූර්ණ වර්ගඵලය 
+				සොයනු ලැබේ.
+			</div>
+			<br>
+			<div>
+				04 රූපයේ ආකාරයට එක් තීරුවක් පමණක් සලකමු.<br>
+				එහි ඝනකම \(\delta x\) ප්‍රමාණයක් ලෙස ගනිමු.
+				<div class="text-center" style="color:darkblue;">
+					(\(\delta x\) යනු ඉතා කුඩා අගයකි)
+				</div>
+				<br>
+				එම අවස්තාවේ තීරුවේ උස \(y\) ට සමාන වන බව රූපය දෙස බැලීමෙන් පැහදිලි වේ.
+				<div class="text-center" style="color:darkblue;">
+					(මක්නිසාද යත් එවිට ශ්‍රිතයේ අගය \(y\) ට සමාන වේ)
+				</div>
+				<span>දැන්,</span>
+				<div>
+					<div class="text-center">තනි තීරුවක වර්ගඵලය(s) \(=\ y\ \times \delta x\)</div>
+					<span class="Equations">$$s =\ y\ \delta x$$</span> 
+				</div>
+				<br>
+				එමනිසා වක්‍රයේ යටින් ඇති වර්ගඵලය මෙවැනි තුනී තීරුවල එකතුවකි.<br>
+				දැන්,
+				<div class="text-center">
+					වක්‍රයේ යටින් ඇති වර්ගඵලය\((S)\) = තුනී තීරු සියල්ලේම එකතුව</div>
+				<span class="Equations">$$S\ =\ s_{1} \ +\ s_{2} \ +\ s_{3} +...+\ \ s_{n}$$</span>
+				<span>ගණිතයේදී අප මෙය පහත අයුරින් නිරූපණය කරයි.</span>
+				<span class="Equations">$$S\ =\sum _{i\ =\ 1}^{n} s_{i}$$</span>
+
+				<div class="text-center" style="color:darkblue;">
+					මෙය කියවන්නේ, <q>\(s_{1}\) සිට \(s_{n}\) දකවා වූ 
+					සියලු අගයන්ගේ එකතුව \(S\) ට සමාන වේ.</q><br>
+					{\(\sum\) යනු එකතුවක් නිරූපණය කිරීමට ගණිතයේදී යොදා ගන්නා සංකේතයයි.
+					එයට අප <b>සිග්මා</b> යැයි කියනු ලැබේ}
+				</div>
+				<span>එබැවින්,</span>
+				<span class="Equations">$$S\ =\sum y\ \delta x$$</span>
+
+				<div>
+					අප \(\delta x\) යනු ඉතාම කුඩා අගයක් ලෙස ගත් විට එය \(dx\) ලෙස සැලකිය හැක.<br>
+					එවිට අප එකතුව නිරූපණයට \(\int\) සංකේතය භාවිත කරනු ලැබේ. එය විරූපණයට ලක් කළ ඉංග්‍රීසි 'S' අකුරකි. ඉන් අදහස් වන්නේ 'Sum' හෙවත් 'එකතුව' යන්නයි. තවද මෙය අනුකලනයේ සංකේතය වේ.
+				</div>
+				<br>
+				<div class="text-center">
+					<b>එනම්, දැන් \(y = f(x)\) ශ්‍රිතය \(x\) විෂයෙන් අනුකලනය කළ විට \(y = f(x)\) ශ්‍රිතයත් \(x\) අක්ෂයත් අතර ඇති වර්ගඵලය ලැබෙන බව ඔබට පැහැදිලිය.</b>
+					<br>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				<span>තවත් වැදගත් කරුණක් වන්නේ,</span> 
+				<br>
+				<div>
+					අවකලනයෙන් සෑමවිටම යම් කිසි දෙයක් සිදුවන සීඝ්‍රතාවක්, අනුක්‍රමණයක් ලබා ගත 
+					හැකි බව මීට පෙර ඔබ ඉගෙන ගෙන ඇත.
+					<br><br>
+					මෙහිදී,
+					<br>
+					අනුකලනයෙන් සෑමවිටම යම් කිසි වර්ගඵලයක් හෝ පරිමාවක් ලැබෙන අතර එමගින් 
+					අවකලනයේ ප්‍රතිවිරුද්ධ ක්‍රියාව සිදු වේ.
+				</div>
+				<div class="m-0 position-relative">
+					<img src="Figures/Figure5_S.svg" class="col-6 position-relative top-0 start-50 
+						translate-middle-x">
+				</div>
+				<div>
+					අප \(y = f(x)\) ශ්‍රිතය \(x\) විෂයෙන් අවකලනය කළ විට \(\frac{d( f( x))}{dx}\) ලැබේ.<br>
+					මීළඟට අප ඉහත අවකලනයෙන් ලබුණු පිළිතුර නැවත \(x\) විෂයෙන් අනුකලනය කළ විට \(f(x)\) ලැබේ. එය පහත අයුරින් සිදු වේ.
+					<span class="Equations">$$\int \frac{d( f( x))}{dx} dx\ =\ f( x)$$</span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="m-2 border p-2">
+
+			<div class="p-2">
+				<div class="border p-1 bg-light">
+					අප සොයනු ලබන ශ්‍රිතයේ වර්ගඵලය නිශ්චිත සීමාවක් තුල සොයන්නේනම් (මෙහි, \(a\) සිට \(b\) දක්වා) අප එයට <b>නිශ්චිත අනුකලනය</b> යැයි කියන්නෙමු.
+				</div>
+				<br>
+				<div class="border p-1 bg-light">
+					එසේම, අප සොයනු ලබන ශ්‍රිතයේ වර්ගඵලය නිශ්චිත සීමාවක් තුල නොවේනම් (එනම් සීමාවක් නොපවතී) එයට
+					<b>අනිශ්චිත අනුකලනය</b> යැයි කියන්නෙමු.
+				</div>
+				<br>
+				<div class="m-0 position-relative">
+					<img src="Figures/Figure6_S.svg" class="col-10 col-lg-6 col-md-8 col-sm-10 position-relative top-0 start-50 
+						translate-middle-x">
+				</div>
+				<br>
+				<div class="text-center" style="color:red;">
+					ඔබ අනිශ්චිත අනුකලනයක් සිදු කරන සෑමවිටම 'නියතය' යන වචනය අනිවර්‍යයෙන් ලිවිය යුතුම බව සිහි තබාගන්න. <br>
+					ඉදිරි පිටු වල ඇති අභ්‍යාස හොදින් අධ්‍යනය කරන්න.
+				</div>
+			</div>
+		</div>		
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="start_S.html" class="DARK w3-button nextPrevious">&#10094;&#10094;
+          <span>ආපසු</span>
+        </a>
+        <a href="page02_S.html" class="DARK w3-button nextPrevious w3-right">
+          <span>ඉදිරියට</span>
+        &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+    <!-- DEFINITION OF A FUNCTION END  -->
+  </div> 
+
+  <div class="m-0 p-0 w3-card-2 DARK" style="height: 35px;
+  background-image:url('../Figures/home_background.png');background-color: #809fff;
+      background-size: 350px 350px;">
+  </div>
+</div>
+<!-- MAIN CONTENT END -->
+
+<!-- FOOTER -->
+<div class="w3-main row" style="margin-left: 219px; margin-right: 0; margin-bottom: 0;
+  font-size: 16px; padding: 0 !important;">
+
+<div style="width: 100%; height:200px;"></div>
+
+<!-- FOOTER LEARN -->
+<div id="Footer" class="w3-card m-0 p-0" style=" background-color: rgb(38, 0, 77); height:400px; width: 100%;">
+  <div style=" background-color: rgba(255, 255, 255, 0.3); 
+      background-image:url('../Figures/home_background.png');
+      background-size: 350px 350px; height:inherit; ">
+  <div style=";height:inherit; padding-top: 30px;">
+  <div class="row d-grid m-0" 
+  style=" border-bottom:1px solid #26004d; background-color: rgb(255, 204, 179); height:370px ; color: #26004d; padding-top: 20px;">
+    <div class=" col-12 position-relative" style="height:120px; width: 100%;">
+    <img src="../logo_footer.svg" class="text-center position-absolute start-50 bottom-0 translate-middle-x
+      " style="height:120px; width: 120px;">
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0;">
+      
+      <!-- ABOUT US BUTTON -->
+      <a class="w3-button" 
+        href="../about_us.html">
+        <img src="../svg/about_us.svg">
+        <br>About Us
+      </a>
+      <!-- ABOUT US BUTTON END -->
+
+      <!-- LANGUAGE SINHALA BUTTON -->
+      <a class="lang w3-button" 
+        href="page01.html">
+        <img src="../svg/language.svg">
+        <br><span class="showLang">English</span>
+      </a>
+      <!-- LANGUAGE SINHALA BUTTON -->
+      
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0; height: 45px;
+    border-bottom: 1px solid #26004d;">
+      
+      <!-- FACEBOOK -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/facebook.svg">
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/instagram.svg">
+      </a>
+
+      <!-- TWITTER -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/twitter.svg">
+      </a>
+
+      <!-- EMAIL -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/email.svg">
+      </a>
+
+      
+    </div>
+    
+    <div class="m-0 p-0 w3-bar col-12 text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- FOOTER END-->
+</div>
+  
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
+/////////////////////////////////////
+
