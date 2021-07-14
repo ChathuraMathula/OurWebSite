@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/w3pro.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body class="bg-pic" style="padding:0 !important;">
+
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2 m-0" id="HeaderBar" style="position: relative;font-size: 
+  18px;
+    background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
+    <div style="width: 80%; height: 75px;" class="row">
+      <div class="col-4 float-start">
+        <div id="logo-main"  onclick="location.href = '../index.html';"
+        class="rounded-circle position-relative top-50 start-50 translate-middle" 
+        style=" cursor:pointer !important;background-color: #809fff;height:60px; width: 60px;">
+            <img src="../logo_main.svg" 
+            class="position-relative top-50 start-50 translate-middle"
+            style="height:40px; width: 40px;">  
+        </div>
+      </div>
+      <div class="col-8 float-end">
+        <div class="text-center position-relative top-50 start-50 translate-middle">
+          <h3 onclick="location.href = '../index.html';" style=" cursor:pointer;">nevelmaths.com</h3>
+        </div>  
+      </div>
+    </div>    
+</div>
+
+<!-- TOPIC BAR -->
+<div class="w3-card-2 topicBar DARK" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hide-large" 
+    style="height: 45px; width: 45px; color: white; 
+    font-size: 25px;padding: 2px;">&#9776;
+  </button>
+  <!-- LANGUAGE BUTTON -->
+  <button onclick="location.href='page04.html';" class="lang TopicButton w3-button w3-right" 
+    style="height: 45px; width: 55px; 
+    font-size: 13px;padding: 2px; color: white !important;">
+    <span>English</span>
+  </button>
+  <!-- DARK MODE BUTTON -->
+  <button id="dark_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/dark_mode.svg">
+  </button>
+  <!-- LIGHT MODE BUTTON -->
+  <button id="light_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/light_mode.svg">
+  </button>
+  <!-- HOME BUTTON -->
+  <button onclick="location.href='../index.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/home.svg">
+  </button>
+</div>
+
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
+      <h5>අවකලනය \((dy/dx)\)</h5>
+    </div>
+
+    <a class="w3-button text-start" href="start_S.html">
+      <span>පටන් ගැන්ම</span>
+    </a>
+    <a class="w3-button text-start" href="page01_S.html">
+      <span>ශ්‍රිතය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page02_S.html">
+      <span>සීමාව හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page03_S.html">
+      <span>ව්‍යුත්පන්නය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page04_S.html">
+      <span>මූලික අවකලන නීති</span>
+    </a>
+    <a class="w3-button text-start" href="page05_S.html">
+      <span>ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page06_S.html">
+      <span>ප්‍රතිලෝම ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page07_S.html">
+      <span>ඝාතීය ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page08_S.html">
+      <span>ලඝු ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page09_S.html">
+      <span>ගුණ කිරීමේ නීතිය \((U.V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page10_S.html">
+      <span>බෙදීමේ නීතිය \((U/V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page11_S.html">
+      <span>දාම නීතිය</span>
+    </a>
+    <a class="w3-button text-start" href="page12_S.html">
+      <span>අනුයාත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page13_S.html">
+      <span>අධ්‍යාහෘත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page14_S.html">
+      <span>පරාමිතික අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page15_S.html">
+      <span>අභ්‍යාස</span>
+    </a>
+
+
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row mb-0" id="mainContent" style="margin-left: 219px; margin-right: 0;
+  font-size: 16px; padding-top: 0; background-color: #eff5f5;border-left: 1px solid black;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div id="main" class="col-lg-10" style="border-right: 1px solid #d9d9d9;
+      padding-top: 20px; padding-bottom: 20px;">
+
+
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+   border-bottom: 1px solid #d9d9d9;">
+
+    <a href="page03_S.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+      &#10094;&#10094;
+    </a>
+
+    <div class="col m-0 text-center">
+      <h1>මූලික අවකලන නීති</h1>
+    </div>
+      
+    <a href="page05_S.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+      &#10095;&#10095;    
+    </a>
+
+</div> 
+ <!-- NEXT AND PREVIOUS BUTTONS end  -->
+
+      <br>
+      <!-- Rules of Differentiation BEGINS -->
+    <div class="text-center">
+      මෙම කොටසේදී ඔබ අවකලනයේ මූලික නීති ඉගෙනගනු ලබයි.
+    </div>
+    <br><br>
+    <ul>
+      <li>\(f(x)\) යනු අප අවකලනය කිරීමට යන ශ්‍රිතය යැයි සලකමු.</li>
+      <br>
+      <li>
+        \(f(x)\) ශ්‍රිතය \(x\) විෂයෙන් අවකලනය කිරීමෙන් පසු ලැබෙන පිළිතුර \(f^{\prime}(x)\) ලෙස නිරූපණය කරයි. එයද තවත් \(x\) හි ශ්‍රිතයක් වේ.
+      </li>
+      <br>
+    </ul>
+    <div>ගණිතයේදී අප මෙය පහත අයුරින් ප්‍රකාශ කරයි,
+    <p class="text-center">
+      <b>\(f(x)\) ශ්‍රිතයේ අවකල සංගුණකය \(f^{\prime}(x)\) වේ.
+      </b>
+    </p>
+    <br>
+    <div>එයම පහත ලෙසද ප්‍රකාශ කළ හැක,
+    <p class="text-center">
+      <b>\(f(x)\) ශ්‍රිතයේ \(x\) විෂයෙන් පළමු වියුත්පන්නය \(f^{\prime}(x)\) වේ.
+      </b>
+    </p>
+    <br>
+    <ul>
+      <li>
+        ශ්‍රිතයක් අවකලනය කිරීමේදී පිළිපැදිය යුතු මූලික නීතීන් පහත දක්වා ඇත. ඒව හොඳින් අධ්‍යයනය කර හොඳින් මතක තබා ගත යුතුය.
+      </li>
+    </ul>
+    </div>
+  <div class="ps-5">
+    <p>අවකලනයේ මූලික නීති</p>
+    <ol>
+      <li>නියතයක අවකලනය</li>
+      <li>නියතයකින් ගුණකල විට අවකලනය</li>
+      <li>බලයක අවකලනය</li>
+      <li>එකතුවක අවකලනය</li>
+      <li>වෙනසක අවකලනය</li>
+    </ol>
+  </div>
+  <hr>
+
+  <div>
+      <h4>1. නියතයක අවකලනය.</h4>
+      <ul>
+        <li>
+          ඕනෑම නියතයක් (\(= k\) යැයි සිතමු) ඕනෑම විෂයකින් අවකලනය කළවිට පිළිතුර \(0\) වේ.
+        </li>
+      </ul>
+      <span>
+        \(y = k\) (නියතය) යන ශ්‍රිතය සලකන්න,     
+      </span>
+      <div class="text-center">   
+        \(f( x) \ =\ k\)
+      <br><br> 
+        \(\frac{dy}{dx} \ =0\ \) හෝ 
+      <br><br>
+        \(\frac{d( f( x))}{dx} =\ 0\) හෝ
+      <br><br>
+        \(\frac{d( k)}{dx} \ =\ 0\) හෝ
+      <br><br>
+        \(f'( x) \ =\ 0\)
+      <br><br>
+      </div>     
+  </div>
+      <hr>
+  <div>
+      <h4>2. නියතයකින් ගුණකල විට අවකලනය</h4>
+      <ul>
+      <li>
+        කිසියම් \(f(x)\) ශ්‍රිතයක් \(k\) නම් නියතයකින් ගුණ කර ඇත්නම් එම ශ්‍රිතයේ අවකලනය, නියතය වරක් ශ්‍රිතයේ අවකලනයයි \(k\times f'(x)\). 
+      </li>
+      </ul>
+      <span>
+        අප සලකන \(y\) නම් ශ්‍රිතය \(k\) නම් නියතය වරක් \(f(x)\) නම් තවත් ශ්‍රිතයක් නම්,
+      </span>
+      <span>
+        $$y\ =\ k.f( x)$$
+      </span>
+      <span>\(x\) විෂයෙන් අවකලනය කළවිට</span>
+      <span>
+        $$\frac{dy}{dx} \ =\ \frac{d( k.f( x))}{dx}$$
+      </span> 
+      <span>
+        $$\frac{d( k.f( x))}{dx} \ =\ k.\frac{d( f( x))}{dx}$$
+      </span> 
+      <span>
+        $$k.\frac{d( f( x))}{dx} \ =\ kf'( x)$$
+      </span> 
+      <span>
+        එමනිසා, $$\frac{d( kf( x))}{dx} \ =\ kf'( x)$$
+      </span> 
+  </div>
+      <hr>
+  <div>
+      <h4>3. බලයක අවකලනය</h4>
+      <ul>
+      <li>
+        \(x^{n}\) ආකාරයේ ප්‍රකාශනයක් අවකලනය කරන අයුරු මෙහිදී දැක්වේ.
+      </li>
+      </ul>
+      <br>
+        පහත ලෙස \(y\) නම් වූ ශ්‍රිතයක් සලකමු (\(n\) යනු ඕනෑම සංඛ්‍යාවක් වේ)
+        <span>$$y\ =\ x^{n}$$</span>
+        <span>\(x\) විෂයෙන් අවකලනය කළවිට</span>
+        <span>$$\frac{dy}{dx} \ =\ nx^{n-1}$$</span>
+        එමනිසා, \(x^{n}\) ආකාරයේ ඕනෑම ශ්‍රිතයක පළමු ව්‍යුත්පන්නය \(nx^{n-1}\) ආකාරයේ තවත් ශ්‍රිතයක් වේ.
+  </div>
+      <br>
+      <hr>
+  <div>
+      <h4>4. එකතුවක අවකලනය</h4>
+      <ul>
+      <li>
+        The derivative of the sum of two or more functions is the sum of their derivatives.<br>
+      </li>
+      </ul>
+      <span>
+        Let's assume \(u\) and \(v\) are two functions of which the co-domain is \(x\).
+      </span>
+      <span>
+        Alternatively we say \(u\) and \(v\) are two  functions of \(x\).
+      </span>
+      <br><br>
+      <span>
+        Then, by definition
+      </span>
+      <span>
+        $$u\ =\ f_{1}( x) \ \ ,\ v\ =\ f_{2}( x)$$
+      </span> 
+      <span>
+        differentiate each with respect to \(x\), we have
+      </span>     
+      <span>
+        $$\frac{du}{dx} \ =\ f'_{1}( x) \ \ ,\ \ \ \frac{dv}{dx} \ =\ f'_{2}( x)$$
+      </span> 
+      <span>
+        If our function is the sum of two functions
+      </span> 
+      <span>
+        $$y\ =\ u\ +\ v$$
+      </span> 
+      <span>
+        Hence, $$\frac{dy}{dx} =\frac{d( u+v)}{dx}$$
+      </span> 
+      <span>
+        $$\frac{d( u+v)}{dx} \ =\ \frac{du}{dx} \ +\ \frac{dv}{dx}$$
+      </span> 
+  </div>
+      <hr>
+  <div>
+      <h4>5.වෙනසක අවකලනය</h4>
+      <ul>
+        <li>
+          The derivative of the subtraction of two or more functions is the subtraction of their derivatives.
+        </li>
+      </ul>
+      <span>
+        Let's assume \(u\) and \(v\) are two functions of which the co-domain is \(x\).
+      </span>
+      <span>
+        Alternatively we say \(u\) and \(v\) are two  functions of \(x\)
+      </span>
+      <br><br>
+      <span>
+        Then, by definition
+      </span>
+      <span>
+        $$u\ =\ f_{1}( x) \ \ ,\ v\ =\ f_{2}( x)$$
+      </span> 
+      <span>
+        differentiate each with respect to \(x\), we have
+      </span>     
+      <span>
+        $$\frac{du}{dx} \ =\ f'_{1}( x) \ \ ,\ \ \ \frac{dv}{dx} \ =\ f'_{2}( x)$$
+      </span> 
+      <span>
+        If our function is the sum of two functions
+      </span> 
+      <span>
+        $$y\ =\ u\ -\ v$$
+      </span> 
+      <span>
+        Hence, $$\frac{dy}{dx} =\frac{d( u-v)}{dx}$$
+      </span> 
+      <span>
+        $$\frac{d( u-v)}{dx} \ =\ \frac{du}{dx} \ -\ \frac{dv}{dx}$$
+      </span>       
+  </div>
+  <br>
+  <p class="text-center">*****</p>
+  <!-- Rules of Differentiation ENDS -->
+<hr><hr>
+  <!-- EXAMPLES -->
+<div>
+  <h2 class="text-center">Examples</h2>
+
+            <div>
+          <h6>Example 1</h6> 
+          <span>
+            $$y\ =\ 7x^{2} \ +\ 5$$
+          </span>
+          <span>
+            differentiate with respect to \(x\), we have
+          </span>  
+          <span>
+            $$\frac{dy}{dx} \ =\ \frac{d\left( \ 7x^{2} \ +\ 5\right)}{dx}$$
+          </span>
+          <span>
+            By applying the Sum Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ \frac{d\left( \ 7x^{2}\right)}{dx} \ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Multiple, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 7\ \times \left[\frac{d\left( x^{2}\right)}{dx}\right] \ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            By applying Power Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 7\ \times \left[ 2x^{2-1}\right] \ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 7\ \times 2x\ +\ \frac{d( 5)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 7\ \times 2x\ +\ 0$$
+          </span>
+          <span>
+            Hence,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 14x$$
+          </span>           
+            </div>
+            <hr>
+
+            <div>
+          <h6>Example 2</h6> 
+          <span>
+            $$y\ =\ 10x^{3}$$
+          </span>
+          <span>
+            differentiate with respect to \(x\), we have
+          </span>  
+          <span>
+            $$\frac{dy}{dx} \ =\ \frac{d\left( 10x^{3}\right)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Multiple, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 10\ \times \ \left[\frac{d\left( x^{3}\right)}{dx}\right]$$
+          </span>
+          <span>
+            By applying Power Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 10\ \times \ \left[ 3x^{( 3-1)}\right]$$
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 10\ \times \ \left[ 3x^{2}\right]$$
+          </span>
+          <span>
+            Hence,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ 30x^{2}$$
+          </span>             
+            </div>
+            <hr>
+
+            <div>
+          <h6>Example 3</h6> 
+          <span>
+            $$y\ =\ 5x\ -\ 1$$
+          </span>
+          <span>
+            differentiate with respect to \(x\), we have
+          </span>  
+          <span>
+            $$\frac{dy}{dx} \ =\ \frac{d( 5x\ -\ 1)}{dx}$$
+          </span>
+          <span>
+            By applying Difference Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =\ \frac{d( 5x)}{dx} -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            By applying Constant Multiple, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =5\ \times \ \left[\frac{d( x)}{dx}\right] -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            By applying Power Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =5\ \times \ \left[ x^{1-1}\right] -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =5\ \times \ \left[ x^{0}\right] -\frac{d( 1)}{dx}$$
+          </span> 
+          <span>
+            $$\frac{dy}{dx} \ =5\ \times \ [ 1] -\frac{d( 1)}{dx}$$
+          </span>
+          <span>
+            you must keep in your mind that the 0th power of any value equals to \(1\)
+          </span>
+          <span>
+            That is \(1^{0} =2^{0} =50^{0} =99999^{0} = 1\)
+          </span>
+          <span>
+            Then, By applying Constant Rule, we have,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =5\ \times \ [ 1] -0$$
+          </span>
+          <span>
+            Hence,
+          </span>
+          <span>
+            $$\frac{dy}{dx} \ =5$$
+          </span>           
+            </div>
+            <hr>
+
+            <div>
+          <h3 class="text-center">Summery</h3> 
+          <p class="text-center">\(k\) is a constant and \(n\) is a natural number</p>
+          <span>
+            $$\frac{d( k)}{dx} \ =0$$
+          </span>
+          <span>
+            $$\frac{d[ kf( x)]}{dx} \ =\ kf'( x)$$
+          </span>  
+          <span>
+            $$\frac{d\left( x^{n}\right)}{dx} \ =\ nx^{n-1}$$
+          </span>  
+          <span>
+            $$\frac{d( u+v)}{dx} \ =\ \frac{du}{dx} \ +\ \frac{dv}{dx}$$
+          </span>  
+          <span>
+            $$\frac{d( u-v)}{dx} \ =\ \frac{du}{dx} \ -\ \frac{dv}{dx}$$
+          </span>         
+            </div>  
+
+          </div>
+  <!-- EXAMPLES END -->
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="page03_S.html" class="DARK w3-button nextPrevious">&#10094;&#10094;
+          <span>ආපසු</span>
+        </a>
+        <a href="page05_S.html" class="DARK w3-button nextPrevious w3-right">
+          <span>ඉදිරියට</span>
+        &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+    <!-- DEFINITION OF A FUNCTION END  -->
+  </div> 
+
+  <div class="m-0 p-0 w3-card-2 DARK" style="height: 35px;
+  background-image:url('../Figures/home_background.png');background-color: #809fff;
+      background-size: 350px 350px;">
+  </div>
+</div>
+<!-- MAIN CONTENT END -->
+
+<!-- FOOTER -->
+<div class="w3-main row" style="margin-left: 219px; margin-right: 0; margin-bottom: 0;
+  font-size: 16px; padding: 0 !important;">
+
+<div style="width: 100%; height:200px;"></div>
+
+<!-- FOOTER LEARN -->
+<div id="Footer" class="w3-card m-0 p-0" style=" background-color: rgb(38, 0, 77); height:400px; width: 100%;">
+  <div style=" background-color: rgba(255, 255, 255, 0.3); 
+      background-image:url('../Figures/home_background.png');
+      background-size: 350px 350px; height:inherit; ">
+  <div style=";height:inherit; padding-top: 30px;">
+  <div class="row d-grid m-0" 
+  style=" border-bottom:1px solid #26004d; background-color: rgb(255, 204, 179); height:370px ; color: #26004d; padding-top: 20px;">
+    <div class=" col-12 position-relative" style="height:120px; width: 100%;">
+    <img src="../logo_footer.svg" class="text-center position-absolute start-50 bottom-0 translate-middle-x
+      " style="height:120px; width: 120px;">
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0;">
+      
+      <!-- ABOUT US BUTTON -->
+      <a class="w3-button" 
+        href="../about_us.html">
+        <img src="../svg/about_us.svg">
+        <br>About Us
+      </a>
+      <!-- ABOUT US BUTTON END -->
+
+      <!-- LANGUAGE SINHALA BUTTON -->
+      <a class="lang w3-button" 
+        href="page04.html">
+        <img src="../svg/language.svg">
+        <br><span>English</span>
+      </a>
+      <!-- LANGUAGE SINHALA BUTTON -->
+      
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0; height: 45px;
+    border-bottom: 1px solid #26004d;">
+      
+      <!-- FACEBOOK -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/facebook.svg">
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/instagram.svg">
+      </a>
+
+      <!-- TWITTER -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/twitter.svg">
+      </a>
+
+      <!-- EMAIL -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/email.svg">
+      </a>
+
+      
+    </div>
+    
+    <div class="m-0 p-0 w3-bar col-12 text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- FOOTER END-->
+</div>
+  
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
