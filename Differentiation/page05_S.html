@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/w3pro.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body class="bg-pic" style="padding:0 !important;">
+
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2 m-0" id="HeaderBar" style="position: relative;font-size: 
+  18px;
+    background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
+    <div style="width: 80%; height: 75px;" class="row">
+      <div class="col-4 float-start">
+        <div id="logo-main"  onclick="location.href = '../index.html';"
+        class="rounded-circle position-relative top-50 start-50 translate-middle" 
+        style=" cursor:pointer !important;background-color: #809fff;height:60px; width: 60px;">
+            <img src="../logo_main.svg" 
+            class="position-relative top-50 start-50 translate-middle"
+            style="height:40px; width: 40px;">  
+        </div>
+      </div>
+      <div class="col-8 float-end">
+        <div class="text-center position-relative top-50 start-50 translate-middle">
+          <h3 onclick="location.href = '../index.html';" style=" cursor:pointer;">nevelmaths.com</h3>
+        </div>  
+      </div>
+    </div>    
+</div>
+
+<!-- TOPIC BAR -->
+<div class="w3-card-2 topicBar DARK" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hide-large" 
+    style="height: 45px; width: 45px; color: white; 
+    font-size: 25px;padding: 2px;">&#9776;
+  </button>
+  <!-- LANGUAGE BUTTON -->
+  <button onclick="location.href='page05.html';" class="lang TopicButton w3-button w3-right" 
+    style="height: 45px; width: 55px; 
+    font-size: 13px;padding: 2px; color: white !important;">
+    <span>English</span>
+  </button>
+  <!-- DARK MODE BUTTON -->
+  <button id="dark_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/dark_mode.svg">
+  </button>
+  <!-- LIGHT MODE BUTTON -->
+  <button id="light_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/light_mode.svg">
+  </button>
+  <!-- HOME BUTTON -->
+  <button onclick="location.href='../index.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/home.svg">
+  </button>
+</div>
+
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
+      <h5>අවකලනය \((dy/dx)\)</h5>
+    </div>
+
+    <a class="w3-button text-start" href="start_S.html">
+      <span>පටන් ගැන්ම</span>
+    </a>
+    <a class="w3-button text-start" href="page01_S.html">
+      <span>ශ්‍රිතය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page02_S.html">
+      <span>සීමාව හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page03_S.html">
+      <span>ව්‍යුත්පන්නය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page04_S.html">
+      <span>මූලික අවකලන නීති</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page05_S.html">
+      <span>ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page06_S.html">
+      <span>ප්‍රතිලෝම ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page07_S.html">
+      <span>ඝාතීය ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page08_S.html">
+      <span>ලඝු ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page09_S.html">
+      <span>ගුණ කිරීමේ නීතිය \((U.V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page10_S.html">
+      <span>බෙදීමේ නීතිය \((U/V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page11_S.html">
+      <span>දාම නීතිය</span>
+    </a>
+    <a class="w3-button text-start" href="page12_S.html">
+      <span>අනුයාත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page13_S.html">
+      <span>අධ්‍යාහෘත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page14_S.html">
+      <span>පරාමිතික අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page15_S.html">
+      <span>අභ්‍යාස</span>
+    </a>
+
+
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row mb-0" id="mainContent" style="margin-left: 219px; margin-right: 0;
+  font-size: 16px; padding-top: 0; background-color: #eff5f5;border-left: 1px solid black;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div id="main" class="col-lg-10" style="border-right: 1px solid #d9d9d9;
+      padding-top: 20px; padding-bottom: 20px;">
+
+
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+   border-bottom: 1px solid #d9d9d9;">
+
+    <a href="page04_S.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+      &#10094;&#10094;
+    </a>
+
+    <div class="col m-0 text-center">
+      <h1>ත්‍රිකෝණමිතික ශ්‍රිත</h1>
+    </div>
+      
+    <a href="page06_S.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+      &#10095;&#10095;    
+    </a>
+
+</div> 
+ <!-- NEXT AND PREVIOUS BUTTONS end  -->
+
+      <br>
+  <!-- Trigonometric Functions BEGINS -->
+  <ul>
+    <li>
+      සෘජුකෝණී ත්‍රිකෝණයක පාද සහ කෝණ අතර සම්බන්ධයන් අනුසාරයෙන් ත්‍රිකෝණමිතික න්‍යායන් ඉදිරිපත් කර ඇත.
+    </li>
+    <br>
+    <li>ත්‍රිකෝණමිතික අනුපාත අනුබද්ධයෙන් ත්‍රිකෝණමිතික ශ්‍රිත ගොඩනගනු ලබයි.</li>
+  </ul>
+  <div class="text-center">
+    පහත රූපයෙන් දැක්වෙන \(ABC\) සෘජුකෝණී ත්‍රිකෝණය සලකමු.
+  </div>
+  <br>
+      <div id="Figure10" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure10.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 float-start p-1 m-0">
+          <div class="col-12 position-relative start-50 top-50 translate-middle">
+            <ul class="m-0">
+              <li> 
+                සෘජුකෝණී ත්‍රිකෝණයක සෘජුකෝණයට සම්මුකව (ඉදිරියෙන්) පිහිටන පාදයට 
+                <b>කර්ණය (Hypotenuse)</b> යැයි කියනු ලබයි.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-sm-6 col-12 float-start p-1 m-0">
+          <div class="col-12 position-relative start-50 top-50 translate-middle">
+          <span>
+            $$sin\ \hat{A} \ =\ \frac{Opposite\ Side}{Hypotenuse} \ =\ \frac{BC}{AB}$$
+          </span>
+          <span>
+            $$cos\ \hat{A} \ =\ \frac{Adjacent\ Side}{Hypotenuse} \ =\ \frac{AC}{AB}$$
+          </span>
+          <span>
+            $$tan\ \hat{A} \ =\ \frac{Opposite\ Side}{Adjacent\ Side} \ =\ \frac{BC}{AC}$$
+          </span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-12 float-start p-1 m-0">
+          <div class="col-12 position-relative start-50 top-50 translate-middle">
+          <span>
+            $$cosec\ \hat{A} \ \ =\ \frac{1}{sin\ \hat{A} \ }$$
+          </span>
+          <span>
+            $$sec\ \hat{A} \ \ =\ \frac{1}{cos\ \hat{A} \ }$$
+          </span>
+          <span>
+            $$cot\ \hat{A} \ \ =\ \frac{1}{tan\ \hat{A} \ }$$
+          </span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+            <br>
+            <div>
+              <h4>1. \(sin  (x)\) හි ව්‍යුත්පන්නය<span class="visually-hidden">sin x</span></h4>
+              <span>
+                $$\frac{d( sin\ x)}{dx} \ =\ cos\ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>2. \(cos  (x)\) හි ව්‍යුත්පන්නය<span class="visually-hidden">cos x</span></h4>
+              <span>
+                $$\frac{d( cos\ x)}{dx} \ =\ -sin\ x$$
+              </span>
+            </div>
+            <hr>            
+
+            <br>
+            <div>
+              <h4>3. \(Tan  (x)\) හි ව්‍යුත්පන්නය<span class="visually-hidden">tan x</span></h4>
+              <span>
+                $$\frac{d( tan\ x)}{dx} \ =\ sec^{2} \ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>4. \(cosec  (x)\) හි ව්‍යුත්පන්නය<span class="visually-hidden">cosec x</span></h4>
+              <span>
+                $$\frac{d( cosec\ x)}{dx} \ =\ -cosec\ x\ .\ cot\ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>5. \(sec  (x)\) හි ව්‍යුත්පන්නය<span class="visually-hidden">sec x</span></h4>
+              <span>
+                $$\frac{d( sec\ x)}{dx} \ =\ sec\ x\ .\ tan\ x$$
+              </span>
+            </div>
+            <hr>
+
+            <br>
+            <div>
+              <h4>6. \(cot  (x)\) හි ව්‍යුත්පන්නය<span class="visually-hidden">cot x</span></h4>
+              <span>
+                $$\frac{d( cot\ x)}{dx} \ =\ -cosec^{2} \ x$$
+              </span>
+            </div>
+                                                
+          </div>
+  <ul>
+    
+  </ul>
+  
+  <br>
+  <p class="text-center">*****</p>
+  <!-- Trigonometric Functions ENDS -->
+<hr><hr>
+  <!-- EXAMPLES -->
+  <div>
+    <h2 class="text-center">නිදසුන්</h2>
+  <br>
+            <div>
+              <h5>නිදසුන 1</h5> 
+                <span>
+                    $$f( x) \ =\ sin\ x\ +\ 3$$
+                </span> 
+                <span>\(x\) විෂයෙන් අවකලනය කළවිට</span>
+                <span>
+                    $$\frac{d( f( x))}{dx} \ =\ \frac{d( sin\ x\ +\ 3)}{dx}$$
+                </span> 
+                <span>
+                    එකතුවක අවකලනයෙන්,
+                </span> 
+                <span>
+                    $$\frac{d( f( x))}{dx} \ =\ \frac{d( sin\ x)}{dx} +\ \frac{d( 3)}{dx}$$
+                </span> 
+                <span>
+                    $$f'( x) \ =\ \frac{d( sin\ x)}{dx} +\ \frac{d( 3)}{dx}$$
+                </span> 
+                <span>
+                    නියතයක අවකලනයෙන්,
+                </span> 
+                <span>
+                    $$f'( x) \ =\ \frac{d( sin\ x)}{dx} +\ 0$$
+                </span> 
+                <span>
+                    $$f'( x) \ =\ \frac{d( sin\ x)}{dx}$$
+                </span> 
+                <span>
+                    \(sin x\) හි ප්‍රථම ව්‍යුත්පන්නයෙන්,
+                </span>
+                <span>
+                    $$f'( x) \ =\ cos\ x$$
+                </span>               
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <div>
+              <h5>නිදසුන 2</h5> 
+                <span>
+                    $$y\ =\ cos\ x\ -\ 3x^{4} \ -\ 15$$
+                </span> 
+                <span>\(x\) විෂයෙන් අවකලනය කළවිට</span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d\left( cos\ x\ -\ 3x^{4} \ -\ 15\right)}{dx}$$
+                </span>
+                <span>
+                    වෙනසක අවකලනයෙන්,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx} -\ \frac{d( 15)}{dx}$$
+                </span>
+                <span>
+                    නියතයක අවකලනයෙන්,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx} -\ 0$$
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ \frac{d\left( 3x^{4}\right)}{dx}$$
+                </span>
+                <span>
+                    නියතයකින් ගුණ කිරීමේදී අවකලනයෙන්,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times \left[\frac{d\left( x^{4}\right)}{dx}\right]$$
+                </span>
+                <span>
+                    බලයක අවකලනයෙන්,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times \left[ 4x^{( 4-1)}\right]$$
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 3\times 4x^{( 3)}$$
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( cos\ x)}{dx} -\ 12x^{3}$$
+                </span>
+                <span>
+                    \(cos x\) හි ප්‍රථම ව්‍යුත්පන්නයෙන්,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ -sinx-\ 12x^{3}$$
+                </span>
+                <span>
+                    එමනිසා,
+                </span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ -\left( sinx\ +\ 12x^{3}\right)$$
+                </span>             
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <div>
+              <h5>නිදසුන 3</h5> 
+                <span>
+                    $$y\ =\ 2\left(\frac{sin\ x}{cos\ x}\right) \ +\ 31$$
+                </span>  
+                <span>
+                    මක්නිසාදයත්, $$\frac{sin\ x}{cos\ x} \ =\ tan\ x$$
+                </span>             
+                <span>
+                    $$y\ =\ 2( tan\ x) \ +\ 31$$
+                </span> 
+                <span>\(x\) විෂයෙන් අවකලනය කළවිට</span>
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x] \ +\ 31)}{dx}$$
+                </span> 
+                <span>
+                    එකතුවක අවකලනයෙන්,
+                </span> 
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x])}{dx} +\ \frac{d( 31)}{dx}$$
+                </span> 
+                <span>
+                    නියතයක අවකලනයෙන්,
+                </span> 
+                <span>
+                    $$\frac{dy}{dx} \ =\ \frac{d( 2[ tan\ x])}{dx} +\ 0$$
+                </span> 
+                <span>
+                    නියතයකින් ගුණ කිරීමේදී අවකලනයෙන්,
+                </span> 
+                <span>
+                    $$\frac{dy}{dx} \ =\ 2\ \times \left[\frac{d( tan\ x)}{dx}\right]$$
+                </span> 
+                <span>
+                    \(tan x\) හි ප්‍රථම ව්‍යුත්පන්නයෙන්,
+                </span> 
+                <span>
+                    $$\frac{dy}{dx} \ =\ 2\ \times \left[ sec^{2} \ x\right]$$
+                </span> 
+                <span>
+                    $$\frac{dy}{dx} \ =\ 2\ sec^{2} \ x$$
+                </span> 
+            </div>
+            <br>
+</div>
+  <!-- EXAMPLES END -->
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="page04_S.html" class="DARK w3-button nextPrevious">&#10094;&#10094;
+          <span>ආපසු</span>
+        </a>
+        <a href="page06_S.html" class="DARK w3-button nextPrevious w3-right">
+          <span>ඉදිරියට</span>
+        &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+    <!-- DEFINITION OF A FUNCTION END  -->
+  </div> 
+</div>
+  <div class="m-0 p-0 w3-card-2 DARK" style="height: 35px;
+  background-image:url('../Figures/home_background.png');background-color: #809fff;
+      background-size: 350px 350px;">
+  </div>
+</div>
+
+<!-- MAIN CONTENT END -->
+
+<!-- FOOTER -->
+<div class="w3-main row" style="margin-left: 219px; margin-right: 0; margin-bottom: 0;
+  font-size: 16px; padding: 0 !important;">
+
+<div style="width: 100%; height:200px;"></div>
+
+<!-- FOOTER LEARN -->
+<div id="Footer" class="w3-card m-0 p-0" style=" background-color: rgb(38, 0, 77); height:400px; width: 100%;">
+  <div style=" background-color: rgba(255, 255, 255, 0.3); 
+      background-image:url('../Figures/home_background.png');
+      background-size: 350px 350px; height:inherit; ">
+  <div style=";height:inherit; padding-top: 30px;">
+  <div class="row d-grid m-0" 
+  style=" border-bottom:1px solid #26004d; background-color: rgb(255, 204, 179); height:370px ; color: #26004d; padding-top: 20px;">
+    <div class=" col-12 position-relative" style="height:120px; width: 100%;">
+    <img src="../logo_footer.svg" class="text-center position-absolute start-50 bottom-0 translate-middle-x
+      " style="height:120px; width: 120px;">
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0;">
+      
+      <!-- ABOUT US BUTTON -->
+      <a class="w3-button" 
+        href="../about_us.html">
+        <img src="../svg/about_us.svg">
+        <br>About Us
+      </a>
+      <!-- ABOUT US BUTTON END -->
+
+      <!-- LANGUAGE SINHALA BUTTON -->
+      <a class="lang w3-button" 
+        href="page05.html">
+        <img src="../svg/language.svg">
+        <br><span>English</span>
+      </a>
+      <!-- LANGUAGE SINHALA BUTTON -->
+      
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0; height: 45px;
+    border-bottom: 1px solid #26004d;">
+      
+      <!-- FACEBOOK -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/facebook.svg">
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/instagram.svg">
+      </a>
+
+      <!-- TWITTER -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/twitter.svg">
+      </a>
+
+      <!-- EMAIL -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/email.svg">
+      </a>
+
+      
+    </div>
+    
+    <div class="m-0 p-0 w3-bar col-12 text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- FOOTER END-->
+</div>
+  
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
