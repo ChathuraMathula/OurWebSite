@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NevelMaths</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/w3pro.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<script id="script1" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body class="bg-pic" style="padding:0 !important;">
+
+  <!-- HEADER -->
+<div class="w3-bar w3-card-2 m-0" id="HeaderBar" style="position: relative;font-size: 
+  18px;
+    background-color: #eff5f5;color:#809fff;padding-left:30px;padding-right:16px;height: 75px;">
+    <div style="width: 80%; height: 75px;" class="row">
+      <div class="col-4 float-start">
+        <div id="logo-main"  onclick="location.href = '../index.html';"
+        class="rounded-circle position-relative top-50 start-50 translate-middle" 
+        style=" cursor:pointer !important;background-color: #809fff;height:60px; width: 60px;">
+            <img src="../logo_main.svg" 
+            class="position-relative top-50 start-50 translate-middle"
+            style="height:40px; width: 40px;">  
+        </div>
+      </div>
+      <div class="col-8 float-end">
+        <div class="text-center position-relative top-50 start-50 translate-middle">
+          <h3 onclick="location.href = '../index.html';" style=" cursor:pointer;">nevelmaths.com</h3>
+        </div>  
+      </div>
+    </div>    
+</div>
+
+<!-- TOPIC BAR -->
+<div class="w3-card-2 topicBar DARK" id="TopicBar" style="position: relative; top: 0px;
+  background-color: #809fff;height: 45px;">
+  <button id="sideButton" class="TopicButton w3-button w3-hide-large" 
+    style="height: 45px; width: 45px; color: white; 
+    font-size: 25px;padding: 2px;">&#9776;
+  </button>
+  <!-- LANGUAGE BUTTON -->
+  <button onclick="location.href='page07.html';" class="lang TopicButton w3-button w3-right" 
+    style="height: 45px; width: 55px; 
+    font-size: 13px;padding: 2px; color: white !important;">
+    <span>English</span>
+  </button>
+  <!-- DARK MODE BUTTON -->
+  <button id="dark_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/dark_mode.svg">
+  </button>
+  <!-- LIGHT MODE BUTTON -->
+  <button id="light_mode" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/light_mode.svg">
+  </button>
+  <!-- HOME BUTTON -->
+  <button onclick="location.href='../index.html';" class="TopicButton w3-button w3-right" 
+    style="height: 45px; width: 45px; 
+    font-size: 25px;padding: 2px;">
+    <img src="../svg/home.svg">
+  </button>
+</div>
+
+
+<!-- SIDE BAR -->
+<div class="w3-sidebar w3-collapse" style="top: 120px; display: none;">
+  <div id="leftSideBar1" style="padding-top: 120px;">
+    <div id="leftSideBar2" style="background-color: #c2d6d6;">
+
+
+    <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
+      <h5>අවකලනය \((dy/dx)\)</h5>
+    </div>
+
+    <a class="w3-button text-start" href="start_S.html">
+      <span>පටන් ගැන්ම</span>
+    </a>
+    <a class="w3-button text-start" href="page01_S.html">
+      <span>ශ්‍රිතය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page02_S.html">
+      <span>සීමාව හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page03_S.html">
+      <span>ව්‍යුත්පන්නය හැඳින්වීම</span>
+    </a>
+    <a class="w3-button text-start" href="page04_S.html">
+      <span>මූලික අවකලන නීති</span>
+    </a>
+    <a class="w3-button text-start" href="page05_S.html">
+      <span>ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page06_S.html">
+      <span>ප්‍රතිලෝම ත්‍රිකෝණමිතික ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page07_S.html">
+      <span>ඝාතීය ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page08_S.html">
+      <span>ලඝු ශ්‍රිත</span>
+    </a>
+    <a class="w3-button text-start" href="page09_S.html">
+      <span>ගුණ කිරීමේ නීතිය \((U.V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page10_S.html">
+      <span>බෙදීමේ නීතිය \((U/V)\)</span>
+    </a>
+    <a class="w3-button text-start" href="page11_S.html">
+      <span>දාම නීතිය</span>
+    </a>
+    <a class="w3-button text-start" href="page12_S.html">
+      <span>අනුයාත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page13_S.html">
+      <span>අධ්‍යාහෘත අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page14_S.html">
+      <span>පරාමිතික අවකලනය</span>
+    </a>
+    <a class="w3-button text-start" href="page15_S.html">
+      <span>අභ්‍යාස</span>
+    </a>
+
+
+    </div>
+  </div>
+</div>
+<!-- SIDEBAR END -->
+
+<!-- MAIN CONTENT -->
+<div class="w3-main row mb-0" id="mainContent" style="margin-left: 219px; margin-right: 0;
+  font-size: 16px; padding-top: 0; background-color: #eff5f5;border-left: 1px solid black;">
+
+<!-- DEFINITION OF A FUNCTION -->
+  <div id="main" class="col-lg-10" style="border-right: 1px solid #d9d9d9;
+      padding-top: 20px; padding-bottom: 20px;">
+
+
+    <div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+<div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
+   border-bottom: 1px solid #d9d9d9;">
+
+    <a href="page06_S.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+      &#10094;&#10094;
+    </a>
+
+    <div class="col m-0 text-center">
+      <h1>ඝාතීය ශ්‍රිත</h1>
+    </div>
+      
+    <a href="page08_S.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+      &#10095;&#10095;    
+    </a>
+
+</div> 
+ <!-- NEXT AND PREVIOUS BUTTONS end  -->
+
+      <br>
+  <!-- Exponential Function BEGINS -->
+<ul>
+  <li>
+    <b>ඝාතීය ශ්‍රිත</b> වල සාධාරණ ආකාරය පහත ලෙස වේ.
+  </li>
+</ul>
+<span>
+  $$y\ =\ a^{x}$$
+</span>
+<div class="text-center">(එනම් \(a\ \neq \ 1\) සහ \(a\  >\ 0\))</div>
+
+      <div id="Figure11_12" class="row m-0">
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure11.svg">
+          </div>
+        </div>
+        <div class="col-md-6 col-12 p-1">
+          <div class="col-8 col-lg-10 position-relative start-50 top-50 translate-middle">
+            <img src="Figures/Figure12.svg">
+          </div>
+        </div>
+      </div>
+
+      <ul>
+        <li>The Function \(y\ =\ e^{x}\) ශ්‍රිතය <b>Natural Exponential Function</b> ලෙස හඳුන්වනු ලබයි.</li>
+          <br>
+        <li>මෙහි, \(e\) යනු නියතයක් වන අතර එයට ඔයිලර් නියතය (Euler's constant) ලෙස කියනු ලබයි.</li>
+      </ul>
+        <span>$$e\ \approx \ 2.71828...$$</span>
+        <span>මෙහි තේරුම \(e\) හි අගය \(2.71828\) ට ආසන්න වශයෙන් සමානයි යන්නයි.</span>
+        <br>
+        <br>
+        <span>දැන් අප ඝාතීය ශ්‍රිතයක් සලකමු,</span>
+        <span>$$y\ =\ a^{x}$$</span>
+        <span>මෙහි දෙපසෙහිම \(e\) පාදයට ලඝු සැලකීමෙන්</span>
+        <span>$$\log_{e} \ y\ =\ \log_{e} \ \left( a^{x}\right)$$</span>
+
+        <div style="color: red;" class="border p-2 text-center">
+          ලඝුගණක වලදී, \(\log_{a} \ \left( x^{r}\right) \ =r\ \log_{a} \ x\) ලෙස නීතියක් ඇත.
+        </div>
+        <br>
+        <span>එම නීතිය භාවිතයෙන්,</span>
+        <span>$$\log_{e} \ y\ =\ x\log_{e} \ a$$</span>
+
+        <div style="color: red;" class="border p-2 text-center">
+          ලඝුගණක වලදී, \(\log_{10} \ A\ =\lg A\) <br>
+          එසේම, \(\log_{e} \ A\ =\ln A\)
+        </div>
+        <br>
+
+        <span>එබැවින් පහත පරිදි ලිවිය හැක,</span>
+        <span>$$\log_{e} \ y\ \ =\ x\ \ln a$$</span>
+
+        <div style="color: red;" class="border p-2 text-center">
+          නැවතත් ලඝුගණක නීති භාවිතයෙන්, \(\log_{a} \ y\ =b\) යන්න \(y\ =\ a^{b}\) පරිධි ලිවිය හැක.
+        </div>
+        <br>
+
+        <span>එමනිසා,</span>
+        <span>$$y\ =\ e^{\ x\ \ln a}$$</span>
+<br><hr><br>
+
+<div>
+              <h4>1. \(e^{x}\) හි ව්‍යුත්පන්නය<span class="visually-hidden">e to x</span></h4>
+              <span>
+                $$\frac{d\left( e^{x}\right)}{dx} \ =e^{x}$$
+              </span>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+              <h4>2. \(e^{kx}\) හි ව්‍යුත්පන්නය<span class="visually-hidden">e to x</span></h4>
+              <span>
+                $$\frac{d\left( e^{kx}\right)}{dx} \ =ke^{kx}$$
+              </span>
+            </div>
+            <br>
+            <hr>
+
+        <div style="color: #03033D;" class="m-2 w3-card p-2 text-center">
+          දැන් \(y = a^{x}\) යන්න සෘජුවම \(x\) විෂයෙන් අවකලනය කළ නොහැකි බව ඔබට තේරුම් යනු ඇත.<br>
+          එසේනම් ඒ සඳහා අපගේ ප්‍රකාශනය ඉහත පරිධි නැවත සකසා ගත යුතුය.
+          <br>
+          <span>එමනිසා, </span>
+          <span>
+                $$y\ =\ e^{\ x\ \ln a}$$
+              </span><br>
+              <span> දැන් මෙය \(x\) විෂයෙන් අවකලනය කළ හැක,</span>
+              <span>
+                $$\frac{dy}{dx} \ =\frac{d\left( e^{\ x\ \ln a}\right)}{dx}$$
+              </span>
+              <span style="color: red;">&#8226; මෙහි අවකලනය ලබා ගැනීමේදී දාම නීතිය පිළිබඳ දැනුම ඔබට තිබිය යුතුය. ඒ සඳහා ඉදිරි පරිච්ඡේද අධ්‍යනය කරන්න.</span>
+        </div> 
+
+  <br>
+  <p class="text-center">*****</p>
+  <!-- Exponential Function ENDS -->
+<hr><hr>
+  <!-- EXAMPLES -->
+  <div>
+    <h2 class="text-center">නිදසුන්</h2>
+  <br>
+        <div>
+          <h5>නිදසුන 1</h5> 
+          <div class="equations">
+          <span>
+              $$y\ =2\ e^{\ x}$$
+          </span> 
+          <span>\(x\) විෂයෙන් අවකලනය කළවිට</span> 
+          <span>
+              $$\frac{dy}{dx} \ =\frac{d\left( 2\ e^{\ x}\right)}{dx}$$
+          </span> 
+          <span>
+              $$\frac{dy}{dx} \ =2\frac{d\left( e^{\ x}\right)}{dx}$$
+          </span>
+          <span>
+              එමනිසා,
+          </span>
+          <span>
+              $$\frac{dy}{dx} \ =2\ e^{\ x}$$
+          </span> 
+          </div>               
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <div>
+          <h5>නිදසුන 2</h5>
+          <div class="equations"> 
+          <span>
+              $$y\ =\ 4\left( x\ +\ \ e^{\ x}\right) \ +\ cos\ x$$
+          </span> 
+          <span>\(x\) විෂයෙන් අවකලනය කළවිට</span> 
+          <span>
+              $$\frac{dy}{dx} \ =\frac{d\left\{4\left( x\ +\ \ e^{\ x}\right)\right\}}{dx} \ +\frac{d( cos\ x)}{dx}$$
+          </span> 
+          <span>
+              $$\frac{dy}{dx} \ =\frac{d( 4x)}{dx} \ +\frac{d\left( 4e^{\ x}\right)}{dx} \ +\frac{d( cos\ x)}{dx}$$
+          </span> 
+          <span>
+              $$\frac{dy}{dx} \ =4\ +\ 4x\ -\ sin\ x$$
+          </span>
+          <span>
+              එමනිසා,
+          </span>
+          <span>
+              $$\frac{dy}{dx} \ =4( 1+x) \ -sin\ x$$
+          </span>
+          </div>               
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <div>
+          <h5>නිදසුන 3</h5> 
+          <div class="equations">
+          <span>
+              $$y\ =\ x^{2} \ +\ 2e^{x} \ -\ cot^{-1} \ x$$
+          </span> 
+          <span>\(x\) විෂයෙන් අවකලනය කළවිට</span>
+          <span>
+              $$\frac{dy}{dx} \ =\frac{d\left( x^{2}\right)}{dx} \ +\frac{d\left( 2e^{x}\right)}{dx} \ -\frac{d\left( cot^{-1} \ x\right)}{dx}$$
+          </span> 
+          <span>
+              $$\frac{dy}{dx} \ =\ 2x\ +\ 2e^{x} \ -\left\{\frac{-1}{\sqrt{1-x^{2}}}\right\}$$
+          </span>
+          <span>
+              එමනිසා,
+          </span>
+          <span>
+              $$\frac{dy}{dx} \ =\ 2\left( x\ +\ e^{x}\right) +\ \frac{1}{\sqrt{1-x^{2}}}$$
+          </span>  
+          </div>             
+            </div>
+            <br>
+</div>
+  <!-- EXAMPLES END -->
+
+<!-- NEXT PREVIOUS BUTTONS -->
+      <div class="w3-bar">
+        <a href="page06_S.html" class="DARK w3-button nextPrevious">&#10094;&#10094;
+          <span>ආපසු</span>
+        </a>
+        <a href="page08_S.html" class="DARK w3-button nextPrevious w3-right">
+          <span>ඉදිරියට</span>
+        &#10095;&#10095;</a>
+      </div>
+<!-- NEXT PREVIOUS BUTTONS END -->
+    </div>
+    <!-- DEFINITION OF A FUNCTION END  -->
+  </div> 
+</div>
+  <div class="m-0 p-0 w3-card-2 DARK" style="height: 35px;
+  background-image:url('../Figures/home_background.png');background-color: #809fff;
+      background-size: 350px 350px;">
+  </div>
+</div>
+
+<!-- MAIN CONTENT END -->
+
+<!-- FOOTER -->
+<div class="w3-main row" style="margin-left: 219px; margin-right: 0; margin-bottom: 0;
+  font-size: 16px; padding: 0 !important;">
+
+<div style="width: 100%; height:200px;"></div>
+
+<!-- FOOTER LEARN -->
+<div id="Footer" class="w3-card m-0 p-0" style=" background-color: rgb(38, 0, 77); height:400px; width: 100%;">
+  <div style=" background-color: rgba(255, 255, 255, 0.3); 
+      background-image:url('../Figures/home_background.png');
+      background-size: 350px 350px; height:inherit; ">
+  <div style=";height:inherit; padding-top: 30px;">
+  <div class="row d-grid m-0" 
+  style=" border-bottom:1px solid #26004d; background-color: rgb(255, 204, 179); height:370px ; color: #26004d; padding-top: 20px;">
+    <div class=" col-12 position-relative" style="height:120px; width: 100%;">
+    <img src="../logo_footer.svg" class="text-center position-absolute start-50 bottom-0 translate-middle-x
+      " style="height:120px; width: 120px;">
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0;">
+      
+      <!-- ABOUT US BUTTON -->
+      <a class="w3-button" 
+        href="../about_us.html">
+        <img src="../svg/about_us.svg">
+        <br>About Us
+      </a>
+      <!-- ABOUT US BUTTON END -->
+
+      <!-- LANGUAGE SINHALA BUTTON -->
+      <a class="lang w3-button" 
+        href="page07.html">
+        <img src="../svg/language.svg">
+        <br><span>English</span>
+      </a>
+      <!-- LANGUAGE SINHALA BUTTON -->
+      
+    </div>
+    <div class="w3-bar col-12 text-center" style="margin: 5px 0 5px 0; height: 45px;
+    border-bottom: 1px solid #26004d;">
+      
+      <!-- FACEBOOK -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/facebook.svg">
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/instagram.svg">
+      </a>
+
+      <!-- TWITTER -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/twitter.svg">
+      </a>
+
+      <!-- EMAIL -->
+      <a class="w3-button" 
+        href="#">
+        <img src="../svg/email.svg">
+      </a>
+
+      
+    </div>
+    
+    <div class="m-0 p-0 w3-bar col-12 text-center">
+      <p>&#169;2021 All Rights Reserved.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- FOOTER END-->
+</div>
+  
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
