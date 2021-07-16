@@ -42,11 +42,11 @@
     font-size: 25px;padding: 2px;">&#9776;
   </button>
   <!-- LANGUAGE BUTTON -->
-  <button onclick="location.href='start_S.html';" class="TopicButton w3-button w3-right" 
+<!--   <button onclick="location.href='start_S.html';" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 55px; 
     font-size: 13px;padding: 2px; color: white !important;">
     <span>සිංහල</span>
-  </button>
+  </button> -->
   <!-- DARK MODE BUTTON -->
   <button id="dark_mode" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 45px; 
@@ -75,21 +75,21 @@
 
 
     <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
-      <h5>Integration<br>\(\int y\ dx\)</h5>
+      <h5>Financial<br>Mathematics</h5>
     </div>
 
+    <div class=" text-center w3-hover-none" style="background-color:none !important;
+      cursor: default; border-bottom: 1px solid grey;border-top: 1px solid grey;">
+      <span><b>Time Value of Money</b></span>
+    </div>
     <a class="w3-button text-start sideActive" href="start.html">
       <span class="english">Get Started</span>
     </a>
     <a class="w3-button text-start" href="page01.html">
-      <span>Integration Intro</span>
+      <span>Simple Interest</span>
     </a>
-    <div class=" text-center w3-hover-none" style="background-color:none !important;
-      cursor: default; border-bottom: 1px solid grey;border-top: 1px solid grey;">
-      <span><b>Basic Rules</b></span>
-    </div>
     <a class="w3-button text-start" href="page02.html">
-      <span>Form of \(x^{n}\)</span>
+      <span>Compound Interest</span>
     </a>
     <a class="w3-button text-start" href="page03.html">
       <span>Form of \(\frac{1}{x}\)</span>
@@ -168,94 +168,33 @@
  <!-- NEXT AND PREVIOUS BUTTONS end  -->
 <br>
 
-<!-- --------------------------------page05-------------------------------------- -->
-    <div class="col m-0 text-center">
-      <h1 class="english">Partial Fractions</h1>
-    </div>
-    <ul>
-      <li>We use partial fractions when integrating rational functions</li><br>
-      <li>Suppose, \(f(x)\) and \(g(x)\) are polynomials.</li>
-    </ul>
-    <p class="text-center">
-      (As an example, \(x^{4} +3x^{3} +2x^{2} +x+6\) is a polynomial of degree 4)<br><br>
-      The gratest power of the independent variable (\(x\)) is called the degree of a polynomial 
-    </p>
-    <ul>
-      <li>Then \(\frac{f( x)}{g( x)}\) is called a <b>Rational Function</b>.</li>
-    </ul>
-    <span>$$y=\frac{f( x)}{g( x)}$$</span>
-    <ul>
-      <li>In this fraction \(f(x)\) is the <b>Numerator</b>.</li><br>
-      <li>\(g(x)\) is the <b>Denominator</b>.</li><br>
-      <li>The degree of \(f(x)\) is less than the degree of \(g(x)\).</li>
-    </ul>
-    <span>for an example, $$\frac{x+\ 1}{x^{2} +x+6}$$</span>
-    <p class="text-center">
-      \(f(x)=x+\ 1\) and the degree of \(f(x)\) is \(1\).<br><br>
-      \(g(x)=x^{2} +x+6\) and the degree of \(g(x)\) is \(2\).<br><br>
-      ∴ degree of \(f(x)\) &lt; degree of \(g(x)\)
-    </p>
-    <ul>
-      <li>So, this type of rational function is a <b>Partial Fraction</b>.</li><br>
-      <li>In general, The denominator \(g(x)\) can be factorized into a product of
-        some diffrent linear factors.</li>
-    </ul><br>
-    <div class="w3-card p-3"><div class=" text-start equations">
-      Consider the partial fraction,
-      $$\frac{4}{x^{2} +2x-3}$$
-      By factorizing the denominator \(g(x)\)
-      $$\frac{4}{( x-1)( x+3)}$$
-      <p class="text-center">(Because \(x^{2}+2x-3 =(x-1)(x+3)\))</p>
-      Hence,$$\frac{4}{( x-1)( x+3)} =\frac{A}{( x-1)} \ +\ \frac{B}{( x+3)}$$
-      <p class="text-center">(\(A\) and \(B\) are another constants)</p>
-      $$\frac{4}{( x-1)( x+3)} =\frac{A( x+3) +B( x-1)}{( x-1)( x+3)}$$
-      $$\therefore \ 4=A( x+3) +B( x-1)$$
-      $$4=Ax+3A+Bx-B$$
-      $$4=( A+B) x+( 3A-B)$$
-      By considering the coefficients of both sides
-      $$0=A+B$$ $$A=-B$$
-      Similerly, $$3A-B=4$$
-      $$3( -B) -B=4$$
-      $$-4B=4$$
-      $$B=1$$
-      $$\therefore \ A=-1$$
-      By subtituting \(A\) and \(B\) we have,
-      $$\frac{4}{( x-1)( x+3)} \ =\ \frac{-1}{( x-1)} \ +\ \frac{1}{( x+3)}$$
-    </div></div>
-    <br>
-    <div class="text-center">
-      <b>When degree of \(f(x)\) = degree of \(g(x)\), you have to follow these steps.</b>
-    </div><br>
-    <div class="w3-card p-3"><div class=" text-start equations">
-      Consider the partial fraction,
-      $$\frac{x^{2} +3}{x^{2} -4x+4}$$
-      By factorizing the denominator \(g(x)\)
-      $$\frac{x^{2} +3}{( x-2)^{2}}$$
-      <p class="text-center">(Because \(\mathbf{x^{2} -4x+4\ =( x-2)( x-2)}\))</p>
-      By using the theory of partial fractions, the above fraction can be rewrite as
-      $$\frac{x^{2} +3}{( x-2)^{2}} =A+\frac{B}{( x-2)} +\frac{C}{( x-2)^{2}}$$
-      <p class="text-center">(\(A,B,C\) and \(D\) are another constants)</p>
-      $$\frac{x^{2} +3}{( x-2)^{2}} =\frac{A( x-2)^{2} +B( x-2) +C}{( x-2)^{2}}$$
-      $$\frac{x^{2} +3}{( x-2)^{2}} =\frac{A\left( x^{2} -4x+4\right) +B( x-2) +C}{( x-2)^{2}}$$
-      $$x^{2} +3=Ax^{2} +( -4A+B) x+( 4A-2B+C)$$
-      By considering the coefficients of \(x^{2}\) of both sides
-      $$A=1$$
-      By considering the coefficients of \(x\) of both sides
-      $$0\ =\ -4A+B$$
-      $$0\ =\ -4+B$$
-      $$\therefore \ B=4$$
-      By considering the coefficients of \(constant\) of both sides
-      $$3=4A-2B+C$$
-      $$3=4-8+C$$ $$\therefore \ C=7$$
-      By subtituting \(A,B,C\) and \(D\) we have,
-      $$\frac{x^{2} +3}{( x-2)^{2}} =1+\frac{4}{( x-2)} +\frac{7}{( x-2)^{2}}$$
-      $$\frac{x^{2} +3}{x^{2} -4x+4} =1+\frac{4}{( x-2)} +\frac{7}{( x-2)^{2}}$$
-    </div></div>
-    <br>
-
-    
-  </div>
-<!-- --------------------------------page05 end---------------------------------- -->
+<!-- --------------------------------page start-------------------------------------- -->
+<ul>
+  <li>The amount of money or something, one gets or pays for lending a certain property or asset
+    is called the <b>Interest</b></li><br>
+  <li>The property (or asset) is called the <b>Capital</b>.</li><br>
+  <li>When the property is always expressed in money we use the tert <b><q>Principal</q></b></li>
+</ul>
+<br>
+<div class="w3-card p-2" style="color:darkblue;">
+  For an example,
+  <div class="p-2">
+    When you deposite some money in a bank account, for some time period, the bank
+    can do whatever it wants with your money during that time period but you are paid some 
+    amount of money as a reward.
+  </div><br>
+  <ul>
+    <li>The money you deposite is called the Principal (or Capital)</li><br>
+    <li>The reward you are paid for the time period (like per year) is called the 
+      the interenst.</li>
+  </ul>
+</div><br>
+<div>
+  Now you have a better understanding about the 3 terms <b>Interest, Principal</b> and <b>Time</b>.
+  Next move to the next chapter to learn about Simple Interest.
+</div><br>
+<br>
+<!-- --------------------------------page start end---------------------------------- -->
 
 
 
@@ -311,11 +250,11 @@
       <!-- ABOUT US BUTTON END -->
 
       <!-- LANGUAGE SINHALA BUTTON -->
-      <a class="w3-button" 
+<!--       <a class="w3-button" 
         href="start_S.html">
         <img src="../svg/language.svg">
         <br><span>සිංහල</span>
-      </a>
+      </a> -->
       <!-- LANGUAGE SINHALA BUTTON -->
       
     </div>

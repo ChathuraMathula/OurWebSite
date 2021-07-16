@@ -1,0 +1,92 @@
+<!-- --------------------------------page04-------------------------------------- -->
+<div class="col m-0 text-center">
+      <h1 class="english">Integration of the form \(\frac{1}{( ax+b)}\)</h1>
+    </div>
+    <ul>
+      <li>Here you will see how to integrate the functions of the form of \(\frac{1}{( ax+b)}\)</li>
+    </ul>
+  <div class="p-3">
+      <div class="w3-card-2 equations-card topicBar DARK text-center" style="height: 120px; background-color: #809fff; color: black;">
+      <div class="position-relative start-50 top-50 translate-middle">
+        <h2 class="equations-card-inner">
+          \(\int \frac{1}{( ax+b)} \ dx\ =\frac{1}{a}\ln \ |ax+b|\ +\ Constant\)</h2>
+        <div class="equations-card-inner">(where \(a,b\) are constants)</div>
+      </div>
+      </div>
+  </div>
+  <div class="text-center" style="color: darkblue;">
+    <p><u>Checking the reverse Process</u></p>
+    <div class="equations">
+      $$\frac{d\left(\frac{1}{a}\ln \ |ax+b|\right)}{dx} =\frac{1}{a} \times \frac{1}{( ax+b)} \times a$$
+      $$\frac{d\left(\frac{1}{a}\ln \ |ax+b|\right)}{dx} =\frac{1}{( ax+b)}$$
+    </div>
+  </div>
+  <hr>
+  <div>
+    <h3 class="text-center">Practice Examples</h3>
+    <br>
+    <div class="w3-card p-3">
+    <div class=" text-start equations">
+      Example 1
+      $$\int \frac{1}{( 4x+3)} \ dx\ =\frac{1}{4}\ln \ |4x+3|\ +\ Constant$$
+    </div>
+    </div>
+    <br>
+    <div class="w3-card p-3">
+    <div class=" text-start equations">
+      Example 2
+      $$\int \frac{1}{( 2-3x)} \ dx\ =\frac{1}{-3}\ln \ |2-3x|\ +\ Constant$$
+    </div>
+    </div>
+    <br>
+    <div class="w3-card p-3">
+    <div class=" text-start equations">
+      Example 3
+      $$\int _{0}^{1}\frac{1}{( 2x+3)} \ dx\ =\left\{\frac{1}{2}\ln \ |2x+3|\ \right\}_{0}^{1}$$
+      $$\int _{0}^{1}\frac{1}{( 2x+3)} \ dx\ =\frac{1}{2}\{\ln \ |2+3|-\ln \ |3|\}$$
+      $$\therefore \int _{0}^{1}\frac{1}{( 2x+3)} \ dx\ =\frac{1}{2}\left\{\ln \ \left(\frac{5}{3}\right)\right\}$$
+    </div>
+    </div>
+    <br>
+    <div class="text-center">Next example will need the knowledge of partial fractions.<br>
+      We recommend you to go through the next chapter to learn <b>Partial Fractions</b>.
+    </div>
+    <br>
+    <div class="w3-card p-3">
+    <div class=" text-start equations">
+      Example 4
+      $$find\ \int y\ dx$$
+      $$y\ =\ \frac{x}{x^{2} -x-6}$$
+      By factorizing the denominator
+      $$y\ =\ \frac{x}{( x-3)( x+2)}$$
+      <div class="text-center">(Because \(x^{2}-x-6 =(x-3)(x+2)\))</div>
+      By using the theory of partial fractions, the above fraction can be rewrite as
+      $$\frac{x}{( x-3)( x+2)} \ =\ \frac{A}{( x-3)} \ +\ \frac{B}{( x+2)}$$
+      <div class="text-center">(\(A\) and \(B\) are another constants)</div>
+      $$\frac{x}{( x-3)( x+2)} \ =\ \frac{A( x+2) +B( x-3)}{( x-3)( x+2)}$$
+      $$\therefore \ x=A( x+2) +B( x-3)$$
+      $$x=Ax+2A+Bx-3B$$
+      $$x=( A+B) x+( 2A-3B)$$
+      By considering the coefficients of both sides
+      $$1=A+B$$
+      $$A=1-B$$
+      Similerly,
+      $$2A-3B=0$$
+      $$2(1-B)-3B=0$$
+      $$2-2B-3B=0$$
+      $$2=5B$$
+      $$B=\frac{2}{5}$$
+      $$\therefore \ A=1-\frac{2}{5}$$
+      $$A=\frac{3}{5}$$
+      Now we can write,
+      $$\frac{x}{( x-3)( x+2)} \ =\ \frac{3}{5( x-3)} \ +\ \frac{2}{5( x+2)}$$
+      Integrating both sides with respect to \(x\),
+      $$\int \frac{x}{( x-3)( x+2)} dx$$$$=\ \int \frac{3}{5( x-3)} dx\ +\ \int \frac{2}{5( x+2)} dx$$<br>
+      $$\int \frac{x}{x^{2} -x-6} dx$$$$=\ \frac{3}{5}\int \frac{1}{( x-3)} dx\ +\ \frac{2}{5}\int \frac{1}{( x+2)} dx$$<br>
+      $$\int \frac{x}{x^{2} -x-6} dx$$$$=\ \frac{3}{5}\ln( x-3) \ +\ \frac{2}{5}\ln( x+2) \ +\ C$$
+      <div class="text-center">(\(C=Constant\))</div> 
+    </div>
+    </div>
+    <br>    
+  </div>
+<!-- --------------------------------page04 end---------------------------------- -->

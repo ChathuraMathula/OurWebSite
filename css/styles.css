@@ -94,7 +94,9 @@ html {
 .equations{
     font-size: 12px;
 }
-
+.equations-card-inner {
+    font-size: 4vw;
+}
 }
 
 
@@ -103,6 +105,7 @@ html {
 .w3-sidebar {
     font-size: 14px !important;
 }
+
 }
 
 

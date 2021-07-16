@@ -42,11 +42,11 @@
     font-size: 25px;padding: 2px;">&#9776;
   </button>
   <!-- LANGUAGE BUTTON -->
-  <button onclick="location.href='start_S.html';" class="TopicButton w3-button w3-right" 
+<!--   <button onclick="location.href='start_S.html';" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 55px; 
     font-size: 13px;padding: 2px; color: white !important;">
     <span>සිංහල</span>
-  </button>
+  </button> -->
   <!-- DARK MODE BUTTON -->
   <button id="dark_mode" class="TopicButton w3-button w3-right" 
     style="height: 45px; width: 45px; 
@@ -75,21 +75,21 @@
 
 
     <div class="text-center p-2" style="border-bottom: 1px solid #03033D;">
-      <h5>Integration<br>\(\int y\ dx\)</h5>
+      <h5>Financial<br>Mathematics</h5>
     </div>
 
-    <a class="w3-button text-start sideActive" href="start.html">
-      <span class="english">Get Started</span>
-    </a>
-    <a class="w3-button text-start" href="page01.html">
-      <span>Integration Intro</span>
-    </a>
     <div class=" text-center w3-hover-none" style="background-color:none !important;
       cursor: default; border-bottom: 1px solid grey;border-top: 1px solid grey;">
-      <span><b>Basic Rules</b></span>
+      <span><b>Time Value of Money</b></span>
     </div>
+    <a class="w3-button text-start" href="start.html">
+      <span class="english">Get Started</span>
+    </a>
+    <a class="w3-button text-start sideActive" href="page01.html">
+      <span>Simple Interest</span>
+    </a>
     <a class="w3-button text-start" href="page02.html">
-      <span>Form of \(x^{n}\)</span>
+      <span>Compound Interest</span>
     </a>
     <a class="w3-button text-start" href="page03.html">
       <span>Form of \(\frac{1}{x}\)</span>
@@ -152,15 +152,15 @@
 <div id="topicName" class="row m-0 p-0 mb-3" style="height: auto; width: 100%;
    border-bottom: 1px solid #d9d9d9;">
 
-    <a href="../index.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
+    <a href="start.html" class="w3-button w3-hover-none col-2 m-0 float-start rounded-pill">
       &#10094;&#10094;
     </a>
 
     <div class="col m-0 text-center">
-      <h1 class="english">Get Started</h1>
+      <h1>Simple Interest</h1>
     </div>
       
-    <a href="page01.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
+    <a href="page02.html" class="w3-button w3-hover-none col-2 m-0 float-end rounded-pill">
       &#10095;&#10095;    
     </a>
 
@@ -168,94 +168,83 @@
  <!-- NEXT AND PREVIOUS BUTTONS end  -->
 <br>
 
-<!-- --------------------------------page05-------------------------------------- -->
-    <div class="col m-0 text-center">
-      <h1 class="english">Partial Fractions</h1>
-    </div>
-    <ul>
-      <li>We use partial fractions when integrating rational functions</li><br>
-      <li>Suppose, \(f(x)\) and \(g(x)\) are polynomials.</li>
-    </ul>
-    <p class="text-center">
-      (As an example, \(x^{4} +3x^{3} +2x^{2} +x+6\) is a polynomial of degree 4)<br><br>
-      The gratest power of the independent variable (\(x\)) is called the degree of a polynomial 
-    </p>
-    <ul>
-      <li>Then \(\frac{f( x)}{g( x)}\) is called a <b>Rational Function</b>.</li>
-    </ul>
-    <span>$$y=\frac{f( x)}{g( x)}$$</span>
-    <ul>
-      <li>In this fraction \(f(x)\) is the <b>Numerator</b>.</li><br>
-      <li>\(g(x)\) is the <b>Denominator</b>.</li><br>
-      <li>The degree of \(f(x)\) is less than the degree of \(g(x)\).</li>
-    </ul>
-    <span>for an example, $$\frac{x+\ 1}{x^{2} +x+6}$$</span>
-    <p class="text-center">
-      \(f(x)=x+\ 1\) and the degree of \(f(x)\) is \(1\).<br><br>
-      \(g(x)=x^{2} +x+6\) and the degree of \(g(x)\) is \(2\).<br><br>
-      ∴ degree of \(f(x)\) &lt; degree of \(g(x)\)
-    </p>
-    <ul>
-      <li>So, this type of rational function is a <b>Partial Fraction</b>.</li><br>
-      <li>In general, The denominator \(g(x)\) can be factorized into a product of
-        some diffrent linear factors.</li>
-    </ul><br>
-    <div class="w3-card p-3"><div class=" text-start equations">
-      Consider the partial fraction,
-      $$\frac{4}{x^{2} +2x-3}$$
-      By factorizing the denominator \(g(x)\)
-      $$\frac{4}{( x-1)( x+3)}$$
-      <p class="text-center">(Because \(x^{2}+2x-3 =(x-1)(x+3)\))</p>
-      Hence,$$\frac{4}{( x-1)( x+3)} =\frac{A}{( x-1)} \ +\ \frac{B}{( x+3)}$$
-      <p class="text-center">(\(A\) and \(B\) are another constants)</p>
-      $$\frac{4}{( x-1)( x+3)} =\frac{A( x+3) +B( x-1)}{( x-1)( x+3)}$$
-      $$\therefore \ 4=A( x+3) +B( x-1)$$
-      $$4=Ax+3A+Bx-B$$
-      $$4=( A+B) x+( 3A-B)$$
-      By considering the coefficients of both sides
-      $$0=A+B$$ $$A=-B$$
-      Similerly, $$3A-B=4$$
-      $$3( -B) -B=4$$
-      $$-4B=4$$
-      $$B=1$$
-      $$\therefore \ A=-1$$
-      By subtituting \(A\) and \(B\) we have,
-      $$\frac{4}{( x-1)( x+3)} \ =\ \frac{-1}{( x-1)} \ +\ \frac{1}{( x+3)}$$
-    </div></div>
-    <br>
-    <div class="text-center">
-      <b>When degree of \(f(x)\) = degree of \(g(x)\), you have to follow these steps.</b>
-    </div><br>
-    <div class="w3-card p-3"><div class=" text-start equations">
-      Consider the partial fraction,
-      $$\frac{x^{2} +3}{x^{2} -4x+4}$$
-      By factorizing the denominator \(g(x)\)
-      $$\frac{x^{2} +3}{( x-2)^{2}}$$
-      <p class="text-center">(Because \(\mathbf{x^{2} -4x+4\ =( x-2)( x-2)}\))</p>
-      By using the theory of partial fractions, the above fraction can be rewrite as
-      $$\frac{x^{2} +3}{( x-2)^{2}} =A+\frac{B}{( x-2)} +\frac{C}{( x-2)^{2}}$$
-      <p class="text-center">(\(A,B,C\) and \(D\) are another constants)</p>
-      $$\frac{x^{2} +3}{( x-2)^{2}} =\frac{A( x-2)^{2} +B( x-2) +C}{( x-2)^{2}}$$
-      $$\frac{x^{2} +3}{( x-2)^{2}} =\frac{A\left( x^{2} -4x+4\right) +B( x-2) +C}{( x-2)^{2}}$$
-      $$x^{2} +3=Ax^{2} +( -4A+B) x+( 4A-2B+C)$$
-      By considering the coefficients of \(x^{2}\) of both sides
-      $$A=1$$
-      By considering the coefficients of \(x\) of both sides
-      $$0\ =\ -4A+B$$
-      $$0\ =\ -4+B$$
-      $$\therefore \ B=4$$
-      By considering the coefficients of \(constant\) of both sides
-      $$3=4A-2B+C$$
-      $$3=4-8+C$$ $$\therefore \ C=7$$
-      By subtituting \(A,B,C\) and \(D\) we have,
-      $$\frac{x^{2} +3}{( x-2)^{2}} =1+\frac{4}{( x-2)} +\frac{7}{( x-2)^{2}}$$
-      $$\frac{x^{2} +3}{x^{2} -4x+4} =1+\frac{4}{( x-2)} +\frac{7}{( x-2)^{2}}$$
-    </div></div>
-    <br>
+<!-- --------------------------------page01 start-------------------------------------- -->
+<ul>
+  <li><b>Interest</b> can be expressed in different ways</li><br>
+  <li><b>Simple Interest</b> is the most basic type.</li><br>
+  <li>However It has some issues.</li><br>
+  <li>Therefore, practically it is limited in usage.</li><br>
+  <li>It is used in short term investments.</li>
+</ul>
+<div class="pt-3 pb-3">
+      <div class="w3-card-2 equations-card topicBar DARK text-center" style="height: 220px; background-color: #809fff; color: black;">
+      <div class="position-relative start-50 top-50 translate-middle">
+        <h2 class="text-center equations">What is Simple Interest?</h2>
 
-    
+      <div class="p-2 equations text-start">
+        When an asset(= Capital \(C\)) is given to use over a time period (\(n\)) at 
+        some interest rate (\(i\)), the amount of money paid as the interest id given by 
+        \(niC\)
+      </div><br>
+      <div class="text-center equations">
+        Interest = time period(\(n\)) \(\times\) interest rate(\(i\)) \(\times\) Capital(\(C\)) 
+      </div>
+      </div>
+      </div>
   </div>
-<!-- --------------------------------page05 end---------------------------------- -->
+<div class="w3-card p-2">
+  <div class="p-2">
+    What is the abount of interest you get if you put $ 1000 for a year in a bank 
+    that pays simple interest at a rate of 7% per annum (per year) ?
+  </div><br>
+  <div class="text-center equations">
+      Interest = (\(n\)) \(\times\) (\(i\)) \(\times\) (\(C\)) 
+      $$Interest = (1\ year) \times \frac{7}{100} \times $\ 1000$$
+      $$Interest = $\ 70$$
+  </div>
+  <ul>
+    <li>Now you have a total of \($\ 1070\)</li><br>
+  </ul>
+  <div class="p-2">
+    If you withdraw this money and deposite for another year in another bank that 
+    pays simple interest at the same rate (that is 7% per year)
+  </div><br>
+  <div class="text-center equations">
+    <div class="text-start">You get the interest \((I)\)</div>
+      Interest = (\(n\)) \(\times\) (\(i\)) \(\times\) (\(C\)) 
+      $$Interest = (1\ year) \times \frac{7}{100} \times $\ 1070$$
+      $$Interest = $\ 74.9$$
+  </div>
+  <ul>
+    <li>Now you have a total of \($\ 1144.9\)</li><br>
+  </ul>
+  <div class="p-2">
+    Now let's compute the total amount of money if you have put your money 
+    in the first bank for two years without withdrawing it and depositing in another bank,
+  </div><br>
+  <div class="text-center equations">
+    <div class="text-start">The interest \((I)\) you get for 2 years</div>
+      $$Interest = (2\ year) \times \frac{7}{100} \times $\ 1000$$
+      $$Interest = $\ 140$$
+  </div>
+  <ul>
+    <li>Now you have a total of \($\ 1140\)</li><br>
+  </ul>
+  <div class="p-2">
+    You will get that the first method will give you a total of \($\ 1144.9\) while the second 
+    method gives \($\ 1140\).
+    $$$\ 1144.9\ &gt;\ $\ 1140$$
+  </div><br>
+  <div class="p-2">
+    <b>Therefore this is the major issue of simple interest when deposite money for a long period 
+    of time. Hence, the method compound interest is introduced instead of simple interest 
+    to use in the long run.</b>
+  </div><br>
+  <div class="text-center">***The term <q>per annum</q> is in Latin for <q>per year</q></div>
+</div>
+
+<br>
+<!-- --------------------------------page01 end---------------------------------- -->
 
 
 
@@ -263,10 +252,10 @@
 
 <!-- NEXT PREVIOUS BUTTONS -->
       <div class="w3-bar">
-        <a href="../index.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
+        <a href="start.html" class="DARK w3-button nextPrevious">&#10094;&#10094; 
           <span>Previous</span> 
         </a>
-        <a href="page01.html" class="DARK w3-button nextPrevious w3-right">
+        <a href="page02.html" class="DARK w3-button nextPrevious w3-right">
           <span>Next</span>
         &#10095;&#10095;</a>
       </div>
@@ -311,11 +300,11 @@
       <!-- ABOUT US BUTTON END -->
 
       <!-- LANGUAGE SINHALA BUTTON -->
-      <a class="w3-button" 
+<!--       <a class="w3-button" 
         href="start_S.html">
         <img src="../svg/language.svg">
         <br><span>සිංහල</span>
-      </a>
+      </a> -->
       <!-- LANGUAGE SINHALA BUTTON -->
       
     </div>
